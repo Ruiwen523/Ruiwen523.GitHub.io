@@ -37,12 +37,12 @@ jobs:
         with:
           ruby-version: 3.0 # Ruby 版本
           bundler-cache: true # bundle install
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./
-          destination: ./_site
-      # - run: bundle exec jekyll build --trace
+      # - name: Build with Jekyll
+      #   uses: actions/jekyll-build-pages@v1
+      #   with:
+      #     source: ./
+      #     destination: ./_site
+      - run: bundle exec jekyll build --trace
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
