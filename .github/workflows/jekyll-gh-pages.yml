@@ -30,11 +30,14 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      - name: List includes directory
+        run: ls -alh _includes/
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./
           destination: ./_site
+      - run: bundle exec jekyll build --trace
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
