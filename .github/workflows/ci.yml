@@ -1,0 +1,21 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.0" # 指定Ruby版本
+      - run: bundle install
+      - run: bundle exec jekyll build
+      - uses: actions/upload-artifact@v2
+        with:
+          name: _site
+          path: _site
