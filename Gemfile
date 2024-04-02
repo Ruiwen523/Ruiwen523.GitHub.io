@@ -2,7 +2,8 @@
 
 source "https://rubygems.org"
 gem "jekyll", "~> 4.2.0"
-gem 'jekyll-theme-chirpy'
+gem "jekyll-theme-chirpy", github: "cotes2020/jekyll-theme-chirpy"
+
 
 # gemspec
 
