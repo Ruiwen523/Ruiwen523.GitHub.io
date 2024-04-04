@@ -1,22 +1,3 @@
-## Test Tools
-  <!-- 將url值渲染到一個隱藏的div的data-url屬性中 -->
-  <div id="urlOutput" style="display: none;" data-url="{{ url }}"></div>
-  <script>
-    // 讀取元素的data-url屬性值並在console中輸出
-    const url = document.getElementById('urlOutput').getAttribute('data-url');
-    console.log(url);
-  </script>
-
-
-## Run Steps
-git clone https://github.com/cotes2020/jekyll-theme-chirpy.git
-cd jekyll-theme-chirpy-starter
-gem install bundler
-bundle install
-bundle exec jekyll serve
-now see: http://localhost:4000
-
-
 <!-- markdownlint-disable-next-line -->
 <div align="center">
 
