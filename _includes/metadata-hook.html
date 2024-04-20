@@ -1,1 +1,27 @@
 <!-- A placeholder to allow defining custom metadata -->
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [
+        ['$', '$'],
+        ['\\(', '\\)']
+      ],
+      displayMath: [
+        ['$$', '$$'],
+        ['\\[', '\\]']
+      ],
+      processEscapes: true,
+      tags: 'ams'
+    },
+    chtml: {
+      displayAlign: 'left', // Align displayed equations to the left
+      displayIndent: '20px' // indent for displayed equations
+    }
+  };
+</script>
+
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"
+  integrity="sha384-+BSz3oj3ILMYvOBr16U9i0H4RZRmGyQQ+1q9eqr8T3skmAFrJk8GmgwgqlCZdNSo"
+  crossorigin="anonymous"
+></script>
