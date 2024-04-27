@@ -7,8 +7,14 @@
   "files.associations": {
     "*.html": "liquid"
   },
+  // "markdown.showToolbar": true,
   "[markdown]": {
-    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": true,
+      "strings": true
+    }
   },
   // Formatter
   "[html][liquid]": {
@@ -23,5 +29,8 @@
   "less.validate": false,
   // Stylint extension settings
   "stylelint.snippet": ["css", "less", "postcss", "scss"],
-  "stylelint.validate": ["css", "less", "postcss", "scss"]
+  "stylelint.validate": ["css", "less", "postcss", "scss"],
+  "[snippets]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  }
 }
