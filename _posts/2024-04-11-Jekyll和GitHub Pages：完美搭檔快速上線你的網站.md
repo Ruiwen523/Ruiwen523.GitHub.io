@@ -212,7 +212,7 @@ theme: jekyll-theme-minima
 ---
 
 
-## [附錄 A: 如何移除現有環境](#基本需求)
+## 附錄 A: 如何移除現有環境
 為了重頭來過進行本篇文章介紹，所以移除現有環境，再來一次。
 ``` bash
 gem uninstall jekyll bundler    #移除 Jekyll 和 Bundler
