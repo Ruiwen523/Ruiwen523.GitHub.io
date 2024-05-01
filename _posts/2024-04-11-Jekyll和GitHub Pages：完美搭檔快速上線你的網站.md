@@ -149,13 +149,10 @@ jekyll -v
 首先透過**終端機**切換到你的工作目錄後，開始執行下列指令：
 1. 先從以下網站來挑選一個喜歡的主題Theme
 - [github#jekyll-theme](https://github.com/topics/jekyll-theme)
-- [amstackthemes.dev](https://jamstackthemes.dev/ssg/jekyll/)
-- [jekyllthemes.org](http://jekyllthemes.org/)
 - [jekyllthemes.io](https://jekyllthemes.io/)
-- [jekyll-themes.com](https://jekyll-themes.com/)
 
 
-2. 創建 **Jekyll** 基本環境
+1. 創建 **Jekyll** 基本環境
 ``` bash
 jekyll new .              #創建 Jekyll 的基本設置
 bundle exec jekyll serve  #透過bundle執行Jekyll網站
@@ -230,7 +227,7 @@ source ~/.bashrc                #或者 source ~/.zshrc
 rvm implode                     #移除RVM Ruby版本管理器 (可直接跳過5、6行，直接執行)
 ```
 
-## [附錄 B: 使用 Bundler 的好處](#步驟3-安裝bundler)
+## [附錄 B: 使用 Bundler 的好處](#步驟3-安裝-bundler-與-jekyll)
 - 依賴解析：Bundler 可以自動解析和安裝項目所需的所有依賴，並處理任何版本衝突。這避免了手動安裝和更新依賴時可能出現的錯誤。
 - 一致的環境：Bundler 確保所有開發和部署環境中使用的依賴保持一致。這通過 Gemfile.lock 文件實現，該文件記錄了解析後的依賴樹及其確切版本。
 - 自動化與易於配置：使用 Gemfile 使得管理依賴變得容易，支持豐富的選項來定義依賴的來源和版本。Bundler 的命令也支持各種自動化場景，如持續集成 (CI) 環境。
