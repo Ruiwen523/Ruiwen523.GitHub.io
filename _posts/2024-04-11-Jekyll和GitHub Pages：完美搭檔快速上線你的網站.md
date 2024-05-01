@@ -149,13 +149,10 @@ jekyll -v
 首先透過**終端機**切換到你的工作目錄後，開始執行下列指令：
 1. 先從以下網站來挑選一個喜歡的主題Theme
 - [github#jekyll-theme](https://github.com/topics/jekyll-theme)
-- [amstackthemes.dev](https://jamstackthemes.dev/ssg/jekyll/)
-- [jekyllthemes.org](http://jekyllthemes.org/)
 - [jekyllthemes.io](https://jekyllthemes.io/)
-- [jekyll-themes.com](https://jekyll-themes.com/)
 
 
-2. 創建 **Jekyll** 基本環境
+1. 創建 **Jekyll** 基本環境
 ``` bash
 jekyll new .              #創建 Jekyll 的基本設置
 bundle exec jekyll serve  #透過bundle執行Jekyll網站
