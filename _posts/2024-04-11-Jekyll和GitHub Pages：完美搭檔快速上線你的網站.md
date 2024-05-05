@@ -1,8 +1,8 @@
 ---
-title: Jekyll和GitHub Pages：完美搭檔快速上線你的網站
+title: Jekyll 和 GitHub Pages：完美搭檔快速上線你的網站
 author: ruiwen
 date: 2024-04-29 11:45:00 +0800
-last_modified_at: 2024-04-29 22:00:00 +0800
+last_modified_at: 2024-05-05 21:47:00 +0800
 categories: [Blogging, Tutorial]
 tags: [Markdown, Jekyll, 靜態網站生成器]
 render_with_liquid: false
@@ -22,7 +22,6 @@ GitHub Pages：
 {: .prompt-tip }
 
 ## 設定前的準備
-
 在進入到主題之前，首先確保你的環境，已經安裝好了`Ruby`與`Bundler`[^4]，這在後續維護個人網站及發布文章時很重要。
 
 > 通過安裝 **Ruby** 的版本管理器`rbenv`[^2]或`RVM`[^3]，來安裝Ruby有其使用上的好處。
@@ -30,22 +29,25 @@ GitHub Pages：
 
 ### 步驟1: 於個人 Github 上創建 Repository
 
-本部落格使用的主題是[jekyll-theme-chirpy](https://github.com/new?template_name=chirpy-starter&template_owner=cotes2020)，透過該主題的貢獻者們提供的快速創建模板倉庫，可以快速創建一個樣板儲存庫在你的Github帳號內。
+本部落格使用的主題是 [jekyll-theme-chirpy](https://github.com/new?template_name=chirpy-starter&template_owner=cotes2020)，透過該主題的貢獻者們提供的快速創建模板倉庫，可以快速創建一個樣板儲存庫在你的Github帳號內。
 
 1. 創建樣板儲存庫
   - Repository name: Github帳號.github.io
   - 設定為公開 Public 儲存庫
 
-2. 克隆儲存庫  
+2. 克隆你的儲存庫
   請將`<Github帳號>` 替換為讀者的個人帳號名稱
   ``` bash
   git clone https://github.com/Github帳號/Github帳號.github.io
+  ```
+  或是直接克隆部落格[作者](https://github.com/cotes2020/jekyll-theme-chirpy/releases/tag/v6.5.5)的Github
+  ``` bash
+  git clone https://github.com/cotes2020/jekyll-theme-chirpy.git
   ```
 3. 安裝相依性元件
   ``` bash
   bundle install    #請先確保已安裝Ruby與Bundle，若是尚未安裝請先查看其他步驟來完成前置安裝條件。
   ```
-
 
 ### 步驟2: 設定Visual Studio Code
 1. 安裝 VSCode：  
@@ -89,9 +91,8 @@ jekyll -v                  #jekyll 4.3.3
 > [附錄 B: 使用 Bundler 的好處](#附錄-b-使用-bundler-的好處)，這也是本部落格使用的方式
 {: .prompt-tip }
 
-### 步驟4: 安裝Jekyll
-- 如何在本地計算機上安裝 Jekyll  
-首先安裝`jekyll`，如若於指令`jekyll -v`檢查是否成功安裝
+#### 當執行發時生錯誤的解決方法
+- 當在本地安裝並執行 `Jekyll -v`時，若發生找不到特定的依賴項目時，請嘗試以下幾種解決方式：
 
 ``` bash
 gem install jekyll  
@@ -100,117 +101,155 @@ jekyll -v
 #失敗 materialize: Could not find html-proofer-4.4.3 ...
 ```
 
-- 發生找不到套件問題時：
-  - 解決方法1: 個別安裝缺失的套件
+- 解決方法1: 個別安裝缺失的套件
     ``` bash
     ruby -v                 #確認Ruby版本需 > 2.5.0
     gem install [gem-name]  #安裝指定套件&所需版本
+    gem install html-proofer -v 4.4.3     
+    jekyll -v               #完成後再次運行
     ```
 
-  - 解決方法2: 使用 Bundler 管理依賴  
-    1. 首先在根目錄建立一個`Gemfile`沒有副檔名，接著在裡面輸入以下指令給`Bundler`用來追蹤和安裝指定版本的`gems`元件。
-    ```ruby
-    source "https://rubygems.org"
-    gem "jekyll", "~> 4.3"
-    gem 'jekyll-theme-chirpy', github: 'cotes2020/jekyll-theme-chirpy'    
-    # gemspec
-    group :test do
-    gem "html-proofer", "~> 4.4"
-    end
-    # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
-    # and associated library.
-    platforms :mingw, :x64_mingw, :mswin, :jruby do
-    gem "tzinfo", ">= 1", "< 3"
-    gem "tzinfo-data"
-    end
-    # Performance-booster for watching directories on Windows
-    gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
-    # Lock `http_parser.rb` gem to `v0.6.x` on JRuby builds since newer versions of the gem
-    # do not have a Java counterpart.
-    gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
-    ```
+- 解決方法2: 使用 **Bundler** 管理依賴  
+  1. 首先在根目錄建立一個`Gemfile`沒有副檔名，接著在裡面輸入以下指令給`Bundler`用來追蹤和安裝指定版本的`gems`元件。
+  ```ruby
+  source "https://rubygems.org"
+  gem "jekyll", "~> 4.3"
+  gem 'jekyll-theme-chirpy', github: 'cotes2020/jekyll-theme-chirpy'    
+  # gemspec
+  group :test do
+  gem "html-proofer", "~> 4.4"
+  end
+  # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
+  # and associated library.
+  platforms :mingw, :x64_mingw, :mswin, :jruby do
+  gem "tzinfo", ">= 1", "< 3"
+  gem "tzinfo-data"
+  end
+  # Performance-booster for watching directories on Windows
+  gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
+  # Lock `http_parser.rb` gem to `v0.6.x` on JRuby builds since newer versions of the gem
+  # do not have a Java counterpart.
+  gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
+  ```
 
-    2. 接下來到命令視窗執行：
-    ``` bash
-    bundle install #自動化安裝Gemfile中列出的所有依賴，並幫助你管理這些依賴庫。
-    bundler -v     #Bundler version 2.5.7
-    ```
-    這個命令會查看 `Gemfile`檔案，然後安裝所有列出的依賴，包括必要的版本。如果你已經有了 `Gemfile.lock` 檔案，`Bundler` 會嘗試匹配那些已鎖定的版本，保持依賴的一致性。
+  2. 接下來到命令視窗執行：
+  ``` bash
+  bundle install #自動化安裝Gemfile中列出的所有依賴，並幫助你管理這些依賴庫。
+  bundler -v     #Bundler version 2.5.7
+  ```
+  這個命令會查看 `Gemfile`檔案，然後安裝所有列出的依賴，包括必要的版本。如果你已經有了 `Gemfile.lock` 檔案，`Bundler` 會嘗試匹配那些已鎖定的版本，保持依賴的一致性。
 
-  - 解決方法3: 重新安裝
-    少數情況下重新安裝 Jekyll 也可以解決依賴問題。
-    ``` bash
-    gem uninstall jekyll
-    gem install jekyll
-    ```
+- 解決方法3: 重新安裝
+  少數情況下重新安裝 **Jekyll** 也可以解決依賴問題。
+  ``` bash
+  gem uninstall jekyll
+  gem install jekyll
+  ```
 
 
-### 步驟5: 創建一個新的 Jekyll 網站的步驟。
+### 步驟4: 創建一個新的 Jekyll 網站的步驟。
 首先透過**終端機**切換到你的工作目錄後，開始執行下列指令：
 1. 先從以下網站來挑選一個喜歡的主題Theme
 - [github#jekyll-theme](https://github.com/topics/jekyll-theme)
 - [jekyllthemes.io](https://jekyllthemes.io/)
 
 
-1. 創建 **Jekyll** 基本環境
+2. 創建 **Jekyll** 基本環境
 ``` bash
 jekyll new .              #創建 Jekyll 的基本設置
 bundle exec jekyll serve  #透過bundle執行Jekyll網站
 ```
-1. 開啟 **_config.yml**檔案
-``` yml
-# Build settings
-theme: theme: minima 
-# 替換成
-theme: jekyll-theme-minima
+
+3. 修改 **Gemfile** 檔案加入主題指令
+``` ruby
+source "https://rubygems.org"
+gem "jekyll-theme-chirpy", github: "cotes2020/jekyll-theme-chirpy"
 ```
 
+4. 執行 **bundle** 指令安裝主題的依賴套件
+``` ruby
+bundle install
+```
 
+5. 修改 **_config.yml** 檔案
+- 可參考官方 [jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/_config.yml) 主題配置
+``` yml
+title: My Blog
+subtitle: "A Jekyll blog with Chirpy theme"
+description: "分享我的技术和生活"
+author:
+  name: "Your Name"
+  avatar: "/assets/img/avatar.jpg"
+  bio: "Your bio goes here"
+　
+social:
+  email: "youremail@example.com"
+  twitter: "your_twitter_handle"
+  github: "your_github_handle"
+　 
+timezone: "Asia/Taipei"
+lang: "zh-TW"
+　
+theme: jekyll-theme-chirpy
+...
+```
 
-### 步驟6: GitHub 賬戶和環境設置。
+6. 創建文章
+   1. 在 `_posts` 目錄中建立第一篇文章:
+   ``` bash
+   mkdir -p _posts
+   touch _posts/2024-05-01-welcome-to-your-blog.md
+   ```
+   
+   2. 在文章文件中添加以下内容：
+   ``` plaintext
+   ---
+   title: 你的文章標題
+   author: 作者
+   date: 2024-05-01 11:45:00 +0800
+   last_modified_at: 2024-05-01 22:00:00 +0800
+   categories: [分類, 項目]
+   tags: [標籤1, 標籤2]
+   render_with_liquid: false
+   ---
+   　
+   歡迎來到我的部落格！這是我的第一篇文章
+   ```
 
+7. 啟動伺服器來查看你的部落格
+``` bash
+bundle exec jekyll serve --livereload --open
+```
 
+> 建議從類似[步驟1](#步驟1-於個人-github-上創建-repository) 的方式來安裝 **Jekyll Theme**，否則靠 `Jekyll` 預設安裝的總是會缺少東西。
+{: .prompt-warning}
 
-## 配置 Jekyll 網站
-- 編輯 _config.yml 文件來自定義網站設置。
-- 添加文章和頁面的基礎。
 
 ## 使用 GitHub Pages 部署
-- 如何將 Jekyll 網站推送到 GitHub。
-- 設置 GitHub Pages 來托管你的網站。
-- 域名綁定和設置自定義域名（如果需要）。
+- 設置 GitHub Pages 來托管你的網站：  
+  1. 請開啟瀏覽器並進入到個人 Github 頁面，打開並進入[步驟1](#步驟1-於個人-github-上創建-repository)所創建的 **Github Pages** 儲存庫
+  2. 點選右上角的 `Settings` 左邊選單找到並點選 `Pages` ，調整 **Source:** 為 `Github Actrions` 並點選 **Jekyll** 的 `Configure`
+  3. 上述動作會在你的儲存庫的 `main` 分支中創建一個 Repository.Github.io/.github/workflows/`jekyll.yml` 並點選 `Commit changes...` 提交
+  4. 切換至 Actions 頁籤 靜待 builds & depoly 完成 即可在 Github 上看見你的部落格網站執行起來
+  5. 將 **.github/workflows** 目錄中其他冗餘的 `.yml檔` 移除，使部署更為輕量和高效。
 
-## 主題和插件
-- 如何在 Jekyll 網站中添加和配置主題。
-- 推薦的插件和如何安裝它們。
+> 通常你的 GitHub Pages 網站超連結會是 https://yourusername.github.io/。
+{: .prompt-tip }
 
-## 內容管理和博客寫作
-- 如何管理和組織你的內容（包括標籤和分類）。
-- Markdown 的使用和內容格式化技巧。
+- 每次 `git push` 都會觸發 GitHub Actions
+通過以上步驟配置好 Github Actions 工作流程後，後續你的每一次 `git push` 都會自動觸發 **.github/workflows/jekyll.yml**文件，從而自動部署 Jekyll 網站。使讀者能夠更加專心在創建並維護您的文章上，而不需要擔心部屬問題。
 
-## 高級設定與優化
-- SEO 優化技巧。
-- 網站性能優化（如圖片壓縮、使用 CDN）。
+## 結論
+透過本文介紹的步驟和方法，你可以輕鬆使用Jekyll 和GitHub Pages 建立和部署個人部落格或專案網站。在文中，我們涵蓋了從選擇主題、設定Jekyll 專案環境、推送到GitHub、配置GitHub Pages 以及優化部署的全流程內容。
 
-## 常見問題解答
-- 解決常見的設置和部署問題。
-
-## 結語
-- 總結本文介紹的方法如何幫助快速部署項目。
-- 鼓勵讀者嘗試並給予反饋。
-
-每個章節都應該提供詳細的步驟和示例，讓讀者能夠輕鬆跟隨並實施這些指南。此外，添加實用的提示和注意事項可以幫助讀者避免常見的錯誤和困難。
-
-
-
-### 使用Bundler的差異
-- 依賴管理：Bundler是一個Ruby的依賴管理工具，它允許你指定和安裝你的項目所需的特定版本的gem。這在管理複雜項目的多個依賴時特別有用，確保所有環境中的一致性。
-- 項目隔離：Bundler能夠對gem進行隔離，使得每個項目的依賴不會互相衝突。這通過在項目目錄中創建一個Gemfile.lock文件來實現，該文件記錄了所有依賴的確切版本。
-- 簡化命令：使用Bundler後，你可以使用bundle exec命令來運行任何Jekyll命令，這確保了在當前項目的上下文中正確使用gem版本。這樣可以避免因為全局安裝的gem版本不匹配而導致的問題。
-
+- 快速部署：  
+  借助 GitHub Pages 和 GitHub Actions 的強大功能，你可以實現自動化建置和部署，讓你無需關心複雜的伺服器設定和管理問題，從而能夠專注於內容創作和專案維護。
+- 優化工作流程：  
+  透過合理使用 .github/workflows 中的工作流程文件，你的每次git push都會觸發自動部署，使得你的部落格保持更新，並讓你能夠更加專注於創建和維護你的文章。
+- 自訂網域支援：  
+  你可以輕鬆地將自訂網域綁定到你的 GitHub Pages 網站上，為你的個人網站增添專業感。
 
 ---
-
 
 ## 附錄 A: 如何移除現有環境
 為了重頭來過進行本篇文章介紹，所以移除現有環境，再來一次。
