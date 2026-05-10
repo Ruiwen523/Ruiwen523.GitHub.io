@@ -1,0 +1,163 @@
+.grammar-card {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 16px;
+  padding: 24px;
+  margin-top: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+}
+
+.grammar-card h2,
+.grammar-card h3,
+.grammar-card p,
+.grammar-card li {
+  color: #e2e8f0;
+}
+
+.options {
+  margin-top: 16px;
+}
+
+.options button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #334155;
+  color: #e2e8f0;
+  transition: all 0.2s ease;
+}
+
+.options button:hover {
+  background: #475569;
+}
+
+.correct {
+  background: #35a05c !important;
+  color: white !important;
+}
+
+.wrong {
+  background: #d1b24d !important;
+  color: white !important;
+}
+
+.result {
+  margin-top: 16px;
+  font-weight: bold;
+  color: #cbd5e1;
+}
+
+.grammar-breakdown {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.grammar-breakdown span {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+
+  min-width: 70px;
+}
+
+.grammar-desc {
+  display: none;
+
+  position: absolute;
+  left: 0;
+  top: 38px;
+
+  width: 220px;
+
+  background: #1e293b;
+  color: #e2e8f0;
+
+  border: 1px solid #334155;
+  border-radius: 8px;
+
+  padding: 10px;
+  z-index: 100;
+
+  font-size: 13px;
+  line-height: 1.6;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.word {
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 4px;
+}
+
+.grammar-breakdown span:hover .grammar-desc {
+  display: block;
+}
+
+.grammar-breakdown small {
+  position: absolute;
+  left: 0;
+  bottom: -18px;
+  font-size: 11px;
+  opacity: 0.8;
+}
+
+/* Subject */
+.grammar-subject {
+  color: #7dd3fc;
+  border-color: #38bdf8;
+}
+
+/* Be Verb */
+.grammar-beverb {
+  color: #fca5a5;
+  border-color: #ef4444;
+}
+
+/* Article */
+.grammar-article {
+  color: #fcd34d;
+  border-color: #f59e0b;
+}
+
+/* Noun */
+.grammar-noun {
+  color: #a5b4fc;
+  border-color: #6366f1;
+}
+
+/* Verb */
+.grammar-verb {
+  color: #fca5a5;
+  border-color: #ef4444;
+}
+
+/* Adjective */
+.grammar-adj {
+  color: #c4b5fd;
+  border-color: #8b5cf6;
+}
+
+/* Preposition */
+.grammar-prep {
+  color: #86efac;
+  border-color: #22c55e;
+}
+
+/* Time */
+.grammar-time {
+  color: #fde68a;
+  border-color: #f59e0b;
+}
+
+/* Place */
+.grammar-place {
+  color: #fdba74;
+  border-color: #f97316;
+}
