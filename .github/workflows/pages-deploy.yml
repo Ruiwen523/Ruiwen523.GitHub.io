@@ -1,5 +1,6 @@
 name: "Build and Deploy"
 on:
+  pull_request:
   push:
     branches:
       - main
@@ -62,6 +63,7 @@ jobs:
           path: "_site${{ steps.pages.outputs.base_path }}"
 
   deploy:
+    if: github.event_name == 'push'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
