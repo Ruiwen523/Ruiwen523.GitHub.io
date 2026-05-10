@@ -1,6 +1,6 @@
 {% assign urls = include.urls | split: ',' %}
 
-{% assign combined_urls = nil %}
+{% assign combined_urls = null %}
 
 {% assign domain = 'https://cdn.jsdelivr.net/' %}
 
@@ -21,6 +21,16 @@
   {% endif %}
 {% endfor %}
 
+{% comment %}
+  {% if combined_urls %}
+    <script src="{{ combined_urls }}"></script>
+  {% endif %}
+{% endcomment %}
+
 {% if combined_urls %}
-  <script src="{{ combined_urls }}"></script>
+  {% assign split_urls = combined_urls | remove: domain | remove: 'combine/' | split: ',' %}
+
+  {% for item in split_urls %}
+    <script src="{{ domain }}{{ item }}"></script>
+  {% endfor %}
 {% endif %}
