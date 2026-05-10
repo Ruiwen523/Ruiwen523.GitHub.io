@@ -1,0 +1,20 @@
+<div class="grammar-card">
+  <h3>{{ include.title }}</h3>
+
+  <p class="question-text">
+    {{ include.question }}
+  </p>
+
+  <div class="options">
+    <button onclick="checkAnswer(this, 'am', '{{ include.answer }}')">am</button>
+    <button onclick="checkAnswer(this, 'is', '{{ include.answer }}')">is</button>
+    <button onclick="checkAnswer(this, 'are', '{{ include.answer }}')">are</button>
+  </div>
+
+  <div class="result"></div>
+
+  <div
+    class="analysis"
+    data-analysis="{{ include.analysis | escape }}"
+  ></div>
+</div>

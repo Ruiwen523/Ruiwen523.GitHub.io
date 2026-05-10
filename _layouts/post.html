@@ -8,7 +8,6 @@ tail_includes:
   - post-nav
   - comments
 ---
-
 {% include lang.html %}
 
 <article class="px-1">
@@ -98,6 +97,20 @@ tail_includes:
   <div class="content">
     {{ content }}
   </div>
+
+  <!-- custom js -->
+  {% if page.custom_js %}
+    {% for js in page.custom_js %}
+      <script src="{{ js | relative_url }}"></script>
+    {% endfor %}
+  {% endif %}
+
+  <!-- custom css -->
+  {% if page.custom_css %}
+    {% for css in page.custom_css %}
+      <link rel="stylesheet" href="{{ css | relative_url }}">
+    {% endfor %}
+  {% endif %}
 
   <div class="post-tail-wrapper text-muted">
     <!-- categories -->
