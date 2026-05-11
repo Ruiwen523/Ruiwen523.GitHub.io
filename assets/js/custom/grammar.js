@@ -2,6 +2,8 @@ document.addEventListener('DOMContentLoaded', () => {
   initializeGrammarCarousel();
 });
 
+let grammarAudioContext;
+
 function initializeGrammarCarousel() {
   const cards = Array.from(document.querySelectorAll('.grammar-card'));
 
@@ -62,10 +64,12 @@ function initializeGrammarCarousel() {
   shuffledCards.forEach((card, index) => {
     card.classList.add('grammar-carousel__slide');
     card.dataset.carouselIndex = index + 1;
+    updateCardProgress(card, index, shuffledCards.length);
     track.appendChild(card);
   });
 
   const updateCarousel = () => {
+    closeGrammarDescriptions();
     track.style.transform = `translateX(-${currentIndex * 100}%)`;
     status.textContent = `${currentIndex + 1} / ${shuffledCards.length}`;
     prevButton.disabled = currentIndex === 0;
@@ -120,6 +124,81 @@ function initializeGrammarCarousel() {
   updateCarousel();
 }
 
+function updateCardProgress(card, index, total) {
+  const title = card.querySelector('.grammar-card__header h3');
+  const progress = card.querySelector('.grammar-card__progress');
+  const questionNumber = index + 1;
+  const percent = Math.round((questionNumber / total) * 100);
+
+  if (title) {
+    title.textContent = `Question ${questionNumber}`;
+  }
+
+  if (progress) {
+    progress.textContent = `${percent}%`;
+    progress.setAttribute('aria-label', `Progress ${questionNumber} of ${total}`);
+  }
+}
+
+document.addEventListener('click', (event) => {
+  const grammarItem = event.target.closest('.grammar-breakdown > span');
+
+  if (!grammarItem) {
+    closeGrammarDescriptions();
+    return;
+  }
+
+  event.stopPropagation();
+
+  const wasOpen = grammarItem.classList.contains('is-desc-open');
+  closeGrammarDescriptions(grammarItem.closest('.grammar-card'));
+  grammarItem.classList.toggle('is-desc-open', !wasOpen);
+
+  if (!wasOpen) {
+    positionGrammarDescription(grammarItem);
+  }
+});
+
+document.addEventListener('mouseover', (event) => {
+  const grammarItem = event.target.closest('.grammar-breakdown > span');
+
+  if (grammarItem) {
+    positionGrammarDescription(grammarItem);
+  }
+});
+
+function closeGrammarDescriptions(scope = document) {
+  scope.querySelectorAll('.grammar-breakdown > span.is-desc-open').forEach((item) => {
+    item.classList.remove('is-desc-open');
+  });
+}
+
+function positionGrammarDescription(grammarItem) {
+  const card = grammarItem.closest('.grammar-card');
+  const description = grammarItem.querySelector('.grammar-desc');
+
+  if (!card || !description) {
+    return;
+  }
+
+  grammarItem.classList.remove('is-desc-left');
+
+  const previousDisplay = description.style.display;
+  const previousVisibility = description.style.visibility;
+  description.style.display = 'block';
+  description.style.visibility = 'hidden';
+
+  const cardRect = card.getBoundingClientRect();
+  const descriptionRect = description.getBoundingClientRect();
+
+  description.style.display = previousDisplay;
+  description.style.visibility = previousVisibility;
+
+  if (descriptionRect.right > cardRect.right) {
+    grammarItem.classList.add('is-desc-left');
+  }
+}
+
 function shuffle(items) {
   const shuffledItems = [...items];
 
@@ -145,12 +224,55 @@ function checkAnswer(button, selected, correct) {
   if (selected === correct) {
     button.classList.add('correct');
     result.innerHTML = 'Correct!';
+    playCorrectSound();
+    renderAnalysis(card, correct);
   } else {
     button.classList.add('wrong');
     result.innerHTML = 'Try again!';
 
     renderAnalysis(card, correct);
   }
+}
+
+function playCorrectSound() {
+  const AudioContext = window.AudioContext || window.webkitAudioContext;
+
+  if (!AudioContext) {
+    return;
+  }
+
+  try {
+    grammarAudioContext = grammarAudioContext || new AudioContext();
+
+    if (grammarAudioContext.state === 'suspended') {
+      grammarAudioContext.resume();
+    }
+
+    const now = grammarAudioContext.currentTime;
+    playTone(523.25, now, 0.11, 0.13);
+    playTone(659.25, now + 0.1, 0.12, 0.13);
+    playTone(783.99, now + 0.21, 0.16, 0.12);
+  } catch (error) {
+    // Audio feedback is optional; answering should keep working if playback fails.
+  }
+}
+
+function playTone(frequency, startTime, duration, volume = 0.1) {
+  const oscillator = grammarAudioContext.createOscillator();
+  const gain = grammarAudioContext.createGain();
+
+  oscillator.type = 'sine';
+  oscillator.frequency.setValueAtTime(frequency, startTime);
+
+  gain.gain.setValueAtTime(0.0001, startTime);
+  gain.gain.exponentialRampToValueAtTime(volume, startTime + 0.012);
+  gain.gain.exponentialRampToValueAtTime(0.0001, startTime + duration);
+
+  oscillator.connect(gain);
+  gain.connect(grammarAudioContext.destination);
+
+  oscillator.start(startTime);
+  oscillator.stop(startTime + duration + 0.02);
 }
 
 function renderAnalysis(card, correctAnswer) {
@@ -206,10 +328,12 @@ function renderAnalysis(card, correctAnswer) {
     html += `
         <span class="${cls}">
             <span class="word">${item.word}</span>
+            ${item.kk ? `<span class="kk">${item.kk}</span>` : ''}
 
             <small>${item.label}</small>
 
             <div class="grammar-desc">
+                ${item.kk ? `<strong>KK: ${item.kk}</strong><br>` : ''}
                 ${item.desc || ''}
             </div>
         </span>

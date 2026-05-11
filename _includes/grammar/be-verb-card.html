@@ -1,9 +1,18 @@
 <div class="grammar-card">
-  <h3>{{ include.title }}</h3>
+  <div class="grammar-card__header">
+    <h3>{{ include.title }}</h3>
+    <span class="grammar-card__progress"></span>
+  </div>
 
   <p class="question-text">
     {{ include.question }}
   </p>
+
+  {% if include.translation %}
+    <p class="question-translation">
+      {{ include.translation }}
+    </p>
+  {% endif %}
 
   <div class="options">
     <button onclick="checkAnswer(this, 'am', '{{ include.answer }}')">am</button>
