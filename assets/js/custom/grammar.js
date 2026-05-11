@@ -62,10 +62,12 @@ function initializeGrammarCarousel() {
   shuffledCards.forEach((card, index) => {
     card.classList.add('grammar-carousel__slide');
     card.dataset.carouselIndex = index + 1;
+    updateCardProgress(card, index, shuffledCards.length);
     track.appendChild(card);
   });
 
   const updateCarousel = () => {
+    closeGrammarDescriptions();
     track.style.transform = `translateX(-${currentIndex * 100}%)`;
     status.textContent = `${currentIndex + 1} / ${shuffledCards.length}`;
     prevButton.disabled = currentIndex === 0;
@@ -118,6 +120,81 @@ function initializeGrammarCarousel() {
   });
 
   updateCarousel();
+}
+
+function updateCardProgress(card, index, total) {
+  const title = card.querySelector('.grammar-card__header h3');
+  const progress = card.querySelector('.grammar-card__progress');
+  const questionNumber = index + 1;
+  const percent = Math.round((questionNumber / total) * 100);
+
+  if (title) {
+    title.textContent = `Question ${questionNumber}`;
+  }
+
+  if (progress) {
+    progress.textContent = `${percent}%`;
+    progress.setAttribute('aria-label', `Progress ${questionNumber} of ${total}`);
+  }
+}
+
+document.addEventListener('click', (event) => {
+  const grammarItem = event.target.closest('.grammar-breakdown > span');
+
+  if (!grammarItem) {
+    closeGrammarDescriptions();
+    return;
+  }
+
+  event.stopPropagation();
+
+  const wasOpen = grammarItem.classList.contains('is-desc-open');
+  closeGrammarDescriptions(grammarItem.closest('.grammar-card'));
+  grammarItem.classList.toggle('is-desc-open', !wasOpen);
+
+  if (!wasOpen) {
+    positionGrammarDescription(grammarItem);
+  }
+});
+
+document.addEventListener('mouseover', (event) => {
+  const grammarItem = event.target.closest('.grammar-breakdown > span');
+
+  if (grammarItem) {
+    positionGrammarDescription(grammarItem);
+  }
+});
+
+function closeGrammarDescriptions(scope = document) {
+  scope.querySelectorAll('.grammar-breakdown > span.is-desc-open').forEach((item) => {
+    item.classList.remove('is-desc-open');
+  });
+}
+
+function positionGrammarDescription(grammarItem) {
+  const card = grammarItem.closest('.grammar-card');
+  const description = grammarItem.querySelector('.grammar-desc');
+
+  if (!card || !description) {
+    return;
+  }
+
+  grammarItem.classList.remove('is-desc-left');
+
+  const previousDisplay = description.style.display;
+  const previousVisibility = description.style.visibility;
+  description.style.display = 'block';
+  description.style.visibility = 'hidden';
+
+  const cardRect = card.getBoundingClientRect();
+  const descriptionRect = description.getBoundingClientRect();
+
+  description.style.display = previousDisplay;
+  description.style.visibility = previousVisibility;
+
+  if (descriptionRect.right > cardRect.right) {
+    grammarItem.classList.add('is-desc-left');
+  }
 }
 
 function shuffle(items) {
@@ -206,10 +283,12 @@ function renderAnalysis(card, correctAnswer) {
     html += `
         <span class="${cls}">
             <span class="word">${item.word}</span>
+            ${item.kk ? `<span class="kk">${item.kk}</span>` : ''}
 
             <small>${item.label}</small>
 
             <div class="grammar-desc">
+                ${item.kk ? `<strong>KK: ${item.kk}</strong><br>` : ''}
                 ${item.desc || ''}
             </div>
         </span>
