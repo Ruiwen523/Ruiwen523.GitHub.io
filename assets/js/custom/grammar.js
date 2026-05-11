@@ -1,3 +1,136 @@
+document.addEventListener('DOMContentLoaded', () => {
+  initializeGrammarCarousel();
+});
+
+function initializeGrammarCarousel() {
+  const cards = Array.from(document.querySelectorAll('.grammar-card'));
+
+  if (cards.length < 2) {
+    return;
+  }
+
+  const parent = cards[0].parentElement;
+
+  if (!cards.every((card) => card.parentElement === parent)) {
+    return;
+  }
+
+  const originalChildren = Array.from(parent.children);
+  const firstIndex = originalChildren.indexOf(cards[0]);
+  const lastIndex = originalChildren.indexOf(cards[cards.length - 1]);
+  const rangeChildren = originalChildren.slice(firstIndex, lastIndex + 1);
+
+  const carousel = document.createElement('section');
+  carousel.className = 'grammar-carousel';
+  carousel.setAttribute('aria-label', 'Grammar question carousel');
+
+  carousel.innerHTML = `
+    <div class="grammar-carousel__viewport">
+      <div class="grammar-carousel__track"></div>
+    </div>
+
+    <div class="grammar-carousel__controls">
+      <button class="grammar-carousel__button" type="button" data-carousel-prev aria-label="Previous question">
+        &lt;
+      </button>
+
+      <div class="grammar-carousel__status" aria-live="polite"></div>
+
+      <button class="grammar-carousel__button" type="button" data-carousel-next aria-label="Next question">
+        &gt;
+      </button>
+    </div>
+  `;
+
+  parent.insertBefore(carousel, cards[0]);
+
+  rangeChildren.forEach((child) => {
+    if (child.tagName === 'HR') {
+      child.remove();
+    }
+  });
+
+  const track = carousel.querySelector('.grammar-carousel__track');
+  const status = carousel.querySelector('.grammar-carousel__status');
+  const prevButton = carousel.querySelector('[data-carousel-prev]');
+  const nextButton = carousel.querySelector('[data-carousel-next]');
+  const shuffledCards = shuffle(cards);
+  let currentIndex = 0;
+  let touchStartX = 0;
+  let touchDeltaX = 0;
+
+  shuffledCards.forEach((card, index) => {
+    card.classList.add('grammar-carousel__slide');
+    card.dataset.carouselIndex = index + 1;
+    track.appendChild(card);
+  });
+
+  const updateCarousel = () => {
+    track.style.transform = `translateX(-${currentIndex * 100}%)`;
+    status.textContent = `${currentIndex + 1} / ${shuffledCards.length}`;
+    prevButton.disabled = currentIndex === 0;
+    nextButton.disabled = currentIndex === shuffledCards.length - 1;
+  };
+
+  const goTo = (nextIndex) => {
+    currentIndex = Math.max(0, Math.min(nextIndex, shuffledCards.length - 1));
+    updateCarousel();
+  };
+
+  prevButton.addEventListener('click', () => goTo(currentIndex - 1));
+  nextButton.addEventListener('click', () => goTo(currentIndex + 1));
+
+  carousel.addEventListener('keydown', (event) => {
+    if (event.key === 'ArrowLeft') {
+      event.preventDefault();
+      goTo(currentIndex - 1);
+    }
+
+    if (event.key === 'ArrowRight') {
+      event.preventDefault();
+      goTo(currentIndex + 1);
+    }
+  });
+
+  carousel.addEventListener(
+    'touchstart',
+    (event) => {
+      touchStartX = event.touches[0].clientX;
+      touchDeltaX = 0;
+    },
+    { passive: true }
+  );
+
+  carousel.addEventListener(
+    'touchmove',
+    (event) => {
+      touchDeltaX = event.touches[0].clientX - touchStartX;
+    },
+    { passive: true }
+  );
+
+  carousel.addEventListener('touchend', () => {
+    if (Math.abs(touchDeltaX) < 50) {
+      return;
+    }
+
+    goTo(currentIndex + (touchDeltaX < 0 ? 1 : -1));
+  });
+
+  updateCarousel();
+}
+
+function shuffle(items) {
+  const shuffledItems = [...items];
+
+  for (let i = shuffledItems.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffledItems[i], shuffledItems[j]] = [shuffledItems[j], shuffledItems[i]];
+  }
+
+  return shuffledItems;
+}
+
 function checkAnswer(button, selected, correct) {
   const card = button.closest('.grammar-card');
   const result = card.querySelector('.result');
