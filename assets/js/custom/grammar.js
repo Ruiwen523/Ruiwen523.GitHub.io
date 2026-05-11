@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 let grammarAudioContext;
+let lastAudioTouchTime = 0;
 
 function initializeGrammarCarousel() {
   const cards = Array.from(document.querySelectorAll('.grammar-card'));
@@ -174,9 +175,34 @@ document.addEventListener('click', (event) => {
     return;
   }
 
+  if (Date.now() - lastAudioTouchTime < 500) {
+    return;
+  }
+
   event.stopPropagation();
-  speakSentence(audioButton.dataset.speakSentence, audioButton);
+  playSentenceAudio(audioButton);
 });
+
+document.addEventListener(
+  'touchend',
+  (event) => {
+    const audioButton = event.target.closest('.question-audio-button');
+
+    if (!audioButton) {
+      return;
+    }
+
+    lastAudioTouchTime = Date.now();
+    event.preventDefault();
+    event.stopPropagation();
+    playSentenceAudio(audioButton);
+  },
+  { passive: false }
+);
+
+function playSentenceAudio(audioButton) {
+  speakSentence(audioButton.dataset.speakSentence, audioButton);
+}
 
 function closeGrammarDescriptions(scope = document) {
   scope.querySelectorAll('.grammar-breakdown > span.is-desc-open').forEach((item) => {
@@ -297,14 +323,17 @@ function speakSentence(sentence, button) {
   }
 
   window.speechSynthesis.cancel();
+  window.speechSynthesis.resume();
 
   const utterance = new SpeechSynthesisUtterance(sentence);
   const voices = window.speechSynthesis.getVoices();
-  const americanVoice = voices.find((voice) => voice.lang === 'en-US');
+  const americanVoice = voices.find((voice) => voice.lang === 'en-US')
+    || voices.find((voice) => voice.lang.toLowerCase().startsWith('en-us'));
 
   utterance.lang = 'en-US';
   utterance.rate = 0.7;
   utterance.pitch = 1;
+  utterance.volume = 1;
 
   if (americanVoice) {
     utterance.voice = americanVoice;
