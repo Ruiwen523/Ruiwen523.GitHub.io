@@ -105,8 +105,39 @@
   color: #e2e8f0;
 }
 
-.question-text {
+.question-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
   margin-top: 16px;
+}
+
+.question-text {
+  margin: 0;
+}
+
+.question-audio-button {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid #475569;
+  border-radius: 50%;
+  background: #334155;
+  color: #e2e8f0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.question-audio-button:hover {
+  background: #475569;
+}
+
+.question-audio-button.is-speaking {
+  border-color: #38bdf8;
+  color: #7dd3fc;
 }
 
 .question-translation {

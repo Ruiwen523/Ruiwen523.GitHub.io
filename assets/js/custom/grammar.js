@@ -167,6 +167,17 @@ document.addEventListener('mouseover', (event) => {
   }
 });
 
+document.addEventListener('click', (event) => {
+  const audioButton = event.target.closest('.question-audio-button');
+
+  if (!audioButton) {
+    return;
+  }
+
+  event.stopPropagation();
+  speakSentence(audioButton.dataset.speakSentence, audioButton);
+});
+
 function closeGrammarDescriptions(scope = document) {
   scope.querySelectorAll('.grammar-breakdown > span.is-desc-open').forEach((item) => {
     item.classList.remove('is-desc-open');
@@ -214,12 +225,17 @@ function checkAnswer(button, selected, correct) {
   const card = button.closest('.grammar-card');
   const result = card.querySelector('.result');
   const analysisDiv = card.querySelector('.analysis');
+  const audioButton = card.querySelector('.question-audio-button');
 
   const buttons = card.querySelectorAll('button');
 
   buttons.forEach((btn) => {
     btn.classList.remove('correct', 'wrong');
   });
+
+  if (audioButton) {
+    audioButton.hidden = false;
+  }
 
   if (selected === correct) {
     button.classList.add('correct');
@@ -273,6 +289,38 @@ function playTone(frequency, startTime, duration, volume = 0.1) {
 
   oscillator.start(startTime);
   oscillator.stop(startTime + duration + 0.02);
+}
+
+function speakSentence(sentence, button) {
+  if (!sentence || !window.speechSynthesis || !window.SpeechSynthesisUtterance) {
+    return;
+  }
+
+  window.speechSynthesis.cancel();
+
+  const utterance = new SpeechSynthesisUtterance(sentence);
+  const voices = window.speechSynthesis.getVoices();
+  const americanVoice = voices.find((voice) => voice.lang === 'en-US');
+
+  utterance.lang = 'en-US';
+  utterance.rate = 0.7;
+  utterance.pitch = 1;
+
+  if (americanVoice) {
+    utterance.voice = americanVoice;
+  }
+
+  button.classList.add('is-speaking');
+
+  utterance.onend = () => {
+    button.classList.remove('is-speaking');
+  };
+
+  utterance.onerror = () => {
+    button.classList.remove('is-speaking');
+  };
+
+  window.speechSynthesis.speak(utterance);
 }
 
 function renderAnalysis(card, correctAnswer) {

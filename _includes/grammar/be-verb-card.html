@@ -4,9 +4,24 @@
     <span class="grammar-card__progress"></span>
   </div>
 
-  <p class="question-text">
-    {{ include.question }}
-  </p>
+  {% assign speech_sentence = include.question | replace: '___', include.answer %}
+
+  <div class="question-row">
+    <p class="question-text">
+      {{ include.question }}
+    </p>
+
+    <button
+      class="question-audio-button"
+      hidden
+      type="button"
+      data-speak-sentence="{{ speech_sentence | escape }}"
+      aria-label="Play American pronunciation"
+      title="Play American pronunciation"
+    >
+      <i class="fas fa-volume-high" aria-hidden="true"></i>
+    </button>
+  </div>
 
   {% if include.translation %}
     <p class="question-translation">
