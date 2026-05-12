@@ -6,21 +6,35 @@ let grammarAudioContext;
 let lastAudioTouchTime = 0;
 
 function initializeGrammarCarousel() {
-  const cards = Array.from(document.querySelectorAll('.grammar-card'));
+  const groups = Array.from(document.querySelectorAll('.grammar-card-group'));
 
+  if (groups.length) {
+    groups.forEach((group) => {
+      initializeGrammarCarouselForCards(Array.from(group.querySelectorAll('.grammar-card')), group);
+    });
+
+    return;
+  }
+
+  initializeGrammarCarouselForCards(Array.from(document.querySelectorAll('.grammar-card')));
+}
+
+function initializeGrammarCarouselForCards(cards, container = null) {
   if (cards.length < 2) {
     return;
   }
 
-  const parent = cards[0].parentElement;
+  const parent = container || cards[0].parentElement;
+  const referenceNode = container ? getDirectChild(container, cards[0]) : cards[0];
 
-  if (!cards.every((card) => card.parentElement === parent)) {
+  if (!parent || !referenceNode) {
     return;
   }
 
   const originalChildren = Array.from(parent.children);
-  const firstIndex = originalChildren.indexOf(cards[0]);
-  const lastIndex = originalChildren.indexOf(cards[cards.length - 1]);
+  const firstIndex = originalChildren.indexOf(referenceNode);
+  const lastCardChild = container ? getDirectChild(container, cards[cards.length - 1]) : cards[cards.length - 1];
+  const lastIndex = originalChildren.indexOf(lastCardChild);
   const rangeChildren = originalChildren.slice(firstIndex, lastIndex + 1);
 
   const carousel = document.createElement('section');
@@ -45,7 +59,7 @@ function initializeGrammarCarousel() {
     </div>
   `;
 
-  parent.insertBefore(carousel, cards[0]);
+  parent.insertBefore(carousel, referenceNode);
 
   rangeChildren.forEach((child) => {
     if (child.tagName === 'HR') {
@@ -123,6 +137,16 @@ function initializeGrammarCarousel() {
   });
 
   updateCarousel();
+}
+
+function getDirectChild(parent, child) {
+  let current = child;
+
+  while (current && current.parentElement !== parent) {
+    current = current.parentElement;
+  }
+
+  return current || child;
 }
 
 function updateCardProgress(card, index, total) {
@@ -363,7 +387,16 @@ function renderAnalysis(card, correctAnswer) {
 
     switch (item.label) {
       case 'S':
+      case 'Subj':
         cls = 'grammar-subject';
+        break;
+
+      case 'Poss':
+        cls = 'grammar-possessive';
+        break;
+
+      case 'Obj':
+        cls = 'grammar-object';
         break;
 
       case 'Be':
