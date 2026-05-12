@@ -85,6 +85,7 @@ They are ready.
 
 ```text
 ___ will attend the meeting.
+___ 會參加會議。
 ```
 
 `will attend` 是動詞，所以空格是主詞。
@@ -97,7 +98,9 @@ I / You / He / She / It / We / They
 例如：
 ```text
 She will attend the meeting.
+她會參加會議。
 They will attend the meeting.
+他們會參加會議。
 ```
 
 - 空格後面直接接名詞，要選所有格
@@ -105,6 +108,7 @@ They will attend the meeting.
   
 ```text
 ___ supervisor approved the request.
+___ 主管核准了這項申請。
 ```
 `supervisor` 是名詞，所以空格要選所有格。
 
@@ -116,7 +120,9 @@ My / Your / His / Her / Its / Our / Their
 例如：
 ```text
 My supervisor approved the request.
+我的主管核准了這項申請。
 Their supervisor approved the request.
+他們的主管核准了這項申請。
 ```
 
 - 空格在動詞後面或介系詞後面，要選受格
@@ -124,6 +130,7 @@ Their supervisor approved the request.
 
 ```text
 The manager asked ___ to prepare the report.
+經理請 ___ 準備報告。
 ```
 `asked` 後面需要一個人，所以選受格。
 答案可能是：
@@ -135,11 +142,13 @@ me / you / him / her / it / us / them
 介系詞後面也一樣：
 ```text
 The invoice was sent to ___.
+發票已寄給 ___。
 ```
 
 `to` 是介系詞，後面要接受格：
 ```text
 The invoice was sent to him.
+發票已寄給他。
 ```
 
 ### 簡單判斷表
@@ -161,6 +170,7 @@ The invoice was sent to him.
 
 ```text
 The coordinator sent ___ the revised schedule.
+協調人寄給 ___ 修訂後的時程表。
 ```
 
 `sent` 是動詞，空格在動詞後面，所以要受格：
