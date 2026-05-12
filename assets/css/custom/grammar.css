@@ -262,6 +262,18 @@
   border-color: #38bdf8;
 }
 
+/* Possessive Pronoun */
+.grammar-possessive {
+  color: #f9a8d4;
+  border-color: #ec4899;
+}
+
+/* Object Pronoun */
+.grammar-object {
+  color: #c4b5fd;
+  border-color: #8b5cf6;
+}
+
 /* Be Verb */
 .grammar-beverb {
   color: #fca5a5;
