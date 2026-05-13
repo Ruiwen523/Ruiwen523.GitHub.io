@@ -1,4 +1,8 @@
-<div class="grammar-card">
+<div
+  class="grammar-card"
+  data-acceptable-answers="{{ include.acceptable_answers | default: '' | escape }}"
+  data-acceptable-message="{{ include.acceptable_message | default: '' | escape }}"
+>
   <div class="grammar-card__header">
     <h3>{{ include.title }}</h3>
     <span class="grammar-card__progress"></span>
@@ -24,9 +28,13 @@
     </button>
   </div>
 
-  {% if include.translation %}
-    <p class="question-translation">
-      {{ include.translation }}
+  {% if include.translation or include.prompt_translation %}
+    <p
+      class="question-translation"
+      data-prompt-translation="{{ include.prompt_translation | default: include.translation | escape }}"
+      data-full-translation="{{ include.translation | default: include.prompt_translation | escape }}"
+    >
+      {{ include.prompt_translation | default: include.translation }}
     </p>
   {% endif %}
 

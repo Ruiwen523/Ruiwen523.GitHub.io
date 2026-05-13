@@ -146,6 +146,11 @@
   font-size: 15px;
 }
 
+.question-translation.is-revealed {
+  color: #e2e8f0;
+  font-weight: 700;
+}
+
 .options {
   margin-top: 16px;
 }
@@ -254,6 +259,16 @@
   bottom: -18px;
   font-size: 11px;
   opacity: 0.8;
+}
+
+.grammar-note {
+  margin-top: 24px;
+  border-left: 3px solid #38bdf8;
+  padding: 10px 12px;
+  background: rgba(56, 189, 248, 0.08);
+  color: #e2e8f0;
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 /* Subject */

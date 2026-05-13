@@ -276,6 +276,11 @@ function checkAnswer(button, selected, correct) {
   const result = card.querySelector('.result');
   const analysisDiv = card.querySelector('.analysis');
   const audioButton = card.querySelector('.question-audio-button');
+  const acceptableAnswers = (card.dataset.acceptableAnswers || '')
+    .split('|')
+    .map((answer) => answer.trim())
+    .filter(Boolean);
+  const isAcceptableAnswer = acceptableAnswers.includes(selected);
 
   const buttons = card.querySelectorAll('button');
 
@@ -290,14 +295,43 @@ function checkAnswer(button, selected, correct) {
   if (selected === correct) {
     button.classList.add('correct');
     result.innerHTML = 'Correct!';
+    revealFullTranslation(card);
     playCorrectSound();
+    renderAnalysis(card, correct);
+  } else if (isAcceptableAnswer) {
+    button.classList.add('correct');
+    result.innerHTML = card.dataset.acceptableMessage || '文法正確，但不是最標準答案。';
+    revealFullTranslation(card);
     renderAnalysis(card, correct);
   } else {
     button.classList.add('wrong');
     result.innerHTML = 'Try again!';
+    resetPromptTranslation(card);
 
     renderAnalysis(card, correct);
   }
+}
+
+function revealFullTranslation(card) {
+  const translation = card.querySelector('.question-translation');
+
+  if (!translation || !translation.dataset.fullTranslation) {
+    return;
+  }
+
+  translation.textContent = translation.dataset.fullTranslation;
+  translation.classList.add('is-revealed');
+}
+
+function resetPromptTranslation(card) {
+  const translation = card.querySelector('.question-translation');
+
+  if (!translation || !translation.dataset.promptTranslation) {
+    return;
+  }
+
+  translation.textContent = translation.dataset.promptTranslation;
+  translation.classList.remove('is-revealed');
 }
 
 function playCorrectSound() {
@@ -381,8 +415,14 @@ function renderAnalysis(card, correctAnswer) {
   const data = JSON.parse(analysisDiv.dataset.analysis);
 
   let html = '<div class="grammar-breakdown">';
+  const notes = [];
 
   data.forEach((item) => {
+    if (item.label === 'Note') {
+      notes.push(item.desc || item.word || '');
+      return;
+    }
+
     let cls = '';
 
     switch (item.label) {
@@ -451,6 +491,10 @@ function renderAnalysis(card, correctAnswer) {
   });
 
   html += '</div>';
+
+  notes.forEach((note) => {
+    html += `<div class="grammar-note">${note}</div>`;
+  });
 
   analysisDiv.innerHTML = html;
 }
