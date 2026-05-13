@@ -1,7 +1,9 @@
 <div
   class="grammar-card"
+  data-correct-answers="{{ include.correct_answers | default: include.answer | escape }}"
   data-acceptable-answers="{{ include.acceptable_answers | default: '' | escape }}"
   data-acceptable-message="{{ include.acceptable_message | default: '' | escape }}"
+  data-answer-translations="{{ include.answer_translations | default: '' | escape }}"
 >
   <div class="grammar-card__header">
     <h3>{{ include.title }}</h3>
