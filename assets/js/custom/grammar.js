@@ -276,6 +276,16 @@ function checkAnswer(button, selected, correct) {
   const result = card.querySelector('.result');
   const analysisDiv = card.querySelector('.analysis');
   const audioButton = card.querySelector('.question-audio-button');
+  const correctAnswers = (card.dataset.correctAnswers || correct)
+    .split('|')
+    .map((answer) => answer.trim())
+    .filter(Boolean);
+  const acceptableAnswers = (card.dataset.acceptableAnswers || '')
+    .split('|')
+    .map((answer) => answer.trim())
+    .filter(Boolean);
+  const isCorrectAnswer = correctAnswers.includes(selected);
+  const isAcceptableAnswer = acceptableAnswers.includes(selected);
 
   const buttons = card.querySelectorAll('button');
 
@@ -287,17 +297,59 @@ function checkAnswer(button, selected, correct) {
     audioButton.hidden = false;
   }
 
-  if (selected === correct) {
+  if (isCorrectAnswer) {
     button.classList.add('correct');
     result.innerHTML = 'Correct!';
+    revealFullTranslation(card, selected);
     playCorrectSound();
+    renderAnalysis(card, selected);
+  } else if (isAcceptableAnswer) {
+    button.classList.add('correct');
+    result.innerHTML = card.dataset.acceptableMessage || '文法正確，但不是最標準答案。';
+    revealFullTranslation(card, selected);
     renderAnalysis(card, correct);
   } else {
     button.classList.add('wrong');
     result.innerHTML = 'Try again!';
+    resetPromptTranslation(card);
 
     renderAnalysis(card, correct);
   }
+}
+
+function revealFullTranslation(card, selectedAnswer) {
+  const translation = card.querySelector('.question-translation');
+
+  if (!translation || !translation.dataset.fullTranslation) {
+    return;
+  }
+
+  translation.textContent = getAnswerTranslation(card, selectedAnswer) || translation.dataset.fullTranslation;
+  translation.classList.add('is-revealed');
+}
+
+function getAnswerTranslation(card, selectedAnswer) {
+  if (!card.dataset.answerTranslations) {
+    return '';
+  }
+
+  try {
+    const translations = JSON.parse(card.dataset.answerTranslations);
+    return translations[selectedAnswer] || '';
+  } catch (error) {
+    return '';
+  }
+}
+
+function resetPromptTranslation(card) {
+  const translation = card.querySelector('.question-translation');
+
+  if (!translation || !translation.dataset.promptTranslation) {
+    return;
+  }
+
+  translation.textContent = translation.dataset.promptTranslation;
+  translation.classList.remove('is-revealed');
 }
 
 function playCorrectSound() {
@@ -381,8 +433,14 @@ function renderAnalysis(card, correctAnswer) {
   const data = JSON.parse(analysisDiv.dataset.analysis);
 
   let html = '<div class="grammar-breakdown">';
+  const notes = [];
 
   data.forEach((item) => {
+    if (item.label === 'Note') {
+      notes.push(item.desc || item.word || '');
+      return;
+    }
+
     let cls = '';
 
     switch (item.label) {
@@ -451,6 +509,10 @@ function renderAnalysis(card, correctAnswer) {
   });
 
   html += '</div>';
+
+  notes.forEach((note) => {
+    html += `<div class="grammar-note">${note}</div>`;
+  });
 
   analysisDiv.innerHTML = html;
 }
