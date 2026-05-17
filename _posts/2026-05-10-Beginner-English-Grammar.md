@@ -418,19 +418,27 @@ He eats rice.
 
 空間介系詞用來說明人、事物或地點的位置。可以先用「短距離、中距離、長距離」來記：
 
-![空間介系詞距離對照圖](/assets/img/grammar/spatial-prepositions-distance.svg)
+<object
+  type="image/svg+xml"
+  data="{{ '/assets/img/grammar/spatial-prepositions-distance.svg' | relative_url }}"
+  aria-label="空間介系詞距離對照圖"
+  style="display: block; width: 100%; max-width: 100%; margin: 1rem 0;"
+>
 
-| 距離感 | 常見介系詞/片語      | 中文意思        | 範例                              |
-| ------ | -------------------- | --------------- | --------------------------------- |
-| 短距離 | next to / beside     | 在旁邊          | The bag is next to the desk.      |
-| 短距離 | between              | 在兩者之間      | The cat is between the boxes.     |
-| 短距離 | in front of / behind | 在前面 / 在後面 | The car is in front of the house. |
-| 中距離 | near                 | 在附近          | The school is near my home.       |
-| 中距離 | across from          | 在對面          | The bank is across from the park. |
-| 中距離 | around               | 在周圍          | There are trees around the house. |
-| 長距離 | far from             | 離很遠          | The station is far from here.     |
-| 長距離 | away from            | 遠離            | Stay away from the road.          |
-| 長距離 | from ... to ...      | 從 ... 到 ...   | I walk from home to school.       |
+  空間介系詞距離對照圖
+</object>
+
+| 距離感 | 常見介系詞/片語      | 中文意思        | 範例                                |
+| ------ | -------------------- | --------------- | ----------------------------------- |
+| 短     | next to / beside     | 在旁邊          | The bag is `next to` the desk.      |
+|        | between              | 在兩者之間      | The cat is `between` the boxes.     |
+|        | in front of / behind | 在前面 / 在後面 | The car is `in front of` the house. |
+| 中     | near                 | 在附近          | The school is `near` my home.       |
+|        | across from          | 在對面          | The bank is `across from` the park. |
+|        | around               | 在周圍          | There are trees `around` the house. |
+| 長     | far from             | 離很遠          | The station is `far from` here.     |
+|        | away from            | 遠離            | Stay `away from` the road.          |
+|        | from ... to ...      | 從 ... 到 ...   | I walk `from` home `to` school.     |
 
 {% assign beginner_place_preposition_options = "on|under|next to|beside|between|in front of|behind|near|across from|around|far from|away from|from|to" %}
 
