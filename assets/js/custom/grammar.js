@@ -10,13 +10,18 @@ function initializeGrammarCarousel() {
 
   if (groups.length) {
     groups.forEach((group) => {
-      initializeGrammarCarouselForCards(Array.from(group.querySelectorAll('.grammar-card')), group);
+      initializeGrammarCarouselForCards(
+        Array.from(group.querySelectorAll('.grammar-card')),
+        group
+      );
     });
 
     return;
   }
 
-  initializeGrammarCarouselForCards(Array.from(document.querySelectorAll('.grammar-card')));
+  initializeGrammarCarouselForCards(
+    Array.from(document.querySelectorAll('.grammar-card'))
+  );
 }
 
 function initializeGrammarCarouselForCards(cards, container = null) {
@@ -25,7 +30,9 @@ function initializeGrammarCarouselForCards(cards, container = null) {
   }
 
   const parent = container || cards[0].parentElement;
-  const referenceNode = container ? getDirectChild(container, cards[0]) : cards[0];
+  const referenceNode = container
+    ? getDirectChild(container, cards[0])
+    : cards[0];
 
   if (!parent || !referenceNode) {
     return;
@@ -33,7 +40,9 @@ function initializeGrammarCarouselForCards(cards, container = null) {
 
   const originalChildren = Array.from(parent.children);
   const firstIndex = originalChildren.indexOf(referenceNode);
-  const lastCardChild = container ? getDirectChild(container, cards[cards.length - 1]) : cards[cards.length - 1];
+  const lastCardChild = container
+    ? getDirectChild(container, cards[cards.length - 1])
+    : cards[cards.length - 1];
   const lastIndex = originalChildren.indexOf(lastCardChild);
   const rangeChildren = originalChildren.slice(firstIndex, lastIndex + 1);
 
@@ -161,7 +170,10 @@ function updateCardProgress(card, index, total) {
 
   if (progress) {
     progress.textContent = `${percent}%`;
-    progress.setAttribute('aria-label', `Progress ${questionNumber} of ${total}`);
+    progress.setAttribute(
+      'aria-label',
+      `Progress ${questionNumber} of ${total}`
+    );
   }
 }
 
@@ -229,9 +241,11 @@ function playSentenceAudio(audioButton) {
 }
 
 function closeGrammarDescriptions(scope = document) {
-  scope.querySelectorAll('.grammar-breakdown > span.is-desc-open').forEach((item) => {
-    item.classList.remove('is-desc-open');
-  });
+  scope
+    .querySelectorAll('.grammar-breakdown > span.is-desc-open')
+    .forEach((item) => {
+      item.classList.remove('is-desc-open');
+    });
 }
 
 function positionGrammarDescription(grammarItem) {
@@ -295,6 +309,7 @@ function checkAnswer(button, selected, correct) {
 
   if (audioButton) {
     audioButton.hidden = false;
+    audioButton.dataset.speakSentence = buildSelectedSentence(card, selected);
   }
 
   if (isCorrectAnswer) {
@@ -305,9 +320,10 @@ function checkAnswer(button, selected, correct) {
     renderAnalysis(card, selected);
   } else if (isAcceptableAnswer) {
     button.classList.add('correct');
-    result.innerHTML = card.dataset.acceptableMessage || '文法正確，但不是最標準答案。';
+    result.innerHTML =
+      card.dataset.acceptableMessage || '文法正確，但不是最標準答案。';
     revealFullTranslation(card, selected);
-    renderAnalysis(card, correct);
+    renderAnalysis(card, selected);
   } else {
     button.classList.add('wrong');
     result.innerHTML = 'Try again!';
@@ -317,6 +333,16 @@ function checkAnswer(button, selected, correct) {
   }
 }
 
+function buildSelectedSentence(card, selectedAnswer) {
+  const audioButton = card.querySelector('.question-audio-button');
+  const questionTemplate =
+    audioButton?.dataset.questionTemplate ||
+    card.querySelector('.question-text')?.textContent ||
+    '';
+
+  return questionTemplate.trim().replace('___', selectedAnswer);
+}
+
 function revealFullTranslation(card, selectedAnswer) {
   const translation = card.querySelector('.question-translation');
 
@@ -324,7 +350,9 @@ function revealFullTranslation(card, selectedAnswer) {
     return;
   }
 
-  translation.textContent = getAnswerTranslation(card, selectedAnswer) || translation.dataset.fullTranslation;
+  translation.textContent =
+    getAnswerTranslation(card, selectedAnswer) ||
+    translation.dataset.fullTranslation;
   translation.classList.add('is-revealed');
 }
 
@@ -394,7 +422,11 @@ function playTone(frequency, startTime, duration, volume = 0.1) {
 }
 
 function speakSentence(sentence, button) {
-  if (!sentence || !window.speechSynthesis || !window.SpeechSynthesisUtterance) {
+  if (
+    !sentence ||
+    !window.speechSynthesis ||
+    !window.SpeechSynthesisUtterance
+  ) {
     return;
   }
 
@@ -403,8 +435,9 @@ function speakSentence(sentence, button) {
 
   const utterance = new SpeechSynthesisUtterance(sentence);
   const voices = window.speechSynthesis.getVoices();
-  const americanVoice = voices.find((voice) => voice.lang === 'en-US')
-    || voices.find((voice) => voice.lang.toLowerCase().startsWith('en-us'));
+  const americanVoice =
+    voices.find((voice) => voice.lang === 'en-US') ||
+    voices.find((voice) => voice.lang.toLowerCase().startsWith('en-us'));
 
   utterance.lang = 'en-US';
   utterance.rate = 0.7;
@@ -428,16 +461,17 @@ function speakSentence(sentence, button) {
   window.speechSynthesis.speak(utterance);
 }
 
-function renderAnalysis(card, correctAnswer) {
+function renderAnalysis(card, selectedAnswer) {
   const analysisDiv = card.querySelector('.analysis');
   const data = JSON.parse(analysisDiv.dataset.analysis);
+  const selectedNotes = getAnalysisNotes(card, selectedAnswer);
 
   let html = '<div class="grammar-breakdown">';
   const notes = [];
 
   data.forEach((item) => {
     if (item.label === 'Note') {
-      notes.push(item.desc || item.word || '');
+      notes.push(selectedNotes.shift() || item.desc || item.word || '');
       return;
     }
 
@@ -515,4 +549,19 @@ function renderAnalysis(card, correctAnswer) {
   });
 
   analysisDiv.innerHTML = html;
+}
+
+function getAnalysisNotes(card, selectedAnswer) {
+  if (!card.dataset.analysisNotes) {
+    return [];
+  }
+
+  try {
+    const notes = JSON.parse(card.dataset.analysisNotes);
+    const selectedNotes = notes[selectedAnswer] || [];
+
+    return Array.isArray(selectedNotes) ? [...selectedNotes] : [selectedNotes];
+  } catch (error) {
+    return [];
+  }
 }

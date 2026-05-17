@@ -4,6 +4,7 @@
   data-acceptable-answers="{{ include.acceptable_answers | default: '' | escape }}"
   data-acceptable-message="{{ include.acceptable_message | default: '' | escape }}"
   data-answer-translations="{{ include.answer_translations | default: '' | escape }}"
+  data-analysis-notes="{{ include.analysis_notes | default: '' | escape }}"
 >
   <div class="grammar-card__header">
     <h3>{{ include.title }}</h3>
@@ -23,6 +24,7 @@
       hidden
       type="button"
       data-speak-sentence="{{ speech_sentence | escape }}"
+      data-question-template="{{ include.question | escape }}"
       aria-label="Play American pronunciation"
       title="Play American pronunciation"
     >

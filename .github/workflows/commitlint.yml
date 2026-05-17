@@ -3,6 +3,7 @@ on: pull_request
 
 jobs:
   commitlint:
+    if: ${{ !(github.base_ref == 'developer' && github.head_ref == 'main') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
