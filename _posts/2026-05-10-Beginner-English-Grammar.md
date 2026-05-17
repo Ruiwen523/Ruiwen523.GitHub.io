@@ -80,6 +80,19 @@ They are ready.
 
 ## 人稱代名詞的主格/受格/所有格
 
+| 主格 | 受格 | 所有格形容詞 | 所有格代名詞 | 反身代名詞 |
+| ---- | ---- | ------------ | ------------ | ---------- |
+| I    | me   | my           | mine         | myself     |
+| you  | you  | your         | yours        | yourself   |
+| he   | him  | his          | his          | himself    |
+| she  | her  | her          | hers         | herself    |
+| it   | it   | its          | its          | itself     |
+| we   | us   | our          | ours         | ourselves  |
+| you  | you  | your         | yours        | yourselves |
+| they | them | their        | theirs       | themselves |
+
+> 所有格形容詞後面要接名詞，例如 `my book`、`her teacher`；所有格代名詞可單獨使用，例如 `This book is mine.`。
+
 人稱代名詞會因為位置不同而改變形式。先用下面這張表做快速判斷：
 
 | 位置          | 選擇   | 範例                            |
@@ -190,6 +203,71 @@ ___ house is big.
 {% include grammar/pronoun-card.html title="Question 5" question="___ tail is short." prompt_translation="___ 的尾巴很短。" translation="它的尾巴很短。" options=beginner_possessive_options answer="its" correct_answers="my|your|his|her|its|our|their" answer_translations='{"my":"我的尾巴很短。","your":"你的尾巴很短。","his":"他的尾巴很短。","her":"她的尾巴很短。","its":"它的尾巴很短。","our":"我們的尾巴很短。","their":"他們的尾巴很短。"}' analysis='[{"word":"my / your / his / her / its / our / their","label":"Poss","desc":"這一格在名詞 tail 前面，所以只要是所有格，文法上都可以。"},{"word":"tail","label":"N","desc":"名詞，前面用所有格修飾。"},{"label":"Note","desc":"這題練習的是所有格位置。空格後面直接接名詞 tail，所以所有所有格選項都可以算正確；實際語意要看上下文。"}]' %}
 {% include grammar/pronoun-card.html title="Question 6" question="___ teacher is kind." prompt_translation="___ 的老師很親切。" translation="我們的老師很親切。" options=beginner_possessive_options answer="our" correct_answers="my|your|his|her|its|our|their" answer_translations='{"my":"我的老師很親切。","your":"你的老師很親切。","his":"他的老師很親切。","her":"她的老師很親切。","its":"它的老師很親切。","our":"我們的老師很親切。","their":"他們的老師很親切。"}' analysis='[{"word":"my / your / his / her / its / our / their","label":"Poss","desc":"這一格在名詞 teacher 前面，所以只要是所有格，文法上都可以。"},{"word":"teacher","label":"N","desc":"名詞，前面用所有格修飾。"},{"label":"Note","desc":"這題練習的是所有格位置。空格後面直接接名詞 teacher，所以所有所有格選項都可以算正確。"}]' %}
 {% include grammar/pronoun-card.html title="Question 7" question="___ house is big." prompt_translation="___ 的房子很大。" translation="他們的房子很大。" options=beginner_possessive_options answer="their" correct_answers="my|your|his|her|its|our|their" answer_translations='{"my":"我的房子很大。","your":"你的房子很大。","his":"他的房子很大。","her":"她的房子很大。","its":"它的房子很大。","our":"我們的房子很大。","their":"他們的房子很大。"}' analysis='[{"word":"my / your / his / her / its / our / their","label":"Poss","desc":"這一格在名詞 house 前面，所以只要是所有格，文法上都可以。"},{"word":"house","label":"N","desc":"名詞，前面用所有格修飾。"},{"label":"Note","desc":"這題練習的是所有格位置。空格後面直接接名詞 house，所以所有所有格選項都可以算正確。"}]' %}
+
+</section>
+
+## 人稱代名詞 - 所有格代名詞練習
+
+所有格代名詞也表示「誰的」，但它可以自己當一個名詞用，後面不要再接名詞。初學時先記住這一組：
+
+```text
+mine / yours / his / hers / its / ours / theirs
+```
+
+看到「be 動詞 + 空格」或句尾空格時，如果前面已經提過物品，通常可以選所有格代名詞。
+
+```text
+This book is ___.
+這本書是我的。
+
+The house is ___.
+那間房子是他們的。
+```
+
+{% assign beginner_possessive_pronoun_options = "mine|yours|his|hers|its|ours|theirs" %}
+{% capture beginner_possessive_pronoun_analysis_notes %}{"mine":"my 是所有格形容詞，後面要接名詞；mine 是所有格代名詞，可以單獨使用。","yours":"your 是所有格形容詞，後面要接名詞；yours 是所有格代名詞，可以單獨使用。","his":"his 可以是所有格形容詞，也可以是所有格代名詞；這裡後面沒有名詞，所以是所有格代名詞。","hers":"her 是所有格形容詞，後面要接名詞；hers 是所有格代名詞，可以單獨使用。","its":"its 作所有格形容詞時較常見，例如 its toy；作所有格代名詞時也可單獨使用，但較少見。","ours":"our 是所有格形容詞，後面要接名詞；ours 是所有格代名詞，可以單獨使用。","theirs":"their 是所有格形容詞，後面要接名詞；theirs 是所有格代名詞，可以單獨使用。"}{% endcapture %}
+
+<section class="grammar-card-group">
+
+{% include grammar/pronoun-card.html title="Question 1" question="This book is ___." prompt_translation="這本書是 ___ 的。" translation="這本書是我的。" options=beginner_possessive_pronoun_options answer="mine" correct_answers="mine|yours|his|hers|ours|theirs" answer_translations='{"mine":"這本書是我的。","yours":"這本書是你的/你們的。","his":"這本書是他的。","hers":"這本書是她的。","ours":"這本書是我們的。","theirs":"這本書是他們的。"}' analysis_notes=beginner_possessive_pronoun_analysis_notes analysis='[{"word":"mine / yours / his / hers / ours / theirs","label":"Poss Pron","desc":"這一格在句尾，後面沒有名詞，所以要用所有格代名詞。"},{"word":"book","label":"N","desc":"前面已經提到物品 book，後面不用再接 book。"},{"label":"Note","desc":"這題練習所有格代名詞的位置。多個所有格代名詞都能成立，中文意思會依選項改變。its 作所有格代名詞很少用在這種句型，因此初學先避免。"}]' %}
+{% include grammar/pronoun-card.html title="Question 2" question="Is this pen ___?" prompt_translation="這支筆是 ___ 的嗎？" translation="這支筆是你的嗎？" options=beginner_possessive_pronoun_options answer="yours" correct_answers="mine|yours|his|hers|ours|theirs" answer_translations='{"mine":"這支筆是我的嗎？","yours":"這支筆是你的/你們的嗎？","his":"這支筆是他的嗎？","hers":"這支筆是她的嗎？","ours":"這支筆是我們的嗎？","theirs":"這支筆是他們的嗎？"}' analysis_notes=beginner_possessive_pronoun_analysis_notes analysis='[{"word":"mine / yours / his / hers / ours / theirs","label":"Poss Pron","desc":"空格在句尾，後面沒有名詞，所以用所有格代名詞。"},{"word":"pen","label":"N","desc":"pen 已經出現在前面，不需要再說 your pen。"},{"label":"Note","desc":"這題有多個文法上可接受答案；選不同答案時，中文意思會改變。"}]' %}
+{% include grammar/pronoun-card.html title="Question 3" question="The red car is ___." prompt_translation="那台紅色的車是 ___ 的。" translation="那台紅色的車是他的。" options=beginner_possessive_pronoun_options answer="his" correct_answers="mine|yours|his|hers|ours|theirs" answer_translations='{"mine":"那台紅色的車是我的。","yours":"那台紅色的車是你的/你們的。","his":"那台紅色的車是他的。","hers":"那台紅色的車是她的。","ours":"那台紅色的車是我們的。","theirs":"那台紅色的車是他們的。"}' analysis_notes=beginner_possessive_pronoun_analysis_notes analysis='[{"word":"his","label":"Poss Pron","desc":"his 可以是所有格形容詞，也可以是所有格代名詞。這裡後面沒有名詞，所以是所有格代名詞。"},{"word":"is","label":"Be","desc":"be 動詞後面可以接所有格代名詞，表示歸屬。"},{"label":"Note","desc":"這題重點是句尾不再接名詞，因此不能用 my、your、her、our、their。"}]' %}
+{% include grammar/pronoun-card.html title="Question 4" question="That bag is ___." prompt_translation="那個包包是 ___ 的。" translation="那個包包是她的。" options=beginner_possessive_pronoun_options answer="hers" correct_answers="mine|yours|his|hers|ours|theirs" answer_translations='{"mine":"那個包包是我的。","yours":"那個包包是你的/你們的。","his":"那個包包是他的。","hers":"那個包包是她的。","ours":"那個包包是我們的。","theirs":"那個包包是他們的。"}' analysis_notes=beginner_possessive_pronoun_analysis_notes analysis='[{"word":"hers","label":"Poss Pron","desc":"hers 表示「她的東西」，後面不能再接名詞。"},{"word":"bag","label":"N","desc":"bag 已經在前面出現，空格只需要表示所有權。"},{"label":"Note","desc":"her bag 是「她的包包」；The bag is hers. 是「包包是她的」。"}]' %}
+{% include grammar/pronoun-card.html title="Question 5" question="This classroom is ___." prompt_translation="這間教室是 ___ 的。" translation="這間教室是我們的。" options=beginner_possessive_pronoun_options answer="ours" correct_answers="mine|yours|his|hers|ours|theirs" answer_translations='{"mine":"這間教室是我的。","yours":"這間教室是你的/你們的。","his":"這間教室是他的。","hers":"這間教室是她的。","ours":"這間教室是我們的。","theirs":"這間教室是他們的。"}' analysis_notes=beginner_possessive_pronoun_analysis_notes analysis='[{"word":"ours","label":"Poss Pron","desc":"ours 表示「我們的」，可以單獨放在句尾。"},{"word":"classroom","label":"N","desc":"classroom 已經出現在前面，所以後面不用接名詞。"},{"label":"Note","desc":"our 是所有格形容詞，後面要接名詞；ours 是所有格代名詞，可以單獨使用。"}]' %}
+{% include grammar/pronoun-card.html title="Question 6" question="The house is ___." prompt_translation="那間房子是 ___ 的。" translation="那間房子是他們的。" options=beginner_possessive_pronoun_options answer="theirs" correct_answers="mine|yours|his|hers|ours|theirs" answer_translations='{"mine":"那間房子是我的。","yours":"那間房子是你的/你們的。","his":"那間房子是他的。","hers":"那間房子是她的。","ours":"那間房子是我們的。","theirs":"那間房子是他們的。"}' analysis_notes=beginner_possessive_pronoun_analysis_notes analysis='[{"word":"theirs","label":"Poss Pron","desc":"theirs 表示「他們的」，後面不接名詞。"},{"word":"house","label":"N","desc":"house 已經在主詞中出現。"},{"label":"Note","desc":"their house 是「他們的房子」；The house is theirs. 是「房子是他們的」。"}]' %}
+{% include grammar/pronoun-card.html title="Question 7" question="The old toy is ___." prompt_translation="那個舊玩具是 ___ 的。" translation="那個舊玩具是它的。" options=beginner_possessive_pronoun_options answer="its" correct_answers="mine|yours|his|hers|its|ours|theirs" answer_translations='{"mine":"那個舊玩具是我的。","yours":"那個舊玩具是你的/你們的。","his":"那個舊玩具是他的。","hers":"那個舊玩具是她的。","its":"那個舊玩具是它的。","ours":"那個舊玩具是我們的。","theirs":"那個舊玩具是他們的。"}' analysis_notes=beginner_possessive_pronoun_analysis_notes analysis='[{"word":"its","label":"Poss Pron","desc":"its 可以表示「它的」，但作所有格代名詞時不如 mine、yours、his、hers、ours、theirs 常見。"},{"word":"toy","label":"N","desc":"toy 已經在前面出現，所以空格可用所有格代名詞。"},{"label":"Note","desc":"這題把 its 也列入練習，是為了對照表格中的完整形式；實際使用時，初學者更常看到 its + 名詞，例如 its toy。"}]' %}
+
+</section>
+
+## 人稱代名詞 - 反身代名詞練習
+
+反身代名詞常用來表示「自己」。主詞和受詞是同一個人或同一個東西時，就會用反身代名詞。初學時先記住這一組：
+
+```text
+myself / yourself / himself / herself / itself / ourselves / yourselves / themselves
+```
+
+看到 `by ___` 時，常表示「獨自地」；看到主詞和受詞指同一個人時，也要用反身代名詞。
+
+```text
+I did it by ___.
+我自己做的。
+
+She looked at ___.
+她看著她自己。
+```
+
+{% assign beginner_reflexive_options = "myself|yourself|himself|herself|itself|ourselves|yourselves|themselves" %}
+
+<section class="grammar-card-group">
+
+{% include grammar/pronoun-card.html title="Question 1" question="I did it by ___." prompt_translation="我自己做了這件事。" translation="我自己做了這件事。" options=beginner_reflexive_options answer="myself" analysis='[{"word":"I","label":"Subj","desc":"主詞是 I。"},{"word":"myself","label":"Refl","desc":"主詞 I 對應反身代名詞 myself。"},{"word":"by myself","label":"Phrase","desc":"by myself 表示「我自己、獨自」。"}]' %}
+{% include grammar/pronoun-card.html title="Question 2" question="You can do it by ___." prompt_translation="你可以自己做這件事。" translation="你可以自己做這件事。" options=beginner_reflexive_options answer="yourself" analysis='[{"word":"You","label":"Subj","desc":"這裡的 You 依中文提示表示「你」。"},{"word":"yourself","label":"Refl","desc":"單數 you 對應反身代名詞 yourself。"},{"label":"Note","desc":"如果中文是「你們可以自己做這件事」，答案才會是 yourselves。"}]' %}
+{% include grammar/pronoun-card.html title="Question 3" question="He hurt ___." prompt_translation="他弄傷了他自己。" translation="他弄傷了他自己。" options=beginner_reflexive_options answer="himself" analysis='[{"word":"He","label":"Subj","desc":"主詞是 He。"},{"word":"hurt","label":"V","desc":"hurt 後面接受詞。"},{"word":"himself","label":"Refl","desc":"受詞和主詞是同一個人，所以用 himself。"}]' %}
+{% include grammar/pronoun-card.html title="Question 4" question="She looked at ___." prompt_translation="她看著她自己。" translation="她看著她自己。" options=beginner_reflexive_options answer="herself" analysis='[{"word":"She","label":"Subj","desc":"主詞是 She。"},{"word":"at","label":"Prep","desc":"介系詞 at 後面要接受詞。"},{"word":"herself","label":"Refl","desc":"她看的對象是她自己，所以用 herself。"}]' %}
+{% include grammar/pronoun-card.html title="Question 5" question="The door closed by ___." prompt_translation="門自己關上了。" translation="門自己關上了。" options=beginner_reflexive_options answer="itself" analysis='[{"word":"The door","label":"Subj","desc":"主詞是事物，可以用 it 代替。"},{"word":"itself","label":"Refl","desc":"it 的反身代名詞是 itself。"},{"word":"by itself","label":"Phrase","desc":"by itself 表示「自己、沒有外力」。"}]' %}
+{% include grammar/pronoun-card.html title="Question 6" question="We made dinner by ___." prompt_translation="我們自己做了晚餐。" translation="我們自己做了晚餐。" options=beginner_reflexive_options answer="ourselves" analysis='[{"word":"We","label":"Subj","desc":"主詞是 We。"},{"word":"ourselves","label":"Refl","desc":"We 對應反身代名詞 ourselves。"},{"word":"by ourselves","label":"Phrase","desc":"by ourselves 表示「我們自己、我們獨自」。"}]' %}
+{% include grammar/pronoun-card.html title="Question 7" question="They cleaned the room by ___." prompt_translation="他們自己打掃了房間。" translation="他們自己打掃了房間。" options=beginner_reflexive_options answer="themselves" analysis='[{"word":"They","label":"Subj","desc":"主詞是 They。"},{"word":"themselves","label":"Refl","desc":"They 對應反身代名詞 themselves。"},{"word":"by themselves","label":"Phrase","desc":"by themselves 表示「他們自己、他們獨自」。"}]' %}
 
 </section>
 
