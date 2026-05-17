@@ -78,21 +78,7 @@ They are ready.
 
 {% include grammar/be-verb-practice.html %}
 
-## 人稱代名詞的相關說明與練習
-
-| 主格 | 受格 | 所有格形容詞 | 所有格代名詞 | 反身代名詞 |
-| ---- | ---- | ------------ | ------------ | ---------- |
-| I    | me   | my           | mine         | myself     |
-| you  | you  | your         | yours        | yourself   |
-| he   | him  | his          | his          | himself    |
-| she  | her  | her          | hers         | herself    |
-| it   | it   | its          | its          | itself     |
-| we   | us   | our          | ours         | ourselves  |
-| you  | you  | your         | yours        | yourselves |
-| they | them | their        | theirs       | themselves |
-
-> 所有格形容詞後面要接名詞，例如 `my book`、`her teacher`；  
-> 所有格代名詞可單獨使用，例如 `This book is mine.`。
+## 人稱代名詞的相關說明與練習[^1]
 
 人稱代名詞會因為位置和用途不同而改變形式。先用下面這張表做快速判斷：
 
@@ -115,6 +101,8 @@ They are ready.
 5. 再依中文意思選出正確的人稱。
 
 另外要注意：`you` 和 `it` 的主格、受格長得一樣，所以要靠位置判斷它的功能，不是靠外型。
+> 所有格形容詞後面要接名詞，例如 `my book`、`her teacher`；
+> 所有格代名詞可單獨使用，例如 `This book is mine.`。
 
 ## 人稱代名詞 - 主格練習
 
@@ -277,6 +265,19 @@ She looked at ___.
 
 </section>
 
-<!-- ## 腳註 -->
+## 腳註
 
-<!-- [^1]: 這是腳註可以進行補充說明 -->
+[^1]: 快速對照表：
+
+    | 主格 | 受格 | 所有格 | 所有格代名詞 | 反身代名詞 |
+    | ---- | ---- | ------ | ------------ | ---------- |
+    | I    | me   | my     | mine         | myself     |
+    | you  | you  | your   | yours        | yourself   |
+    | he   | him  | his    | his          | himself    |
+    | she  | her  | her    | hers         | herself    |
+    | it   | it   | its    | its          | itself     |
+    | we   | us   | our    | ours         | ourselves  |
+    | you  | you  | your   | yours        | yourselves |
+    | they | them | their  | theirs       | themselves |
+
+    返回
