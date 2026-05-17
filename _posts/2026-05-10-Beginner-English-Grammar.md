@@ -265,6 +265,168 @@ She looked at ___.
 
 </section>
 
+## 頻率副詞
+
+頻率副詞用來表示「多久做一次」。初學時先記住這幾個常見程度：
+
+| 頻率副詞  | 中文意思 | 大約頻率 | 範例                         |
+| --------- | -------- | -------- | ---------------------------- |
+| always    | 總是     | 100%     | I always eat breakfast.      |
+| usually   | 通常     | 約 80%   | She usually walks to school. |
+| often     | 常常     | 約 60%   | We often play basketball.    |
+| sometimes | 有時候   | 約 40%   | He sometimes drinks tea.     |
+| seldom    | 很少     | 約 20%   | They seldom watch TV.        |
+| never     | 從不     | 0%       | I never smoke.               |
+
+頻率副詞最常放在一般動詞前面：
+
+```text
+I always study English.
+我總是讀英文。
+
+She often helps her mother.
+她常常幫她媽媽。
+```
+
+如果句子有 be 動詞，頻率副詞通常放在 be 動詞後面：
+
+```text
+He is always late.
+他總是遲到。
+
+They are usually busy.
+他們通常很忙。
+```
+
+快速判斷：
+
+| 句型            | 位置           | 範例                      |
+| --------------- | -------------- | ------------------------- |
+| 主詞 + 一般動詞 | 放在一般動詞前 | I `usually` get up early. |
+| 主詞 + be 動詞  | 放在 be 動詞後 | She is `often` tired.     |
+
+## 空間介系詞
+
+空間介系詞用來說明人、事物或地點的位置。可以先用「短距離、中距離、長距離」來記：
+
+| 距離感 | 常見介系詞/片語 | 中文意思       | 範例                              |
+| ------ | --------------- | -------------- | --------------------------------- |
+| 短距離 | next to         | 在旁邊         | The bag is next to the desk.      |
+| 短距離 | beside          | 在旁邊         | She sits beside me.               |
+| 短距離 | between         | 在兩者之間     | The cat is between the boxes.     |
+| 短距離 | in front of     | 在前面         | The car is in front of the house. |
+| 短距離 | behind          | 在後面         | The dog is behind the door.       |
+| 中距離 | near            | 在附近         | The school is near my home.       |
+| 中距離 | across from     | 在對面         | The bank is across from the park. |
+| 中距離 | around          | 在周圍         | There are trees around the house. |
+| 長距離 | far from        | 離很遠         | The station is far from here.     |
+| 長距離 | away from       | 離開、距離某處 | Stay away from the road.          |
+| 長距離 | from ... to ... | 從 ... 到 ...  | I walk from home to school.       |
+
+初學時可以先用這三個問題判斷：
+
+1. 是緊貼旁邊嗎？常用 `next to`、`beside`。
+2. 是附近或對面嗎？常用 `near`、`across from`。
+3. 是距離很遠或從一地到另一地嗎？常用 `far from`、`from ... to ...`。
+
+```text
+The book is on the table.
+書在桌上。
+
+The library is near the school.
+圖書館在學校附近。
+
+My office is far from my home.
+我的辦公室離我家很遠。
+```
+
+## 簡單式的疑問句
+
+簡單式疑問句常見有兩種：be 動詞疑問句、一般動詞疑問句。
+
+be 動詞疑問句把 be 動詞放到句首：
+
+| 肯定句             | 疑問句             | 中文意思         |
+| ------------------ | ------------------ | ---------------- |
+| You are a student. | Are you a student? | 你是學生嗎？     |
+| He is busy.        | Is he busy?        | 他很忙嗎？       |
+| They are ready.    | Are they ready?    | 他們準備好了嗎？ |
+
+一般動詞疑問句要用 `Do` 或 `Does` 放句首：
+
+| 主詞                | 助動詞 | 疑問句                | 中文意思       |
+| ------------------- | ------ | --------------------- | -------------- |
+| I / you / we / they | Do     | Do you like English?  | 你喜歡英文嗎？ |
+| he / she / it       | Does   | Does he like English? | 他喜歡英文嗎？ |
+
+要注意：用了 `Does` 之後，後面的動詞要回到原形。
+
+```text
+He likes English.
+Does he like English?
+
+She works here.
+Does she work here?
+```
+
+快速判斷：
+
+| 原句動詞      | 疑問句開頭    | 範例                 |
+| ------------- | ------------- | -------------------- |
+| am / is / are | Am / Is / Are | Is she your teacher? |
+| 一般動詞      | Do / Does     | Do they play tennis? |
+
+## Wh-問句與助動詞Do問句
+
+Wh-問句用來問「具體資訊」，常見開頭有 `what`、`who`、`where`、`when`、`why`、`how`。
+
+| Wh-字 | 問什麼       | 範例                     | 中文意思         |
+| ----- | ------------ | ------------------------ | ---------------- |
+| what  | 什麼         | What is this?            | 這是什麼？       |
+| who   | 誰           | Who is she?              | 她是誰？         |
+| where | 哪裡         | Where do you live?       | 你住在哪裡？     |
+| when  | 何時         | When do you study?       | 你何時讀書？     |
+| why   | 為什麼       | Why do you like it?      | 你為什麼喜歡它？ |
+| how   | 如何、怎麼樣 | How do you go to school? | 你怎麼去學校？   |
+
+如果 Wh-問句後面接一般動詞，通常要加助動詞 `do` 或 `does`：
+
+```text
+Where do you live?
+你住在哪裡？
+
+What does she want?
+她想要什麼？
+
+When do they play soccer?
+他們什麼時候踢足球？
+```
+
+`Do` 問句通常回答 yes / no：
+
+```text
+Do you like coffee?
+Yes, I do.
+No, I do not.
+```
+
+`Wh` 引導式問句通常回答具體資訊：
+
+```text
+Where do you live?
+I live in Taipei.
+
+What does he eat?
+He eats rice.
+```
+
+快速比較：
+
+| 問句種類 | 開頭                                  | 回答方式 | 範例               |
+| -------- | ------------------------------------- | -------- | ------------------ |
+| Do 問句  | Do / Does                             | Yes / No | Do you work here?  |
+| Wh-問句  | What / Who / Where / When / Why / How | 具體資訊 | Where do you work? |
+
 ## 腳註
 
 [^1]: 快速對照表：
