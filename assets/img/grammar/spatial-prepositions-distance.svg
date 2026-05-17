@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Spatial prepositions distance reference</title>
+  <desc id="desc">A distance-based reference chart for short, medium, and long distance spatial prepositions.</desc>
+  <rect width="1200" height="720" fill="#f8fafc"/>
+  <text x="600" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#0f172a">空間介系詞距離對照圖</text>
+  <text x="600" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#475569">Short distance / Medium distance / Long distance</text>
+
+  <line x1="110" y1="360" x2="1090" y2="360" stroke="#334155" stroke-width="6" stroke-linecap="round"/>
+  <polygon points="1090,360 1058,342 1058,378" fill="#334155"/>
+  <text x="110" y="326" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#334155">近</text>
+  <text x="1090" y="326" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#334155">遠</text>
+
+  <rect x="70" y="150" width="310" height="440" rx="18" fill="#e0f2fe" stroke="#0284c7" stroke-width="3"/>
+  <rect x="445" y="150" width="310" height="440" rx="18" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/>
+  <rect x="820" y="150" width="310" height="440" rx="18" fill="#fee2e2" stroke="#dc2626" stroke-width="3"/>
+
+  <text x="225" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#075985">短距離</text>
+  <text x="225" y="234" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#075985">close / same small area</text>
+  <text x="225" y="286" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">next to</text>
+  <text x="225" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">beside</text>
+  <text x="225" y="364" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">between</text>
+  <text x="225" y="403" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">in front of</text>
+  <text x="225" y="442" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">behind</text>
+  <text x="225" y="515" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#334155">The bag is next to the desk.</text>
+
+  <text x="600" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#166534">中距離</text>
+  <text x="600" y="234" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#166534">nearby / across a street</text>
+  <text x="600" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#0f172a">near</text>
+  <text x="600" y="348" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#0f172a">across from</text>
+  <text x="600" y="396" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#0f172a">around</text>
+  <text x="600" y="515" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#334155">The bank is across from the park.</text>
+
+  <text x="975" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#991b1b">長距離</text>
+  <text x="975" y="234" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#991b1b">far / movement between places</text>
+  <text x="975" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#0f172a">far from</text>
+  <text x="975" y="365" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#0f172a">away from</text>
+  <text x="975" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#0f172a">from ... to ...</text>
+  <text x="975" y="515" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#334155">The station is far from here.</text>
+
+  <text x="600" y="650" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#0f172a">先判斷距離感，再選介系詞：緊鄰、附近、對面、遠離、從一地到另一地。</text>
+</svg>
