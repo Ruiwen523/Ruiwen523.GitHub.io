@@ -310,10 +310,6 @@ function checkAnswer(button, selected, correct) {
   if (audioButton) {
     audioButton.hidden = false;
     audioButton.dataset.speakSentence = buildSelectedSentence(card, selected);
-    console.log(
-      'Updated audio button with sentence:',
-      audioButton.dataset.speakSentence
-    );
   }
 
   if (isCorrectAnswer) {
