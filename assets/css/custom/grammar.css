@@ -82,7 +82,11 @@
   gap: 16px;
 }
 
-.grammar-card__header h3 {
+.grammar-card__title {
+  color: #e2e8f0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.2;
   margin: 0;
 }
 
@@ -100,6 +104,7 @@
 
 .grammar-card h2,
 .grammar-card h3,
+.grammar-card__title,
 .grammar-card p,
 .grammar-card li {
   color: #e2e8f0;

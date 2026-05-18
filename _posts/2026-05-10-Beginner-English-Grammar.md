@@ -12,8 +12,7 @@ custom_js:
   - /assets/js/custom/grammar.js
 ---
 
-
-## English Grammar 基礎
+## English Grammar
 
 學習英文時，BE 動詞是最重要的基礎之一。
 
