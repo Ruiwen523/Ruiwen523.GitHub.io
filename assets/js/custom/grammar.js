@@ -159,7 +159,7 @@ function getDirectChild(parent, child) {
 }
 
 function updateCardProgress(card, index, total) {
-  const title = card.querySelector('.grammar-card__header h3');
+  const title = card.querySelector('.grammar-card__title');
   const progress = card.querySelector('.grammar-card__progress');
   const questionNumber = index + 1;
   const percent = Math.round((questionNumber / total) * 100);
