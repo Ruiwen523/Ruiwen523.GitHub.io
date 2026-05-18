@@ -28,14 +28,37 @@ BE 動詞包含：
 
 ## 人稱代名詞與Be動詞
 
-| Pronoun              | Be Verb |
-| -------------------- | ------- |
-| I (我)               | am      |
-| You (你)             | are     |
-| He/She/It (他/她/它) | is      |
-| We (我們)            | are     |
-| You (你們)           | are     |
-| They (他們)          | are     |
+肯定句句型是：`Pronoun + be verb + 補充說明`。
+
+| Pronoun     | Be Verb | 縮寫型式與KK音標 |
+| ----------- | ------- | ---------------- |
+| I (我)      | am      | I'm `[aɪm]`      |
+| You (你)    | are     | you're `[jʊr]`   |
+| He (他)     | is      | he's `[hiz]`     |
+| She (她)    | is      | she's `[ʃiz]`    |
+| It (它)     | is      | it's `[ɪts]`     |
+| We (我們)   | are     | we're `[wɪr]`    |
+| You (你們)  | are     | you're `[jʊr]`   |
+| They (他們) | are     | they're `[ðɛr]`  |
+
+Be 動詞後面可以接名詞或形容詞。接名詞時，要注意單數和複數：
+
+- 單數可數名詞前面通常要有 `a` 或 `an`，例如 `I am a student.`、`She is a teacher.`
+- 複數名詞通常會加 `-s` 或 `-es`，例如 `They are students.`、`We are friends.`
+- Be 動詞主要看主詞決定：`He is a student.`、`They are students.`；前面是單數主詞用 `is`，複數主詞多用 `are`。
+
+Be 動詞的否定句是在 be 動詞後面加 `not`。句型是：`Pronoun + be verb + not + 補充說明`。
+
+| Pronoun     | Be Verb 否定句 | 縮寫型式與KK音標                                   |
+| ----------- | -------------- | -------------------------------------------------- |
+| I (我)      | I am not       | I'm not `[aɪm nɑt]`                                |
+| You (你)    | You are not    | you're not `[jʊr nɑt]` / you aren't `[ju ɑrənt]`   |
+| He (他)     | He is not      | he's not `[hiz nɑt]` / he isn't `[hi ɪzənt]`       |
+| She (她)    | She is not     | she's not `[ʃiz nɑt]` / she isn't `[ʃi ɪzənt]`     |
+| It (它)     | It is not      | it's not `[ɪts nɑt]` / it isn't `[ɪt ɪzənt]`       |
+| We (我們)   | We are not     | we're not `[wɪr nɑt]` / we aren't `[wi ɑrənt]`     |
+| You (你們)  | You are not    | you're not `[jʊr nɑt]` / you aren't `[ju ɑrənt]`   |
+| They (他們) | They are not   | they're not `[ðɛr nɑt]` / they aren't `[ðe ɑrənt]` |
 
 ---
 
@@ -73,9 +96,47 @@ They are ready.
 
 ---
 
-## 練習題
+## Be 動詞練習題
 
 {% include grammar/be-verb-practice.html %}
+
+### Be動詞與常見地點介系詞
+
+Be 動詞也常和地點介系詞片語一起使用，用來說明「某人或某物在哪裡」。句型是：`主詞 + be verb + 地點介系詞片語`。
+
+七種常見地點介系詞：
+
+| Preposition | 中文意思 | 用法說明                 | 範例                 |
+| ----------- | -------- | ------------------------ | -------------------- |
+| in          | 在裡面   | 在某個空間、範圍或容器裡 | `in` the classroom   |
+| on          | 在上面   | 接觸某個表面             | `on` the desk        |
+| under       | 在下面   | 在某物下方               | `under` the chair    |
+| near        | 在附近   | 靠近某地，但不一定緊鄰   | `near` the school    |
+| at          | 在某地點 | 指明確位置或集合點       | `at` the bus stop    |
+| next to     | 在旁邊   | 緊鄰某人或某物           | `next to` the window |
+| behind      | 在後面   | 位於某物後方             | `behind` the door    |
+
+句型結構：
+
+| 句型                          | 範例                        | 中文意思       |
+| ----------------------------- | --------------------------- | -------------- |
+| 主詞 + be 動詞 + in + 地點    | She is in the classroom.    | 她在教室裡。   |
+| 主詞 + be 動詞 + on + 地點    | The book is on the desk.    | 書在桌上。     |
+| 主詞 + be 動詞 + under + 地點 | The cat is under the chair. | 貓在椅子下面。 |
+
+{% assign beginner_be_place_options = "in|on|under|near|at|next to|behind" %}
+
+<section class="grammar-card-group">
+
+{% include grammar/pronoun-card.html title="Question 1" question="I am ___ the classroom." prompt_translation="我在教室裡。" translation="我在教室裡。" options=beginner_be_place_options answer="in" analysis='[{"word":"I am","label":"Be","desc":"I 搭配 am。"},{"word":"in","label":"Prep","desc":"in 表示在某個空間裡。"},{"word":"the classroom","label":"Place","desc":"教室是一個空間，所以用 in。"}]' %}
+{% include grammar/pronoun-card.html title="Question 2" question="The book is ___ the desk." prompt_translation="書在桌上。" translation="書在桌上。" options=beginner_be_place_options answer="on" analysis='[{"word":"The book is","label":"Be","desc":"The book 是單數名詞，搭配 is。"},{"word":"on","label":"Prep","desc":"on 表示在表面上。"},{"word":"the desk","label":"Place","desc":"書在桌子的表面上，所以用 on。"}]' %}
+{% include grammar/pronoun-card.html title="Question 3" question="The cat is ___ the chair." prompt_translation="貓在椅子下面。" translation="貓在椅子下面。" options=beginner_be_place_options answer="under" analysis='[{"word":"The cat is","label":"Be","desc":"The cat 是單數名詞，搭配 is。"},{"word":"under","label":"Prep","desc":"under 表示在下面。"},{"word":"the chair","label":"Place","desc":"貓的位置在椅子下方，所以用 under。"}]' %}
+{% include grammar/pronoun-card.html title="Question 4" question="They are ___ the school." prompt_translation="他們在學校附近。" translation="他們在學校附近。" options=beginner_be_place_options answer="near" analysis='[{"word":"They are","label":"Be","desc":"They 搭配 are。"},{"word":"near","label":"Prep","desc":"near 表示在附近。"},{"word":"the school","label":"Place","desc":"靠近學校但不一定在學校裡，所以用 near。"}]' %}
+{% include grammar/pronoun-card.html title="Question 5" question="We are ___ the bus stop." prompt_translation="我們在公車站。" translation="我們在公車站。" options=beginner_be_place_options answer="at" analysis='[{"word":"We are","label":"Be","desc":"We 搭配 are。"},{"word":"at","label":"Prep","desc":"at 常表示在某個明確地點。"},{"word":"the bus stop","label":"Place","desc":"公車站是一個明確位置，所以用 at。"}]' %}
+{% include grammar/pronoun-card.html title="Question 6" question="She is ___ the window." prompt_translation="她在窗戶旁邊。" translation="她在窗戶旁邊。" options=beginner_be_place_options answer="next to" analysis='[{"word":"She is","label":"Be","desc":"She 搭配 is。"},{"word":"next to","label":"Prep","desc":"next to 表示在旁邊。"},{"word":"the window","label":"Place","desc":"她的位置在窗戶旁邊，所以用 next to。"}]' %}
+{% include grammar/pronoun-card.html title="Question 7" question="The bags are ___ the door." prompt_translation="那些包包在門後面。" translation="那些包包在門後面。" options=beginner_be_place_options answer="behind" analysis='[{"word":"The bags are","label":"Be","desc":"The bags 是複數名詞，搭配 are。"},{"word":"behind","label":"Prep","desc":"behind 表示在後面。"},{"word":"the door","label":"Place","desc":"包包的位置在門後面，所以用 behind。"}]' %}
+
+</section>
 
 ## 人稱代名詞的相關說明與練習[^1]
 
@@ -144,11 +205,11 @@ me / you / him / her / it / us / them
 
 快速判斷：
 
-| 位置/用途     | 選擇 | 範例               |
-| ------------- | ---- | ------------------ |
-| 動詞 + 空格   | 受格 | I called `her`.    |
-| 介系詞 + 空格 | 受格 | with `them`        |
-| 動作的接受者  | 受格 | Please help `me`.  |
+| 位置/用途     | 選擇 | 範例              |
+| ------------- | ---- | ----------------- |
+| 動詞 + 空格   | 受格 | I called `her`.   |
+| 介系詞 + 空格 | 受格 | with `them`       |
+| 動作的接受者  | 受格 | Please help `me`. |
 
 最實用的解題順序：
 
@@ -286,10 +347,10 @@ myself / yourself / himself / herself / itself / ourselves / yourselves / themse
 
 快速判斷：
 
-| 位置/用途             | 選擇       | 範例                     |
-| --------------------- | ---------- | ------------------------ |
-| by + 空格             | 反身代名詞 | I did it by `myself`.    |
-| 主詞和受詞是同一人/物 | 反身代名詞 | She looked at `herself`. |
+| 位置/用途             | 選擇       | 範例                         |
+| --------------------- | ---------- | ---------------------------- |
+| by + 空格             | 反身代名詞 | I did it by `myself`.        |
+| 主詞和受詞是同一人/物 | 反身代名詞 | She looked at `herself`.     |
 | 表示「自己、獨自」    | 反身代名詞 | The door closed by `itself`. |
 
 最實用的解題順序：
