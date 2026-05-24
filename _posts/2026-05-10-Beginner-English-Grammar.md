@@ -28,18 +28,18 @@ BE 動詞包含：
 
 ## 人稱代名詞與Be動詞
 
-肯定句句型是：`Pronoun + be verb + 補充說明`。
+句型結構是：`Pronoun + be verb + 狀態/形容詞/地點`。
 
-| Pronoun     | Be Verb | 縮寫型式與KK音標 |
-| ----------- | ------- | ---------------- |
-| I (我)      | am      | I'm `[aɪm]`      |
-| You (你)    | are     | you're `[jʊr]`   |
-| He (他)     | is      | he's `[hiz]`     |
-| She (她)    | is      | she's `[ʃiz]`    |
-| It (它)     | is      | it's `[ɪts]`     |
-| We (我們)   | are     | we're `[wɪr]`    |
-| You (你們)  | are     | you're `[jʊr]`   |
-| They (他們) | are     | they're `[ðɛr]`  |
+| Pronoun     | Be Verb | 縮寫型式        |
+| ----------- | ------- | --------------- |
+| I (我)      | am      | I'm `[aɪm]`     |
+| You (你)    | are     | you're `[jʊr]`  |
+| He (他)     | is      | he's `[hiz]`    |
+| She (她)    | is      | she's `[ʃiz]`   |
+| It (它)     | is      | it's `[ɪts]`    |
+| We (我們)   | are     | we're `[wɪr]`   |
+| You (你們)  | are     | you're `[jʊr]`  |
+| They (他們) | are     | they're `[ðɛr]` |
 
 Be 動詞後面可以接名詞或形容詞。接名詞時，要注意單數和複數：
 
@@ -47,22 +47,7 @@ Be 動詞後面可以接名詞或形容詞。接名詞時，要注意單數和�
 - 複數名詞通常會加 `-s` 或 `-es`，例如 `They are students.`、`We are friends.`
 - Be 動詞主要看主詞決定：`He is a student.`、`They are students.`；前面是單數主詞用 `is`，複數主詞多用 `are`。
 
-Be 動詞的否定句是在 be 動詞後面加 `not`。句型是：`Pronoun + be verb + not + 補充說明`。
-
-| Pronoun     | Be Verb 否定句 | 縮寫型式與KK音標                                   |
-| ----------- | -------------- | -------------------------------------------------- |
-| I (我)      | I am not       | I'm not `[aɪm nɑt]`                                |
-| You (你)    | You are not    | you're not `[jʊr nɑt]` / you aren't `[ju ɑrənt]`   |
-| He (他)     | He is not      | he's not `[hiz nɑt]` / he isn't `[hi ɪzənt]`       |
-| She (她)    | She is not     | she's not `[ʃiz nɑt]` / she isn't `[ʃi ɪzənt]`     |
-| It (它)     | It is not      | it's not `[ɪts nɑt]` / it isn't `[ɪt ɪzənt]`       |
-| We (我們)   | We are not     | we're not `[wɪr nɑt]` / we aren't `[wi ɑrənt]`     |
-| You (你們)  | You are not    | you're not `[jʊr nɑt]` / you aren't `[ju ɑrənt]`   |
-| They (他們) | They are not   | they're not `[ðɛr nɑt]` / they aren't `[ðe ɑrənt]` |
-
----
-
-## Examples
+### Examples
 
 ### I am
 
@@ -94,13 +79,47 @@ They are ready.
 他們準備好了。
 ```
 
+### 練習題
+
+{% include grammar/be-verb-affirmative-practice.html %}
+
 ---
 
-## Be 動詞練習題
+## Be 動詞的否定句是在 be 動詞後面加 `not`
 
-{% include grammar/be-verb-practice.html %}
+句型結構是： Pronoun + be verb + `not` + 狀態/形容詞/地點
 
-### Be動詞與常見地點介系詞
+| Pronoun     | Be Verb 否定句 | 縮寫型式                                           |
+| ----------- | -------------- | -------------------------------------------------- |
+| I (我)      | I am not       | I'm not `[aɪm nɑt]`                                |
+| You (你)    | You are not    | you're not `[jʊr nɑt]` / you aren't `[ju ɑrənt]`   |
+| He (他)     | He is not      | he's not `[hiz nɑt]` / he isn't `[hi ɪzənt]`       |
+| She (她)    | She is not     | she's not `[ʃiz nɑt]` / she isn't `[ʃi ɪzənt]`     |
+| It (它)     | It is not      | it's not `[ɪts nɑt]` / it isn't `[ɪt ɪzənt]`       |
+| We (我們)   | We are not     | we're not `[wɪr nɑt]` / we aren't `[wi ɑrənt]`     |
+| You (你們)  | You are not    | you're not `[jʊr nɑt]` / you aren't `[ju ɑrənt]`   |
+| They (他們) | They are not   | they're not `[ðɛr nɑt]` / they aren't `[ðe ɑrənt]` |
+
+### Examples
+
+```text
+I am not a teacher.
+我不是老師。
+
+She is not tired.
+她不累。
+
+They are not at home.
+他們不在家。
+```
+
+### 練習題
+
+{% include grammar/be-verb-negative-practice.html %}
+
+---
+
+## Be動詞與常見地點介系詞
 
 Be 動詞也常和地點介系詞片語一起使用，用來說明「某人或某物在哪裡」。句型是：`主詞 + be verb + 地點介系詞片語`。
 

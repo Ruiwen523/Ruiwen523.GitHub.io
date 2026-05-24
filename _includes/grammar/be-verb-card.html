@@ -11,6 +11,8 @@
   </div>
 
   {% assign speech_sentence = include.question | replace: '___', include.answer %}
+  {% assign option_source = include.options | default: 'am|is|are' %}
+  {% assign options = option_source | split: '|' %}
 
   <div class="question-row">
     <p class="question-text">
@@ -22,6 +24,7 @@
       hidden
       type="button"
       data-speak-sentence="{{ speech_sentence | escape }}"
+      data-question-template="{{ include.question | escape }}"
       aria-label="Play American pronunciation"
       title="Play American pronunciation"
     >
@@ -40,9 +43,10 @@
   {% endif %}
 
   <div class="options">
-    <button onclick="checkAnswer(this, 'am', '{{ include.answer }}')">am</button>
-    <button onclick="checkAnswer(this, 'is', '{{ include.answer }}')">is</button>
-    <button onclick="checkAnswer(this, 'are', '{{ include.answer }}')">are</button>
+    {% for option in options %}
+      {% assign trimmed_option = option | strip %}
+      <button onclick='checkAnswer(this, "{{ trimmed_option | escape }}", "{{ include.answer | escape }}")'>{{ trimmed_option }}</button>
+    {% endfor %}
   </div>
 
   <div class="result"></div>
