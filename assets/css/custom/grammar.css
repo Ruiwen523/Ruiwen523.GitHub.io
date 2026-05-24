@@ -1,3 +1,37 @@
+.grammar-voice-control {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 20px 0 24px;
+  padding: 14px 16px;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  background: #1e293b;
+}
+
+.grammar-voice-control__label {
+  flex: 0 0 auto;
+  color: #e2e8f0;
+  font-weight: 700;
+}
+
+.grammar-voice-control__select {
+  min-width: 0;
+  flex: 1 1 auto;
+  padding: 8px 10px;
+  border: 1px solid #475569;
+  border-radius: 8px;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+@media (max-width: 575px) {
+  .grammar-voice-control {
+    align-items: stretch;
+    flex-direction: column;
+  }
+}
+
 .grammar-carousel {
   margin-top: 24px;
 }

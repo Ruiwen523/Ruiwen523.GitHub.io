@@ -1,9 +1,111 @@
 document.addEventListener('DOMContentLoaded', () => {
+  initializeSpeechVoiceSelector();
   initializeGrammarCarousel();
 });
 
 let grammarAudioContext;
 let lastAudioTouchTime = 0;
+let selectedSpeechVoiceURI =
+  localStorage.getItem('grammarSpeechVoiceURI') || '';
+const defaultSpeechVoiceName = 'Microsoft Zira - English (United States)';
+
+function initializeSpeechVoiceSelector() {
+  if (!window.speechSynthesis || !window.SpeechSynthesisUtterance) {
+    return;
+  }
+
+  const firstGrammarGroup = document.querySelector('.grammar-card-group');
+  const contentRoot =
+    document.querySelector('.post-content') ||
+    document.querySelector('main article') ||
+    document.querySelector('main') ||
+    document.body;
+
+  if (!firstGrammarGroup || !contentRoot) {
+    return;
+  }
+
+  const voiceControl = document.createElement('section');
+  voiceControl.className = 'grammar-voice-control';
+  voiceControl.innerHTML = `
+    <label class="grammar-voice-control__label" for="grammarVoiceSelect">
+      播放聲音
+    </label>
+    <select class="grammar-voice-control__select" id="grammarVoiceSelect">
+      <option value="">${defaultSpeechVoiceName}</option>
+    </select>
+  `;
+
+  voiceControl.querySelector('.grammar-voice-control__label').textContent =
+    '播放聲音';
+
+  contentRoot.insertBefore(
+    voiceControl,
+    getDirectChild(contentRoot, firstGrammarGroup)
+  );
+
+  const voiceSelect = voiceControl.querySelector('#grammarVoiceSelect');
+
+  voiceSelect.addEventListener('change', () => {
+    selectedSpeechVoiceURI = voiceSelect.value;
+    localStorage.setItem('grammarSpeechVoiceURI', selectedSpeechVoiceURI);
+  });
+
+  const populateVoices = () => {
+    const voices = getAvailableSpeechVoices();
+    const currentValue = selectedSpeechVoiceURI;
+
+    voiceSelect.innerHTML = `<option value="">${defaultSpeechVoiceName}</option>`;
+
+    voices.forEach((voice) => {
+      const option = document.createElement('option');
+      option.value = voice.voiceURI;
+      option.textContent = `${voice.name} (${voice.lang})`;
+      voiceSelect.appendChild(option);
+    });
+
+    const defaultVoice = findDefaultSpeechVoice(voices);
+
+    if (voices.some((voice) => voice.voiceURI === currentValue)) {
+      voiceSelect.value = currentValue;
+    } else if (defaultVoice) {
+      selectedSpeechVoiceURI = defaultVoice.voiceURI;
+      voiceSelect.value = selectedSpeechVoiceURI;
+      localStorage.setItem('grammarSpeechVoiceURI', selectedSpeechVoiceURI);
+    } else {
+      selectedSpeechVoiceURI = '';
+      localStorage.removeItem('grammarSpeechVoiceURI');
+    }
+  };
+
+  populateVoices();
+  window.speechSynthesis.addEventListener('voiceschanged', populateVoices);
+}
+
+function getAvailableSpeechVoices() {
+  return window.speechSynthesis
+    .getVoices()
+    .filter((voice) => {
+      const lang = voice.lang.toLowerCase();
+      return lang === 'en-us' || lang === 'en-gb';
+    })
+    .slice()
+    .sort((a, b) => {
+      return `${a.lang} ${a.name}`.localeCompare(`${b.lang} ${b.name}`);
+    });
+}
+
+function findDefaultSpeechVoice(voices) {
+  return (
+    voices.find((voice) => voice.name === defaultSpeechVoiceName) ||
+    voices.find((voice) => {
+      return (
+        voice.name.toLowerCase().includes('microsoft zira') &&
+        voice.lang.toLowerCase() === 'en-us'
+      );
+    })
+  );
+}
 
 function initializeGrammarCarousel() {
   const groups = Array.from(document.querySelectorAll('.grammar-card-group'));
@@ -237,6 +339,10 @@ document.addEventListener(
 );
 
 function playSentenceAudio(audioButton) {
+  if (!audioButton) {
+    return;
+  }
+
   speakSentence(audioButton.dataset.speakSentence, audioButton);
 }
 
@@ -316,6 +422,7 @@ function checkAnswer(button, selected, correct) {
     button.classList.add('correct');
     result.innerHTML = 'Correct!';
     revealFullTranslation(card, selected);
+    playAnswerSentence(audioButton);
     playCorrectSound();
     renderAnalysis(card, selected);
   } else if (isAcceptableAnswer) {
@@ -323,6 +430,7 @@ function checkAnswer(button, selected, correct) {
     result.innerHTML =
       card.dataset.acceptableMessage || '文法正確，但不是最標準答案。';
     revealFullTranslation(card, selected);
+    playAnswerSentence(audioButton);
     renderAnalysis(card, selected);
   } else {
     button.classList.add('wrong');
@@ -331,6 +439,14 @@ function checkAnswer(button, selected, correct) {
 
     renderAnalysis(card, correct);
   }
+}
+
+function playAnswerSentence(audioButton) {
+  if (!audioButton) {
+    return;
+  }
+
+  playSentenceAudio(audioButton);
 }
 
 function buildSelectedSentence(card, selectedAnswer) {
@@ -435,27 +551,37 @@ function speakSentence(sentence, button) {
 
   const utterance = new SpeechSynthesisUtterance(sentence);
   const voices = window.speechSynthesis.getVoices();
-  const americanVoice =
-    voices.find((voice) => voice.lang === 'en-US') ||
-    voices.find((voice) => voice.lang.toLowerCase().startsWith('en-us'));
+  const selectedVoice = voices.find(
+    (voice) =>
+      voice.voiceURI === selectedSpeechVoiceURI ||
+      voice.name === selectedSpeechVoiceURI
+  );
+  const speechVoice = selectedVoice || findDefaultSpeechVoice(voices);
 
   utterance.lang = 'en-US';
   utterance.rate = 0.7;
   utterance.pitch = 1;
   utterance.volume = 1;
 
-  if (americanVoice) {
-    utterance.voice = americanVoice;
+  if (speechVoice) {
+    utterance.voice = speechVoice;
+    utterance.lang = utterance.voice.lang;
   }
 
-  button.classList.add('is-speaking');
+  if (button) {
+    button.classList.add('is-speaking');
+  }
 
   utterance.onend = () => {
-    button.classList.remove('is-speaking');
+    if (button) {
+      button.classList.remove('is-speaking');
+    }
   };
 
   utterance.onerror = () => {
-    button.classList.remove('is-speaking');
+    if (button) {
+      button.classList.remove('is-speaking');
+    }
   };
 
   window.speechSynthesis.speak(utterance);

@@ -28,18 +28,18 @@ BE 動詞包含：
 
 ## 人稱代名詞與Be動詞
 
-肯定句句型是：`Pronoun + be verb + 補充說明`。
+句型結構是：`Pronoun + be verb + 狀態/形容詞/地點`。
 
-| Pronoun     | Be Verb | 縮寫型式與KK音標 |
-| ----------- | ------- | ---------------- |
-| I (我)      | am      | I'm `[aɪm]`      |
-| You (你)    | are     | you're `[jʊr]`   |
-| He (他)     | is      | he's `[hiz]`     |
-| She (她)    | is      | she's `[ʃiz]`    |
-| It (它)     | is      | it's `[ɪts]`     |
-| We (我們)   | are     | we're `[wɪr]`    |
-| You (你們)  | are     | you're `[jʊr]`   |
-| They (他們) | are     | they're `[ðɛr]`  |
+| Pronoun     | Be Verb | 縮寫型式        |
+| ----------- | ------- | --------------- |
+| I (我)      | am      | I'm `[aɪm]`     |
+| You (你)    | are     | you're `[jʊr]`  |
+| He (他)     | is      | he's `[hiz]`    |
+| She (她)    | is      | she's `[ʃiz]`   |
+| It (它)     | is      | it's `[ɪts]`    |
+| We (我們)   | are     | we're `[wɪr]`   |
+| You (你們)  | are     | you're `[jʊr]`  |
+| They (他們) | are     | they're `[ðɛr]` |
 
 Be 動詞後面可以接名詞或形容詞。接名詞時，要注意單數和複數：
 
@@ -47,22 +47,7 @@ Be 動詞後面可以接名詞或形容詞。接名詞時，要注意單數和�
 - 複數名詞通常會加 `-s` 或 `-es`，例如 `They are students.`、`We are friends.`
 - Be 動詞主要看主詞決定：`He is a student.`、`They are students.`；前面是單數主詞用 `is`，複數主詞多用 `are`。
 
-Be 動詞的否定句是在 be 動詞後面加 `not`。句型是：`Pronoun + be verb + not + 補充說明`。
-
-| Pronoun     | Be Verb 否定句 | 縮寫型式與KK音標                                   |
-| ----------- | -------------- | -------------------------------------------------- |
-| I (我)      | I am not       | I'm not `[aɪm nɑt]`                                |
-| You (你)    | You are not    | you're not `[jʊr nɑt]` / you aren't `[ju ɑrənt]`   |
-| He (他)     | He is not      | he's not `[hiz nɑt]` / he isn't `[hi ɪzənt]`       |
-| She (她)    | She is not     | she's not `[ʃiz nɑt]` / she isn't `[ʃi ɪzənt]`     |
-| It (它)     | It is not      | it's not `[ɪts nɑt]` / it isn't `[ɪt ɪzənt]`       |
-| We (我們)   | We are not     | we're not `[wɪr nɑt]` / we aren't `[wi ɑrənt]`     |
-| You (你們)  | You are not    | you're not `[jʊr nɑt]` / you aren't `[ju ɑrənt]`   |
-| They (他們) | They are not   | they're not `[ðɛr nɑt]` / they aren't `[ðe ɑrənt]` |
-
----
-
-## Examples
+### Examples
 
 ### I am
 
@@ -94,13 +79,47 @@ They are ready.
 他們準備好了。
 ```
 
+### 練習題
+
+{% include grammar/be-verb-affirmative-practice.html %}
+
 ---
 
-## Be 動詞練習題
+## Be 動詞的否定句是在 be 動詞後面加 `not`
 
-{% include grammar/be-verb-practice.html %}
+句型結構是： Pronoun + be verb + `not` + 狀態/形容詞/地點
 
-### Be動詞與常見地點介系詞
+| Pronoun     | Be Verb 否定句 | 縮寫型式                                           |
+| ----------- | -------------- | -------------------------------------------------- |
+| I (我)      | I am not       | I'm not `[aɪm nɑt]`                                |
+| You (你)    | You are not    | you're not `[jʊr nɑt]` / you aren't `[ju ɑrənt]`   |
+| He (他)     | He is not      | he's not `[hiz nɑt]` / he isn't `[hi ɪzənt]`       |
+| She (她)    | She is not     | she's not `[ʃiz nɑt]` / she isn't `[ʃi ɪzənt]`     |
+| It (它)     | It is not      | it's not `[ɪts nɑt]` / it isn't `[ɪt ɪzənt]`       |
+| We (我們)   | We are not     | we're not `[wɪr nɑt]` / we aren't `[wi ɑrənt]`     |
+| You (你們)  | You are not    | you're not `[jʊr nɑt]` / you aren't `[ju ɑrənt]`   |
+| They (他們) | They are not   | they're not `[ðɛr nɑt]` / they aren't `[ðe ɑrənt]` |
+
+### Examples
+
+```text
+I am not a teacher.
+我不是老師。
+
+She is not tired.
+她不累。
+
+They are not at home.
+他們不在家。
+```
+
+### 練習題
+
+{% include grammar/be-verb-negative-practice.html %}
+
+---
+
+## Be動詞與常見地點介系詞
 
 Be 動詞也常和地點介系詞片語一起使用，用來說明「某人或某物在哪裡」。句型是：`主詞 + be verb + 地點介系詞片語`。
 
@@ -183,13 +202,13 @@ ___ is my brother.
 
 {% include grammar/card-group-start.html %}
 
-{% include grammar/pronoun-card.html title="Question 1" question="___ am happy." prompt_translation="___ 很開心。" translation="我很開心。" options=beginner_subject_options answer="I" analysis='[{"word":"I","label":"Subj","desc":"主格，表示我。"},{"word":"am","label":"Be","desc":"I 要搭配 am。"},{"word":"happy","label":"Adj","desc":"形容詞，表示開心。"}]' %}
-{% include grammar/pronoun-card.html title="Question 2" question="___ are my friend." prompt_translation="___ 是我的朋友。" translation="你是我的朋友。" options=beginner_subject_options answer="You" analysis='[{"word":"You","label":"Subj","desc":"主格，可表示你。"},{"word":"are","label":"Be","desc":"You 要搭配 are。"},{"word":"my friend","label":"N","desc":"名詞片語。"}]' %}
-{% include grammar/pronoun-card.html title="Question 3" question="___ is a teacher." prompt_translation="___ 是老師。" translation="他是老師。" options=beginner_subject_options answer="He" correct_answers="He|She|It" answer_translations='{"He":"他是老師。","She":"她是老師。","It":"它是老師。"}' analysis='[{"word":"He / She / It","label":"Subj","desc":"He、She、It 都是第三人稱單數主格，可以搭配 is。"},{"word":"is","label":"Be","desc":"第三人稱單數主詞要搭配 is。"},{"word":"a teacher","label":"N","desc":"名詞片語。"},{"label":"Note","desc":"這題練習的是 be 動詞搭配。He is、She is、It is 在文法上都正確；實際語意要看上下文。"}]' %}
-{% include grammar/pronoun-card.html title="Question 4" question="___ is my sister." prompt_translation="___ 是我的姐姐/妹妹。" translation="她是我的姐姐/妹妹。" options=beginner_subject_options answer="She" analysis='[{"word":"She","label":"Subj","desc":"主格，表示她。"},{"word":"is","label":"Be","desc":"She 要搭配 is。"},{"word":"my sister","label":"N","desc":"名詞片語。"}]' %}
-{% include grammar/pronoun-card.html title="Question 5" question="___ is a dog." prompt_translation="___ 是一隻狗。" translation="它是一隻狗。" options=beginner_subject_options answer="It" correct_answers="He|She|It" answer_translations='{"He":"牠是一隻公狗。","She":"牠是一隻母狗。","It":"它是一隻狗。"}' analysis='[{"word":"He / She / It","label":"Subj","desc":"He、She、It 都是第三人稱單數主格，可以搭配 is。"},{"word":"is","label":"Be","desc":"第三人稱單數主詞要搭配 is。"},{"word":"a dog","label":"N","desc":"名詞片語。"},{"label":"Note","desc":"如果知道動物性別，可以用 he 或 she；不知道或不強調性別時，通常用 it。"}]' %}
-{% include grammar/pronoun-card.html title="Question 6" question="___ are students." prompt_translation="___ 是學生。" translation="我們是學生。" options=beginner_subject_options answer="We" correct_answers="You|We|They" answer_translations='{"You":"你們是學生。","We":"我們是學生。","They":"他們是學生。"}' analysis='[{"word":"You / We / They","label":"Subj","desc":"You、We、They 都可以搭配 are。"},{"word":"are","label":"Be","desc":"are 可搭配 you、we、they。"},{"word":"students","label":"N","desc":"複數名詞。"},{"label":"Note","desc":"這題練習的是 are 的主詞搭配。You are、We are、They are 在文法上都正確；中文意思會依選到的主詞改變。"}]' %}
-{% include grammar/pronoun-card.html title="Question 7" question="___ are my classmates." prompt_translation="___ 是我的同學。" translation="他們是我的同學。" options=beginner_subject_options answer="They" correct_answers="You|They" answer_translations='{"You":"你們是我的同學。","They":"他們是我的同學。"}' analysis='[{"word":"You / They","label":"Subj","desc":"You 和 They 都可以搭配 are，後面也可以接複數名詞 classmates。"},{"word":"are","label":"Be","desc":"are 可搭配 you 或 they。"},{"word":"my classmates","label":"N","desc":"複數名詞片語。"},{"label":"Note","desc":"You are my classmates. 文法算正確；They are my classmates. 通常是更標準的預設答案。They 是由「語意邏輯」和「情境機率」決定的：這句話通常帶有「介紹」性質，說話者多半是在向第三者介紹一群不在對話中的人。"}]' %}
+{% include grammar/pronoun-card.html title="Question 1" question="___ am happy." prompt_translation="我很開心。" translation="我很開心。" options=beginner_subject_options answer="I" analysis='[{"word":"I","label":"Subj","desc":"主格，表示我。"},{"word":"am","label":"Be","desc":"I 要搭配 am。"},{"word":"happy","label":"Adj","desc":"形容詞，表示開心。"}]' %}
+{% include grammar/pronoun-card.html title="Question 2" question="___ are my friend." prompt_translation="你是我的朋友。" translation="你是我的朋友。" options=beginner_subject_options answer="You" analysis='[{"word":"You","label":"Subj","desc":"主格，表示你。"},{"word":"are","label":"Be","desc":"You 要搭配 are。"},{"word":"my friend","label":"N","desc":"名詞片語。"}]' %}
+{% include grammar/pronoun-card.html title="Question 3" question="___ is a teacher." prompt_translation="他是老師。" translation="他是老師。" options=beginner_subject_options answer="He" analysis='[{"word":"He","label":"Subj","desc":"主格，表示他。"},{"word":"is","label":"Be","desc":"He 是第三人稱單數主詞，要搭配 is。"},{"word":"a teacher","label":"N","desc":"名詞片語。"}]' %}
+{% include grammar/pronoun-card.html title="Question 4" question="___ is my sister." prompt_translation="她是我的姐姐/妹妹。" translation="她是我的姐姐/妹妹。" options=beginner_subject_options answer="She" analysis='[{"word":"She","label":"Subj","desc":"主格，表示她。"},{"word":"is","label":"Be","desc":"She 要搭配 is。"},{"word":"my sister","label":"N","desc":"名詞片語。"}]' %}
+{% include grammar/pronoun-card.html title="Question 5" question="___ is a dog." prompt_translation="它是一隻狗。" translation="它是一隻狗。" options=beginner_subject_options answer="It" analysis='[{"word":"It","label":"Subj","desc":"主格，表示它。"},{"word":"is","label":"Be","desc":"It 是第三人稱單數主詞，要搭配 is。"},{"word":"a dog","label":"N","desc":"名詞片語。"}]' %}
+{% include grammar/pronoun-card.html title="Question 6" question="___ are students." prompt_translation="我們是學生。" translation="我們是學生。" options=beginner_subject_options answer="We" analysis='[{"word":"We","label":"Subj","desc":"主格，表示我們。"},{"word":"are","label":"Be","desc":"We 要搭配 are。"},{"word":"students","label":"N","desc":"複數名詞。"}]' %}
+{% include grammar/pronoun-card.html title="Question 7" question="___ are my classmates." prompt_translation="他們是我的同學。" translation="他們是我的同學。" options=beginner_subject_options answer="They" analysis='[{"word":"They","label":"Subj","desc":"主格，表示他們。"},{"word":"are","label":"Be","desc":"They 要搭配 are。"},{"word":"my classmates","label":"N","desc":"複數名詞片語。"}]' %}
 
 {% include grammar/card-group-end.html %}
 
