@@ -237,6 +237,10 @@ document.addEventListener(
 );
 
 function playSentenceAudio(audioButton) {
+  if (!audioButton) {
+    return;
+  }
+
   speakSentence(audioButton.dataset.speakSentence, audioButton);
 }
 
@@ -316,6 +320,7 @@ function checkAnswer(button, selected, correct) {
     button.classList.add('correct');
     result.innerHTML = 'Correct!';
     revealFullTranslation(card, selected);
+    playAnswerSentence(audioButton);
     playCorrectSound();
     renderAnalysis(card, selected);
   } else if (isAcceptableAnswer) {
@@ -323,6 +328,7 @@ function checkAnswer(button, selected, correct) {
     result.innerHTML =
       card.dataset.acceptableMessage || '文法正確，但不是最標準答案。';
     revealFullTranslation(card, selected);
+    playAnswerSentence(audioButton);
     renderAnalysis(card, selected);
   } else {
     button.classList.add('wrong');
@@ -331,6 +337,14 @@ function checkAnswer(button, selected, correct) {
 
     renderAnalysis(card, correct);
   }
+}
+
+function playAnswerSentence(audioButton) {
+  if (!audioButton) {
+    return;
+  }
+
+  playSentenceAudio(audioButton);
 }
 
 function buildSelectedSentence(card, selectedAnswer) {
@@ -448,14 +462,20 @@ function speakSentence(sentence, button) {
     utterance.voice = americanVoice;
   }
 
-  button.classList.add('is-speaking');
+  if (button) {
+    button.classList.add('is-speaking');
+  }
 
   utterance.onend = () => {
-    button.classList.remove('is-speaking');
+    if (button) {
+      button.classList.remove('is-speaking');
+    }
   };
 
   utterance.onerror = () => {
-    button.classList.remove('is-speaking');
+    if (button) {
+      button.classList.remove('is-speaking');
+    }
   };
 
   window.speechSynthesis.speak(utterance);
