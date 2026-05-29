@@ -2,7 +2,7 @@
 title: Beginner-English-Grammar
 author: ruiwen
 date: 2026-05-10 23:35:00 +0800
-last_modified_at: 2026-05-14 00:00:00 +0800
+last_modified_at: 2026-05-29 00:00:00 +0800
 categories: [Blogging, Tutorial]
 tags: [English, Grammar]
 render_with_liquid: true
@@ -156,6 +156,138 @@ Be 動詞也常和地點介系詞片語一起使用，用來說明「某人或�
 {% include grammar/pronoun-card.html title="Question 7" question="The bags are ___ the door." prompt_translation="那些包包在門後面。" translation="那些包包在門後面。" options=beginner_be_place_options answer="behind" analysis='[{"word":"The bags are","label":"Be","desc":"The bags 是複數名詞，搭配 are。"},{"word":"behind","label":"Prep","desc":"behind 表示在後面。"},{"word":"the door","label":"Place","desc":"包包的位置在門後面，所以用 behind。"}]' %}
 
 {% include grammar/card-group-end.html %}
+
+## 現在進行式
+
+現在進行式用來表達「現在正在做的動作」，句型是：`主詞 + be 動詞 + V-ing`。
+
+| 主詞             | Be 動詞 | 現在進行式範例         | 中文意思         |
+| ---------------- | ------- | ---------------------- | ---------------- |
+| I                | am      | I am reading.          | 我正在閱讀。     |
+| He / She / It    | is      | She is cooking.        | 她正在煮飯。     |
+| You / We / They  | are     | They are studying.     | 他們正在讀書。   |
+| 單數名詞         | is      | The baby is sleeping.  | 嬰兒正在睡覺。   |
+| 複數名詞         | are     | The students are writing. | 學生們正在寫字。 |
+
+常見提示字：
+
+- `now`：現在
+- `right now`：此刻
+- `today`：今天這段時間
+- `at the moment`：此刻
+
+快速解題技巧：
+
+1. 先看句子是不是在說「正在做某個動作」。
+2. 如果是動作，找主詞，再選 `am / is / are`。
+3. 動詞要改成 `V-ing`，例如 `read -> reading`、`run -> running`、`write -> writing`。
+4. 如果只是身分、狀態或位置，例如 `He is a teacher.`、`The book is interesting.`、`We are in the classroom.`，用 Be 動詞，不用現在進行式。
+
+### 現在進行式練習題
+
+{% include grammar/present-continuous-practice.html %}
+
+### 現在進行式或 Be 動詞：句子選擇題
+
+下面每題請先看中文意思，再判斷例句應該用「現在進行式」還是「Be 動詞」。
+
+{% include grammar/present-continuous-or-be-practice.html %}
+
+### 現在進行式轉否定句、疑問句、Wh-問句
+
+現在進行式的核心結構是：`主詞 + am / is / are + V-ing`。
+
+只要記住一件事：現在進行式裡的 `am / is / are` 就是負責變化的位置，後面的 `V-ing` 不要改回原形。
+
+#### 轉成否定句
+
+否定句是在 `am / is / are` 後面加 `not`。
+
+| 肯定句 | 否定句 | 中文意思 |
+| ------ | ------ | -------- |
+| I am reading. | I am not reading. | 我沒有正在閱讀。 |
+| She is cooking. | She is not cooking. | 她沒有正在煮飯。 |
+| They are studying. | They are not studying. | 他們沒有正在讀書。 |
+
+常見縮寫：
+
+| 原形 | 縮寫 |
+| ---- | ---- |
+| is not | isn't |
+| are not | aren't |
+| am not | 通常不縮成 amn't，常寫 I am not 或 I'm not |
+
+快速步驟：
+
+1. 找到 `am / is / are`。
+2. 在後面加 `not`。
+3. 保留 `V-ing`。
+
+```text
+He is running.
+He is not running.
+他沒有正在跑步。
+```
+
+#### 轉成疑問句
+
+Yes / No 疑問句把 `am / is / are` 移到句首。
+
+| 肯定句 | 疑問句 | 中文意思 |
+| ------ | ------ | -------- |
+| You are watching TV. | Are you watching TV? | 你正在看電視嗎？ |
+| She is writing an email. | Is she writing an email? | 她正在寫電子郵件嗎？ |
+| They are playing basketball. | Are they playing basketball? | 他們正在打籃球嗎？ |
+
+快速步驟：
+
+1. 找到 `am / is / are`。
+2. 把它移到主詞前面。
+3. 保留 `V-ing`。
+4. 句尾加問號。
+
+```text
+The baby is sleeping.
+Is the baby sleeping?
+嬰兒正在睡覺嗎？
+```
+
+#### 轉成 Wh-問句
+
+Wh-問句是在 Yes / No 疑問句前面加 Wh-字，例如 `What`、`Where`、`Who`、`Why`、`When`、`How`。
+
+基本結構是：`Wh-字 + am / is / are + 主詞 + V-ing?`
+
+| 想問的資訊 | Wh-字 | 範例 | 中文意思 |
+| ---------- | ----- | ---- | -------- |
+| 問動作內容 | What | What are you doing? | 你正在做什麼？ |
+| 問地點 | Where | Where is he running? | 他正在哪裡跑步？ |
+| 問人物 | Who | Who is cooking dinner? | 誰正在煮晚餐？ |
+| 問原因 | Why | Why are they studying now? | 他們為什麼現在正在讀書？ |
+| 問時間 | When | When are we leaving? | 我們什麼時候要離開？ |
+| 問方式 | How | How is she learning English? | 她正在如何學英文？ |
+
+快速步驟：
+
+1. 先決定要問什麼資訊，選 Wh-字。
+2. 接著照疑問句順序：`am / is / are + 主詞 + V-ing`。
+3. 如果 Wh-字本身就是主詞，例如 `Who is cooking?`，後面直接接 `is + V-ing`。
+
+```text
+They are studying English.
+Are they studying English?
+What are they studying?
+他們正在讀什麼？
+```
+
+快速對照：
+
+| 句型 | 公式 | 範例 |
+| ---- | ---- | ---- |
+| 肯定句 | 主詞 + be + V-ing | She is cooking. |
+| 否定句 | 主詞 + be + not + V-ing | She is not cooking. |
+| 疑問句 | Be + 主詞 + V-ing? | Is she cooking? |
+| Wh-問句 | Wh + be + 主詞 + V-ing? | What is she cooking? |
 
 ## 人稱代名詞的相關說明與練習[^1]
 
