@@ -481,6 +481,45 @@ What are they studying?
 
 {% include grammar/simple-past-be-or-did-practice.html %}
 
+## 不規則動詞過去式
+
+有些動詞的過去式不是加 `-ed`，而是整個字改變，這些叫不規則動詞。
+
+| 原形 | 過去式 | 範例 |
+| ---- | ------ | ---- |
+| go | went | I went to school. |
+| eat | ate | She ate breakfast. |
+| see | saw | They saw a movie. |
+| buy | bought | He bought a bag. |
+| come | came | We came home. |
+| drink | drank | My father drank coffee. |
+
+快速解題技巧：
+
+1. 看到過去時間，例如 `yesterday / last night / this morning`，先判斷要不要用過去式。
+2. 如果動詞是不規則動詞，不要加 `-ed`。
+3. 肯定句用過去式；否定句與疑問句有 `did` 時，後面動詞要改回原形。
+
+{% include grammar/irregular-past-practice.html %}
+
+## 一般動詞過去式否定句與疑問句
+
+一般動詞過去式的否定句與疑問句都會用到 `did`。重點是：用了 `did` 以後，主要動詞要改回原形。
+
+| 句型 | 公式 | 範例 |
+| ---- | ---- | ---- |
+| 否定句 | 主詞 + did not + 原形動詞 | I did not eat breakfast. |
+| 疑問句 | Did + 主詞 + 原形動詞? | Did you eat breakfast? |
+| Wh-問句 | Wh + did + 主詞 + 原形動詞? | What did you eat? |
+
+### 一般動詞過去式否定句練習
+
+{% include grammar/simple-past-negative-sentences-practice.html %}
+
+### 一般動詞過去式疑問句練習
+
+{% include grammar/simple-past-question-sentences-practice.html %}
+
 ## 過去進行式
 
 過去進行式用來表達「過去某個時間正在做的動作」，句型是：`主詞 + was / were + V-ing`。
@@ -712,6 +751,63 @@ He eats rice.
 
 {% include grammar/card-group-end.html %}
 
+## 時間介系詞 at / on / in
+
+時間介系詞用來說明事情發生的時間。初學時先記住三個最常見規則：
+
+| 介系詞 | 用法 | 範例 |
+| ------ | ---- | ---- |
+| at | 明確時間點 | at 7:00 |
+| on | 星期幾、特定日期 | on Monday, on July 10 |
+| in | 月份、季節、年份、早上/下午/晚上 | in May, in winter, in the morning |
+
+快速解題技巧：
+
+1. 看到幾點，用 `at`。
+2. 看到星期幾或完整日期，用 `on`。
+3. 看到月份、季節或一段較大的時間，用 `in`。
+
+{% include grammar/time-prepositions-practice.html %}
+
+## 指示代名詞 this / that / these / those
+
+指示代名詞用來指出「這個、那個、這些、那些」，要注意距離和單複數。
+
+| 指示代名詞 | 距離 | 單複數 | 範例 |
+| ---------- | ---- | ------ | ---- |
+| this | 近 | 單數 | This is my book. |
+| that | 遠 | 單數 | That is your bag. |
+| these | 近 | 複數 | These are my books. |
+| those | 遠 | 複數 | Those are your shoes. |
+
+快速解題技巧：
+
+1. 先看距離：近用 `this / these`，遠用 `that / those`。
+2. 再看名詞數量：單數用 `this / that`，複數用 `these / those`。
+3. `this / that` 搭配 `is`；`these / those` 搭配 `are`。
+
+{% include grammar/demonstratives-practice.html %}
+
+## 量詞 some / any / much / many
+
+量詞用來表示數量。它會和可數、不可數名詞連動。
+
+| 量詞 | 用法 | 範例 |
+| ---- | ---- | ---- |
+| some | 肯定句中的一些，可接複數或不可數名詞 | some apples, some water |
+| any | 否定句或疑問句中的一些、任何 | any homework |
+| many | 很多，接複數可數名詞 | many books |
+| much | 很多，接不可數名詞 | much water |
+
+快速解題技巧：
+
+1. 複數可數名詞用 `many`。
+2. 不可數名詞用 `much`。
+3. 肯定句常用 `some`；否定句與疑問句常用 `any`。
+4. 問數量時，可數用 `How many`，不可數用 `How much`。
+
+{% include grammar/quantifiers-practice.html %}
+
 ## 可數與不可數名詞
 
 名詞可以先分成「可數名詞」和「不可數名詞」。
@@ -802,6 +898,65 @@ He eats rice.
 4. 問句把情態助動詞放句首。
 
 {% include grammar/modals-practice.html %}
+
+## 比較級與最高級
+
+比較級用來比較兩個人事物，最高級用來表示一群裡面最突出的。
+
+| 類型 | 公式 | 範例 |
+| ---- | ---- | ---- |
+| 比較級 | 形容詞比較級 + than | Tom is taller than Ben. |
+| 最高級 | the + 形容詞最高級 | She is the best student. |
+| 多音節比較級 | more + 形容詞 | more difficult |
+| 多音節最高級 | the most + 形容詞 | the most interesting |
+
+快速解題技巧：
+
+1. 看到 `than`，通常用比較級。
+2. 看到 `the` 加上一群範圍，例如 `in the class`，常用最高級。
+3. 短形容詞常加 `-er / -est`；長形容詞常用 `more / most`。
+
+{% include grammar/comparatives-superlatives-practice.html %}
+
+## 連接詞 and / but / because / so
+
+連接詞可以把兩個想法連在一起，讓句子更完整。
+
+| 連接詞 | 中文意思 | 用法 |
+| ------ | -------- | ---- |
+| and | 和、而且 | 連接相同方向的資訊 |
+| but | 但是 | 表示轉折 |
+| because | 因為 | 說明原因 |
+| so | 所以 | 說明結果 |
+
+快速解題技巧：
+
+1. 兩個資訊都成立、方向一致，用 `and`。
+2. 前後意思相反或轉折，用 `but`。
+3. 後面說原因，用 `because`。
+4. 後面說結果，用 `so`。
+
+{% include grammar/conjunctions-practice.html %}
+
+## 命令句與 Don't 命令句
+
+命令句用來請別人做事，通常直接用原形動詞開頭。否定命令句用 `Don't + 原形動詞`。
+
+| 句型 | 公式 | 範例 |
+| ---- | ---- | ---- |
+| 肯定命令句 | 原形動詞 + ... | Open the door. |
+| 禮貌命令句 | Please + 原形動詞 + ... | Please sit down. |
+| 否定命令句 | Don't + 原形動詞 + ... | Don't run. |
+| Let's 句型 | Let's + 原形動詞 + ... | Let's study English. |
+
+快速解題技巧：
+
+1. 命令句不需要主詞 `you`。
+2. 動詞用原形。
+3. 否定命令句用 `Don't` 放句首。
+4. `Let's` 後面也接原形動詞。
+
+{% include grammar/imperatives-practice.html %}
 
 ## 人稱代名詞 - 受格練習
 
