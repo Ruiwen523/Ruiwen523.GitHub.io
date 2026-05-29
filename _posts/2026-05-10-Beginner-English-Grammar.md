@@ -561,6 +561,248 @@ Wh-問句是在疑問句前面加 Wh-字，基本結構是：`Wh-字 + was / wer
 
 {% include grammar/past-continuous-practice.html %}
 
+## 一般動詞現在式
+
+一般動詞現在式用來表達習慣、事實、每天或常常發生的動作。
+
+| 主詞 | 動詞形式 | 範例 | 中文意思 |
+| ---- | -------- | ---- | -------- |
+| I / You / We / They | 原形動詞 | I eat breakfast. | 我吃早餐。 |
+| He / She / It / 單數名詞 | 動詞加 `s` 或 `es` | She eats breakfast. | 她吃早餐。 |
+
+快速解題技巧：
+
+1. 先看句子是不是在說習慣或事實。
+2. 找主詞。
+3. 主詞是 `he / she / it / 單數名詞`，動詞通常加 `s` 或 `es`。
+4. 主詞是 `I / you / we / they / 複數名詞`，動詞用原形。
+
+{% include grammar/simple-present-practice.html %}
+
+## 一般動詞否定句
+
+一般動詞否定句不用直接在動詞後面加 `not`，而是用 `do not` 或 `does not`。
+
+| 主詞 | 否定句公式 | 範例 |
+| ---- | ---------- | ---- |
+| I / You / We / They | 主詞 + do not + 原形動詞 | I do not drink coffee. |
+| He / She / It / 單數名詞 | 主詞 + does not + 原形動詞 | She does not play tennis. |
+
+快速解題技巧：
+
+1. 先確認句子是一般動詞，不是 Be 動詞。
+2. 主詞是第三人稱單數，用 `does not`。
+3. 用了 `does not` 以後，主要動詞要改回原形：`does not plays` 是錯的，應該是 `does not play`。
+
+{% include grammar/simple-present-negative-practice.html %}
+
+## 一般動詞疑問句
+
+一般動詞疑問句要把 `Do` 或 `Does` 放到句首。
+
+| 主詞 | 問句公式 | 範例 |
+| ---- | -------- | ---- |
+| I / You / We / They | Do + 主詞 + 原形動詞? | Do you like English? |
+| He / She / It / 單數名詞 | Does + 主詞 + 原形動詞? | Does she like English? |
+
+快速解題技巧：
+
+1. 先確認句子是一般動詞問句。
+2. 主詞是第三人稱單數，用 `Does`。
+3. 用了 `Does` 以後，主要動詞用原形。
+
+{% include grammar/simple-present-question-practice.html %}
+
+## Wh-問句與助動詞Do問句
+
+Wh-問句用來問「具體資訊」，常見開頭有 `what`、`who`、`where`、`when`、`why`、`how`。
+
+| Wh-字 | 問什麼       | 範例                     | 中文意思         |
+| ----- | ------------ | ------------------------ | ---------------- |
+| what  | 什麼         | What is this?            | 這是什麼？       |
+| who   | 誰           | Who is she?              | 她是誰？         |
+| where | 哪裡         | Where do you live?       | 你住在哪裡？     |
+| when  | 何時         | When do you study?       | 你何時讀書？     |
+| why   | 為什麼       | Why do you like it?      | 你為什麼喜歡它？ |
+| how   | 如何、怎麼樣 | How do you go to school? | 你怎麼去學校？   |
+
+如果 Wh-問句後面接一般動詞，通常要加助動詞 `do` 或 `does`：
+
+```text
+Where do you live?
+你住在哪裡？
+
+What does she want?
+她想要什麼？
+
+When do they play soccer?
+他們什麼時候踢足球？
+```
+
+`Do` 問句通常回答 yes / no：
+
+```text
+Do you like coffee?
+Yes, I do.
+No, I do not.
+```
+
+`Wh` 引導式問句通常回答具體資訊：
+
+```text
+Where do you live?
+I live in Taipei.
+
+What does he eat?
+He eats rice.
+```
+
+快速比較：
+
+| 問句種類 | 開頭                                  | 回答方式 | 範例               |
+| -------- | ------------------------------------- | -------- | ------------------ |
+| Do 問句  | Do / Does                             | Yes / No | Do you work here?  |
+| Wh-問句  | What / Who / Where / When / Why / How | 具體資訊 | Where do you work? |
+
+{% assign beginner_wh_do_options = "What|Who|Where|When|Why|How|Do|Does" %}
+
+{% include grammar/card-group-start.html %}
+
+{% include grammar/pronoun-card.html title="Question 1" question="___ do you live?" prompt_translation="你住在哪裡？" translation="你住在哪裡？" options=beginner_wh_do_options answer="Where" analysis='[{"word":"Where","label":"Wh","desc":"問地點用 Where。"},{"word":"do","label":"Aux","desc":"一般動詞 live 的問句用 do。"},{"word":"live","label":"V","desc":"動詞原形。"}]' %}
+{% include grammar/pronoun-card.html title="Question 2" question="___ does she want?" prompt_translation="她想要什麼？" translation="她想要什麼？" options=beginner_wh_do_options answer="What" analysis='[{"word":"What","label":"Wh","desc":"問東西或內容用 What。"},{"word":"does","label":"Aux","desc":"主詞 she 搭配 does。"},{"word":"want","label":"V","desc":"用了 does 後，動詞用原形 want。"}]' %}
+{% include grammar/pronoun-card.html title="Question 3" question="___ is your brother?" prompt_translation="你的哥哥/弟弟是誰？" translation="你的哥哥/弟弟是誰？" options=beginner_wh_do_options answer="Who" analysis='[{"word":"Who","label":"Wh","desc":"問人用 Who。"},{"word":"is","label":"Be","desc":"這句是 be 動詞問句。"},{"word":"your brother","label":"N","desc":"名詞片語。"}]' %}
+{% include grammar/pronoun-card.html title="Question 4" question="___ do they study?" prompt_translation="他們什麼時候讀書？" translation="他們什麼時候讀書？" options=beginner_wh_do_options answer="When" analysis='[{"word":"When","label":"Wh","desc":"問時間用 When。"},{"word":"do","label":"Aux","desc":"主詞 they 搭配 do。"},{"word":"study","label":"V","desc":"一般動詞原形。"}]' %}
+{% include grammar/pronoun-card.html title="Question 5" question="___ do you go to school?" prompt_translation="你怎麼去學校？" translation="你怎麼去學校？" options=beginner_wh_do_options answer="How" analysis='[{"word":"How","label":"Wh","desc":"問方法或方式用 How。"},{"word":"do","label":"Aux","desc":"一般動詞 go 的問句用 do。"},{"word":"go","label":"V","desc":"動詞原形。"}]' %}
+{% include grammar/pronoun-card.html title="Question 6" question="___ you like coffee?" prompt_translation="你喜歡咖啡嗎？" translation="你喜歡咖啡嗎？" options=beginner_wh_do_options answer="Do" analysis='[{"word":"Do","label":"Aux","desc":"這題是 Yes/No 問句，不是 Wh-問句。"},{"word":"you","label":"Subj","desc":"主詞 you。"},{"word":"like","label":"V","desc":"一般動詞原形。"}]' %}
+{% include grammar/pronoun-card.html title="Question 7" question="___ he work here?" prompt_translation="他在這裡工作嗎？" translation="他在這裡工作嗎？" options=beginner_wh_do_options answer="Does" analysis='[{"word":"Does","label":"Aux","desc":"主詞 he 是第三人稱單數，一般動詞問句用 Does。"},{"word":"work","label":"V","desc":"用了 Does 後，動詞用原形 work。"},{"word":"here","label":"Place","desc":"地點副詞。"}]' %}
+
+{% include grammar/card-group-end.html %}
+
+## 頻率副詞
+
+頻率副詞用來表示「多久做一次」。初學時先記住這幾個常見程度：
+
+| 頻率副詞  | 中文意思 | 大約頻率 | 範例                         |
+| --------- | -------- | -------- | ---------------------------- |
+| always    | 總是     | 100%     | I always eat breakfast.      |
+| usually   | 通常     | 約 80%   | She usually walks to school. |
+| often     | 常常     | 約 60%   | We often play basketball.    |
+| sometimes | 有時候   | 約 40%   | He sometimes drinks tea.     |
+| seldom    | 很少     | 約 20%   | They seldom watch TV.        |
+| never     | 從不     | 0%       | I never smoke.               |
+
+頻率副詞最常放在一般動詞前面；如果句子有 be 動詞，頻率副詞通常放在 be 動詞後面。
+
+| 句型            | 位置           | 範例                      |
+| --------------- | -------------- | ------------------------- |
+| 主詞 + 一般動詞 | 放在一般動詞前 | I `usually` get up early. |
+| 主詞 + be 動詞  | 放在 be 動詞後 | She is `often` tired.     |
+
+{% assign beginner_frequency_options = "always|usually|often|sometimes|seldom|never" %}
+
+{% include grammar/card-group-start.html %}
+
+{% include grammar/pronoun-card.html title="Question 1" question="I ___ eat breakfast." prompt_translation="我總是吃早餐。" translation="我總是吃早餐。" options=beginner_frequency_options answer="always" analysis='[{"word":"always","label":"Freq","desc":"always 表示總是，頻率最高。"},{"word":"eat","label":"V","desc":"一般動詞，頻率副詞放在它前面。"},{"word":"breakfast","label":"N","desc":"名詞。"}]' %}
+{% include grammar/pronoun-card.html title="Question 2" question="She ___ walks to school." prompt_translation="她通常走路去學校。" translation="她通常走路去學校。" options=beginner_frequency_options answer="usually" analysis='[{"word":"usually","label":"Freq","desc":"usually 表示通常。"},{"word":"walks","label":"V","desc":"一般動詞，頻率副詞放在前面。"},{"word":"to school","label":"Place","desc":"地點片語。"}]' %}
+{% include grammar/pronoun-card.html title="Question 3" question="We ___ play basketball." prompt_translation="我們常常打籃球。" translation="我們常常打籃球。" options=beginner_frequency_options answer="often" analysis='[{"word":"often","label":"Freq","desc":"often 表示常常。"},{"word":"play","label":"V","desc":"一般動詞。"},{"word":"basketball","label":"N","desc":"名詞。"}]' %}
+{% include grammar/pronoun-card.html title="Question 4" question="He is ___ late." prompt_translation="他有時候遲到。" translation="他有時候遲到。" options=beginner_frequency_options answer="sometimes" analysis='[{"word":"sometimes","label":"Freq","desc":"sometimes 表示有時候。"},{"word":"is","label":"Be","desc":"有 be 動詞時，頻率副詞通常放在 be 動詞後面。"},{"word":"late","label":"Adj","desc":"形容詞。"}]' %}
+{% include grammar/pronoun-card.html title="Question 5" question="They ___ watch TV." prompt_translation="他們很少看電視。" translation="他們很少看電視。" options=beginner_frequency_options answer="seldom" analysis='[{"word":"seldom","label":"Freq","desc":"seldom 表示很少。"},{"word":"watch","label":"V","desc":"一般動詞。"},{"word":"TV","label":"N","desc":"名詞。"}]' %}
+{% include grammar/pronoun-card.html title="Question 6" question="I ___ drink coffee." prompt_translation="我從不喝咖啡。" translation="我從不喝咖啡。" options=beginner_frequency_options answer="never" analysis='[{"word":"never","label":"Freq","desc":"never 表示從不。"},{"word":"drink","label":"V","desc":"一般動詞。"},{"word":"coffee","label":"N","desc":"名詞。"}]' %}
+{% include grammar/pronoun-card.html title="Question 7" question="My father is ___ busy." prompt_translation="我爸爸通常很忙。" translation="我爸爸通常很忙。" options=beginner_frequency_options answer="usually" analysis='[{"word":"usually","label":"Freq","desc":"usually 表示通常。"},{"word":"is","label":"Be","desc":"頻率副詞放在 be 動詞後面。"},{"word":"busy","label":"Adj","desc":"形容詞。"}]' %}
+
+{% include grammar/card-group-end.html %}
+
+## 可數與不可數名詞
+
+名詞可以先分成「可數名詞」和「不可數名詞」。
+
+| 類型 | 用法 | 範例 |
+| ---- | ---- | ---- |
+| 可數名詞 | 可以數一個、兩個，單數前常用 `a / an`，複數常加 `s` | a book, two books |
+| 不可數名詞 | 通常不能直接加 `a / an`，也不直接加複數 `s` | water, rice, milk |
+
+快速解題技巧：
+
+1. 看到數字 `two / three / five`，後面可數名詞要用複數。
+2. 單數可數名詞前通常要有 `a / an / the / my` 這類限定詞。
+3. `water / rice / milk / bread` 這類不可數名詞常用 `some`。
+
+{% include grammar/countable-uncountable-practice.html %}
+
+## 冠詞 a / an / the
+
+冠詞放在名詞前面。初學時先記住三個重點：
+
+| 冠詞 | 用法 | 範例 |
+| ---- | ---- | ---- |
+| a | 單數可數名詞，子音音開頭 | a teacher |
+| an | 單數可數名詞，母音音開頭 | an apple |
+| the | 特定的人事物，或前面已經提過 | the book |
+
+快速解題技巧：
+
+1. 第一次提到、不是特定的單數可數名詞，用 `a / an`。
+2. 看發音，不只看字母；母音音開頭用 `an`。
+3. 已經知道是哪一個，或第二次提到同一個東西，用 `the`。
+
+{% include grammar/articles-practice.html %}
+
+## There is / There are
+
+`There is / There are` 用來表達「某處有某人或某物」。
+
+| 後面的名詞 | 用法 | 範例 |
+| ---------- | ---- | ---- |
+| 單數名詞 | There is | There is a book. |
+| 不可數名詞 | There is | There is some water. |
+| 複數名詞 | There are | There are three books. |
+
+快速解題技巧：
+
+1. 看 `there is / there are` 後面的名詞。
+2. 單數或不可數用 `is`。
+3. 複數用 `are`。
+4. 問句把 `Is / Are` 放句首：`Is there...?`、`Are there...?`
+
+{% include grammar/there-is-are-practice.html %}
+
+## 未來式 will / be going to
+
+未來式用來表達之後會發生的事。初學時先學兩種：
+
+| 句型 | 用法 | 範例 |
+| ---- | ---- | ---- |
+| will + 原形動詞 | 表示未來、臨時決定、預測 | I will study tonight. |
+| be going to + 原形動詞 | 表示計畫、打算 | She is going to cook dinner. |
+
+快速解題技巧：
+
+1. 看到 `tomorrow / tonight / next week / later`，常是未來式。
+2. `will` 後面接原形動詞。
+3. `be going to` 的 `be` 要看主詞變成 `am / is / are`。
+4. 問句可用 `Will + 主詞 + 原形動詞?` 或 `Be + 主詞 + going to + 原形動詞?`
+
+{% include grammar/future-practice.html %}
+
+## 情態助動詞 can / should / must
+
+情態助動詞放在主要動詞前面，後面一律接原形動詞。
+
+| 情態助動詞 | 中文意思 | 範例 |
+| ---------- | -------- | ---- |
+| can | 可以、會 | I can swim. |
+| should | 應該 | You should rest. |
+| must | 必須 | Students must wear uniforms. |
+
+快速解題技巧：
+
+1. `can / should / must` 後面直接接原形動詞。
+2. 不要因為主詞是 `he / she / it` 就加 `s`：`She can swims` 是錯的。
+3. 否定句在情態助動詞後面加 `not`。
+4. 問句把情態助動詞放句首。
+
+{% include grammar/modals-practice.html %}
+
 ## 人稱代名詞 - 受格練習
 
 受格常放在動詞後面，或介系詞後面，表示動作的對象。初學時先記住這一組：
@@ -748,105 +990,6 @@ She looked at ___.
 {% include grammar/pronoun-card.html title="Question 5" question="The door closed by ___." prompt_translation="門自己關上了。" translation="門自己關上了。" options=beginner_reflexive_options answer="itself" analysis='[{"word":"The door","label":"Subj","desc":"主詞是事物，可以用 it 代替。"},{"word":"itself","label":"Refl","desc":"it 的反身代名詞是 itself。"},{"word":"by itself","label":"Phrase","desc":"by itself 表示「自己、沒有外力」。"}]' %}
 {% include grammar/pronoun-card.html title="Question 6" question="We made dinner by ___." prompt_translation="我們自己做了晚餐。" translation="我們自己做了晚餐。" options=beginner_reflexive_options answer="ourselves" analysis='[{"word":"We","label":"Subj","desc":"主詞是 We。"},{"word":"ourselves","label":"Refl","desc":"We 對應反身代名詞 ourselves。"},{"word":"by ourselves","label":"Phrase","desc":"by ourselves 表示「我們自己、我們獨自」。"}]' %}
 {% include grammar/pronoun-card.html title="Question 7" question="They cleaned the room by ___." prompt_translation="他們自己打掃了房間。" translation="他們自己打掃了房間。" options=beginner_reflexive_options answer="themselves" analysis='[{"word":"They","label":"Subj","desc":"主詞是 They。"},{"word":"themselves","label":"Refl","desc":"They 對應反身代名詞 themselves。"},{"word":"by themselves","label":"Phrase","desc":"by themselves 表示「他們自己、他們獨自」。"}]' %}
-
-{% include grammar/card-group-end.html %}
-
-## Wh-問句與助動詞Do問句
-
-Wh-問句用來問「具體資訊」，常見開頭有 `what`、`who`、`where`、`when`、`why`、`how`。
-
-| Wh-字 | 問什麼       | 範例                     | 中文意思         |
-| ----- | ------------ | ------------------------ | ---------------- |
-| what  | 什麼         | What is this?            | 這是什麼？       |
-| who   | 誰           | Who is she?              | 她是誰？         |
-| where | 哪裡         | Where do you live?       | 你住在哪裡？     |
-| when  | 何時         | When do you study?       | 你何時讀書？     |
-| why   | 為什麼       | Why do you like it?      | 你為什麼喜歡它？ |
-| how   | 如何、怎麼樣 | How do you go to school? | 你怎麼去學校？   |
-
-如果 Wh-問句後面接一般動詞，通常要加助動詞 `do` 或 `does`：
-
-```text
-Where do you live?
-你住在哪裡？
-
-What does she want?
-她想要什麼？
-
-When do they play soccer?
-他們什麼時候踢足球？
-```
-
-`Do` 問句通常回答 yes / no：
-
-```text
-Do you like coffee?
-Yes, I do.
-No, I do not.
-```
-
-`Wh` 引導式問句通常回答具體資訊：
-
-```text
-Where do you live?
-I live in Taipei.
-
-What does he eat?
-He eats rice.
-```
-
-快速比較：
-
-| 問句種類 | 開頭                                  | 回答方式 | 範例               |
-| -------- | ------------------------------------- | -------- | ------------------ |
-| Do 問句  | Do / Does                             | Yes / No | Do you work here?  |
-| Wh-問句  | What / Who / Where / When / Why / How | 具體資訊 | Where do you work? |
-
-{% assign beginner_wh_do_options = "What|Who|Where|When|Why|How|Do|Does" %}
-
-{% include grammar/card-group-start.html %}
-
-{% include grammar/pronoun-card.html title="Question 1" question="___ do you live?" prompt_translation="你住在哪裡？" translation="你住在哪裡？" options=beginner_wh_do_options answer="Where" analysis='[{"word":"Where","label":"Wh","desc":"問地點用 Where。"},{"word":"do","label":"Aux","desc":"一般動詞 live 的問句用 do。"},{"word":"live","label":"V","desc":"動詞原形。"}]' %}
-{% include grammar/pronoun-card.html title="Question 2" question="___ does she want?" prompt_translation="她想要什麼？" translation="她想要什麼？" options=beginner_wh_do_options answer="What" analysis='[{"word":"What","label":"Wh","desc":"問東西或內容用 What。"},{"word":"does","label":"Aux","desc":"主詞 she 搭配 does。"},{"word":"want","label":"V","desc":"用了 does 後，動詞用原形 want。"}]' %}
-{% include grammar/pronoun-card.html title="Question 3" question="___ is your brother?" prompt_translation="你的哥哥/弟弟是誰？" translation="你的哥哥/弟弟是誰？" options=beginner_wh_do_options answer="Who" analysis='[{"word":"Who","label":"Wh","desc":"問人用 Who。"},{"word":"is","label":"Be","desc":"這句是 be 動詞問句。"},{"word":"your brother","label":"N","desc":"名詞片語。"}]' %}
-{% include grammar/pronoun-card.html title="Question 4" question="___ do they study?" prompt_translation="他們什麼時候讀書？" translation="他們什麼時候讀書？" options=beginner_wh_do_options answer="When" analysis='[{"word":"When","label":"Wh","desc":"問時間用 When。"},{"word":"do","label":"Aux","desc":"主詞 they 搭配 do。"},{"word":"study","label":"V","desc":"一般動詞原形。"}]' %}
-{% include grammar/pronoun-card.html title="Question 5" question="___ do you go to school?" prompt_translation="你怎麼去學校？" translation="你怎麼去學校？" options=beginner_wh_do_options answer="How" analysis='[{"word":"How","label":"Wh","desc":"問方法或方式用 How。"},{"word":"do","label":"Aux","desc":"一般動詞 go 的問句用 do。"},{"word":"go","label":"V","desc":"動詞原形。"}]' %}
-{% include grammar/pronoun-card.html title="Question 6" question="___ you like coffee?" prompt_translation="你喜歡咖啡嗎？" translation="你喜歡咖啡嗎？" options=beginner_wh_do_options answer="Do" analysis='[{"word":"Do","label":"Aux","desc":"這題是 Yes/No 問句，不是 Wh-問句。"},{"word":"you","label":"Subj","desc":"主詞 you。"},{"word":"like","label":"V","desc":"一般動詞原形。"}]' %}
-{% include grammar/pronoun-card.html title="Question 7" question="___ he work here?" prompt_translation="他在這裡工作嗎？" translation="他在這裡工作嗎？" options=beginner_wh_do_options answer="Does" analysis='[{"word":"Does","label":"Aux","desc":"主詞 he 是第三人稱單數，一般動詞問句用 Does。"},{"word":"work","label":"V","desc":"用了 Does 後，動詞用原形 work。"},{"word":"here","label":"Place","desc":"地點副詞。"}]' %}
-
-{% include grammar/card-group-end.html %}
-
-## 頻率副詞
-
-頻率副詞用來表示「多久做一次」。初學時先記住這幾個常見程度：
-
-| 頻率副詞  | 中文意思 | 大約頻率 | 範例                         |
-| --------- | -------- | -------- | ---------------------------- |
-| always    | 總是     | 100%     | I always eat breakfast.      |
-| usually   | 通常     | 約 80%   | She usually walks to school. |
-| often     | 常常     | 約 60%   | We often play basketball.    |
-| sometimes | 有時候   | 約 40%   | He sometimes drinks tea.     |
-| seldom    | 很少     | 約 20%   | They seldom watch TV.        |
-| never     | 從不     | 0%       | I never smoke.               |
-
-頻率副詞最常放在一般動詞前面；如果句子有 be 動詞，頻率副詞通常放在 be 動詞後面。
-
-| 句型            | 位置           | 範例                      |
-| --------------- | -------------- | ------------------------- |
-| 主詞 + 一般動詞 | 放在一般動詞前 | I `usually` get up early. |
-| 主詞 + be 動詞  | 放在 be 動詞後 | She is `often` tired.     |
-
-{% assign beginner_frequency_options = "always|usually|often|sometimes|seldom|never" %}
-
-{% include grammar/card-group-start.html %}
-
-{% include grammar/pronoun-card.html title="Question 1" question="I ___ eat breakfast." prompt_translation="我總是吃早餐。" translation="我總是吃早餐。" options=beginner_frequency_options answer="always" analysis='[{"word":"always","label":"Freq","desc":"always 表示總是，頻率最高。"},{"word":"eat","label":"V","desc":"一般動詞，頻率副詞放在它前面。"},{"word":"breakfast","label":"N","desc":"名詞。"}]' %}
-{% include grammar/pronoun-card.html title="Question 2" question="She ___ walks to school." prompt_translation="她通常走路去學校。" translation="她通常走路去學校。" options=beginner_frequency_options answer="usually" analysis='[{"word":"usually","label":"Freq","desc":"usually 表示通常。"},{"word":"walks","label":"V","desc":"一般動詞，頻率副詞放在前面。"},{"word":"to school","label":"Place","desc":"地點片語。"}]' %}
-{% include grammar/pronoun-card.html title="Question 3" question="We ___ play basketball." prompt_translation="我們常常打籃球。" translation="我們常常打籃球。" options=beginner_frequency_options answer="often" analysis='[{"word":"often","label":"Freq","desc":"often 表示常常。"},{"word":"play","label":"V","desc":"一般動詞。"},{"word":"basketball","label":"N","desc":"名詞。"}]' %}
-{% include grammar/pronoun-card.html title="Question 4" question="He is ___ late." prompt_translation="他有時候遲到。" translation="他有時候遲到。" options=beginner_frequency_options answer="sometimes" analysis='[{"word":"sometimes","label":"Freq","desc":"sometimes 表示有時候。"},{"word":"is","label":"Be","desc":"有 be 動詞時，頻率副詞通常放在 be 動詞後面。"},{"word":"late","label":"Adj","desc":"形容詞。"}]' %}
-{% include grammar/pronoun-card.html title="Question 5" question="They ___ watch TV." prompt_translation="他們很少看電視。" translation="他們很少看電視。" options=beginner_frequency_options answer="seldom" analysis='[{"word":"seldom","label":"Freq","desc":"seldom 表示很少。"},{"word":"watch","label":"V","desc":"一般動詞。"},{"word":"TV","label":"N","desc":"名詞。"}]' %}
-{% include grammar/pronoun-card.html title="Question 6" question="I ___ drink coffee." prompt_translation="我從不喝咖啡。" translation="我從不喝咖啡。" options=beginner_frequency_options answer="never" analysis='[{"word":"never","label":"Freq","desc":"never 表示從不。"},{"word":"drink","label":"V","desc":"一般動詞。"},{"word":"coffee","label":"N","desc":"名詞。"}]' %}
-{% include grammar/pronoun-card.html title="Question 7" question="My father is ___ busy." prompt_translation="我爸爸通常很忙。" translation="我爸爸通常很忙。" options=beginner_frequency_options answer="usually" analysis='[{"word":"usually","label":"Freq","desc":"usually 表示通常。"},{"word":"is","label":"Be","desc":"頻率副詞放在 be 動詞後面。"},{"word":"busy","label":"Adj","desc":"形容詞。"}]' %}
 
 {% include grammar/card-group-end.html %}
 
