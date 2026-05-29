@@ -1,4 +1,4 @@
-﻿---
+---
 title: Beginner-English-Grammar
 author: ruiwen
 date: 2026-05-10 23:35:00 +0800
@@ -26,7 +26,62 @@ BE 動詞包含：
 
 ---
 
-## 人稱代名詞與Be動詞
+## 人稱代名詞的相關說明與練習[^1]
+
+人稱代名詞會因為位置和用途不同而改變形式。下面會把主格、受格、所有格、所有格代名詞、反身代名詞分開練習；每個章節底下都有自己的快速判斷表和解題順序。
+
+另外要注意：`you` 和 `it` 的主格、受格長得一樣，所以要靠位置判斷它的功能，不是靠外型。
+> 所有格形容詞後面要接名詞，例如 `my book`、`her teacher`；
+> 所有格代名詞可單獨使用，例如 `This book is mine.`。
+
+## 人稱代名詞 - 主格練習
+
+主格是句子的主詞，通常放在動詞前面。初學時先記住這一組：
+
+```text
+I / You / He / She / It / We / They
+```
+
+看到「空格 + be 動詞 / 一般動詞」時，通常要選主格。
+
+快速判斷：
+
+| 位置/用途       | 選擇 | 範例              |
+| --------------- | ---- | ----------------- |
+| 空格 + be 動詞  | 主格 | `She` is here.    |
+| 空格 + 一般動詞 | 主格 | `They` work here. |
+| 空格是句子主詞  | 主格 | `I` am happy.     |
+
+最實用的解題順序：
+
+1. 先找動詞。
+2. 如果空格在動詞前面，先判斷它是不是主詞位置。
+3. 看動詞形式：`am` 搭配 `I`，`is` 常搭配 `he / she / it`，`are` 常搭配 `you / we / they`。
+4. 再依中文意思選出正確的人稱。
+
+```text
+___ am a student.
+我是學生。
+
+___ is my brother.
+他是我的哥哥。
+```
+
+{% assign beginner_subject_options = "I|You|He|She|It|We|They" %}
+
+{% include grammar/card-group-start.html %}
+
+{% include grammar/pronoun-card.html title="Question 1" question="___ am happy." prompt_translation="我很開心。" translation="我很開心。" options=beginner_subject_options answer="I" analysis='[{"word":"I","label":"Subj","desc":"主格，表示我。"},{"word":"am","label":"Be","desc":"I 要搭配 am。"},{"word":"happy","label":"Adj","desc":"形容詞，表示開心。"}]' %}
+{% include grammar/pronoun-card.html title="Question 2" question="___ are my friend." prompt_translation="你是我的朋友。" translation="你是我的朋友。" options=beginner_subject_options answer="You" analysis='[{"word":"You","label":"Subj","desc":"主格，表示你。"},{"word":"are","label":"Be","desc":"You 要搭配 are。"},{"word":"my friend","label":"N","desc":"名詞片語。"}]' %}
+{% include grammar/pronoun-card.html title="Question 3" question="___ is a teacher." prompt_translation="他是老師。" translation="他是老師。" options=beginner_subject_options answer="He" analysis='[{"word":"He","label":"Subj","desc":"主格，表示他。"},{"word":"is","label":"Be","desc":"He 是第三人稱單數主詞，要搭配 is。"},{"word":"a teacher","label":"N","desc":"名詞片語。"}]' %}
+{% include grammar/pronoun-card.html title="Question 4" question="___ is my sister." prompt_translation="她是我的姐姐/妹妹。" translation="她是我的姐姐/妹妹。" options=beginner_subject_options answer="She" analysis='[{"word":"She","label":"Subj","desc":"主格，表示她。"},{"word":"is","label":"Be","desc":"She 要搭配 is。"},{"word":"my sister","label":"N","desc":"名詞片語。"}]' %}
+{% include grammar/pronoun-card.html title="Question 5" question="___ is a dog." prompt_translation="它是一隻狗。" translation="它是一隻狗。" options=beginner_subject_options answer="It" analysis='[{"word":"It","label":"Subj","desc":"主格，表示它。"},{"word":"is","label":"Be","desc":"It 是第三人稱單數主詞，要搭配 is。"},{"word":"a dog","label":"N","desc":"名詞片語。"}]' %}
+{% include grammar/pronoun-card.html title="Question 6" question="___ are students." prompt_translation="我們是學生。" translation="我們是學生。" options=beginner_subject_options answer="We" analysis='[{"word":"We","label":"Subj","desc":"主格，表示我們。"},{"word":"are","label":"Be","desc":"We 要搭配 are。"},{"word":"students","label":"N","desc":"複數名詞。"}]' %}
+{% include grammar/pronoun-card.html title="Question 7" question="___ are my classmates." prompt_translation="他們是我的同學。" translation="他們是我的同學。" options=beginner_subject_options answer="They" analysis='[{"word":"They","label":"Subj","desc":"主格，表示他們。"},{"word":"are","label":"Be","desc":"They 要搭配 are。"},{"word":"my classmates","label":"N","desc":"複數名詞片語。"}]' %}
+
+{% include grammar/card-group-end.html %}
+
+## Be 動詞肯定句
 
 句型結構是：`Pronoun + be verb + 狀態/形容詞/地點`。
 
@@ -119,6 +174,56 @@ They are not at home.
 
 ---
 
+## Be 動詞與一般動詞疑問句
+
+簡單式疑問句常見有兩種：be 動詞疑問句、一般動詞疑問句。
+
+be 動詞疑問句把 be 動詞放到句首：
+
+| 肯定句             | 疑問句             | 中文意思         |
+| ------------------ | ------------------ | ---------------- |
+| You are a student. | Are you a student? | 你是學生嗎？     |
+| He is busy.        | Is he busy?        | 他很忙嗎？       |
+| They are ready.    | Are they ready?    | 他們準備好了嗎？ |
+
+一般動詞疑問句要用 `Do` 或 `Does` 放句首：
+
+| 主詞                | 助動詞 | 疑問句                | 中文意思       |
+| ------------------- | ------ | --------------------- | -------------- |
+| I / you / we / they | Do     | Do you like English?  | 你喜歡英文嗎？ |
+| he / she / it       | Does   | Does he like English? | 他喜歡英文嗎？ |
+
+要注意：用了 `Does` 之後，後面的動詞要回到原形。
+
+```text
+He likes English.
+Does he like English?
+
+She works here.
+Does she work here?
+```
+
+快速判斷：
+
+| 原句動詞      | 疑問句開頭    | 範例                 |
+| ------------- | ------------- | -------------------- |
+| am / is / are | Am / Is / Are | Is she your teacher? |
+| 一般動詞      | Do / Does     | Do they play tennis? |
+
+{% assign beginner_simple_question_options = "Am|Is|Are|Do|Does" %}
+
+{% include grammar/card-group-start.html %}
+
+{% include grammar/pronoun-card.html title="Question 1" question="___ you a student?" prompt_translation="你是學生嗎？" translation="你是學生嗎？" options=beginner_simple_question_options answer="Are" analysis='[{"word":"Are","label":"Be","desc":"主詞是 you，be 動詞疑問句用 Are 開頭。"},{"word":"you","label":"Subj","desc":"主詞。"},{"word":"a student","label":"N","desc":"名詞片語。"}]' %}
+{% include grammar/pronoun-card.html title="Question 2" question="___ she your teacher?" prompt_translation="她是你的老師嗎？" translation="她是你的老師嗎？" options=beginner_simple_question_options answer="Is" analysis='[{"word":"Is","label":"Be","desc":"主詞是 she，be 動詞疑問句用 Is 開頭。"},{"word":"she","label":"Subj","desc":"第三人稱單數主詞。"},{"word":"your teacher","label":"N","desc":"名詞片語。"}]' %}
+{% include grammar/pronoun-card.html title="Question 3" question="___ they ready?" prompt_translation="他們準備好了嗎？" translation="他們準備好了嗎？" options=beginner_simple_question_options answer="Are" analysis='[{"word":"Are","label":"Be","desc":"主詞是 they，be 動詞疑問句用 Are 開頭。"},{"word":"they","label":"Subj","desc":"複數主詞。"},{"word":"ready","label":"Adj","desc":"形容詞。"}]' %}
+{% include grammar/pronoun-card.html title="Question 4" question="___ you like English?" prompt_translation="你喜歡英文嗎？" translation="你喜歡英文嗎？" options=beginner_simple_question_options answer="Do" analysis='[{"word":"Do","label":"Aux","desc":"一般動詞 like 的疑問句，主詞 you 用 Do。"},{"word":"you","label":"Subj","desc":"主詞。"},{"word":"like","label":"V","desc":"一般動詞原形。"}]' %}
+{% include grammar/pronoun-card.html title="Question 5" question="___ he play tennis?" prompt_translation="他打網球嗎？" translation="他打網球嗎？" options=beginner_simple_question_options answer="Does" analysis='[{"word":"Does","label":"Aux","desc":"主詞 he 是第三人稱單數，一般動詞疑問句用 Does。"},{"word":"play","label":"V","desc":"用了 Does 後，動詞用原形 play。"},{"label":"Note","desc":"不要寫 Does he plays tennis?。"}]' %}
+{% include grammar/pronoun-card.html title="Question 6" question="___ we have homework?" prompt_translation="我們有作業嗎？" translation="我們有作業嗎？" options=beginner_simple_question_options answer="Do" analysis='[{"word":"Do","label":"Aux","desc":"主詞 we 搭配一般動詞疑問句，用 Do。"},{"word":"have","label":"V","desc":"一般動詞原形。"},{"word":"homework","label":"N","desc":"名詞。"}]' %}
+{% include grammar/pronoun-card.html title="Question 7" question="___ it cold today?" prompt_translation="今天冷嗎？" translation="今天冷嗎？" options=beginner_simple_question_options answer="Is" analysis='[{"word":"Is","label":"Be","desc":"主詞 it 搭配 be 動詞 is，疑問句把 Is 放句首。"},{"word":"it","label":"Subj","desc":"天氣常用 it 當主詞。"},{"word":"cold","label":"Adj","desc":"形容詞。"}]' %}
+
+{% include grammar/card-group-end.html %}
+
 ## Be動詞與常見地點介系詞
 
 Be 動詞也常和地點介系詞片語一起使用，用來說明「某人或某物在哪裡」。句型是：`主詞 + be verb + 地點介系詞片語`。
@@ -154,6 +259,51 @@ Be 動詞也常和地點介系詞片語一起使用，用來說明「某人或�
 {% include grammar/pronoun-card.html title="Question 5" question="We are ___ the bus stop." prompt_translation="我們在公車站。" translation="我們在公車站。" options=beginner_be_place_options answer="at" analysis='[{"word":"We are","label":"Be","desc":"We 搭配 are。"},{"word":"at","label":"Prep","desc":"at 常表示在某個明確地點。"},{"word":"the bus stop","label":"Place","desc":"公車站是一個明確位置，所以用 at。"}]' %}
 {% include grammar/pronoun-card.html title="Question 6" question="She is ___ the window." prompt_translation="她在窗戶旁邊。" translation="她在窗戶旁邊。" options=beginner_be_place_options answer="next to" analysis='[{"word":"She is","label":"Be","desc":"She 搭配 is。"},{"word":"next to","label":"Prep","desc":"next to 表示在旁邊。"},{"word":"the window","label":"Place","desc":"她的位置在窗戶旁邊，所以用 next to。"}]' %}
 {% include grammar/pronoun-card.html title="Question 7" question="The bags are ___ the door." prompt_translation="那些包包在門後面。" translation="那些包包在門後面。" options=beginner_be_place_options answer="behind" analysis='[{"word":"The bags are","label":"Be","desc":"The bags 是複數名詞，搭配 are。"},{"word":"behind","label":"Prep","desc":"behind 表示在後面。"},{"word":"the door","label":"Place","desc":"包包的位置在門後面，所以用 behind。"}]' %}
+
+{% include grammar/card-group-end.html %}
+
+## 空間介系詞
+
+空間介系詞用來說明人、事物或地點的位置。可以先用「短距離、中距離、長距離」來記：
+
+{% include grammar/spatial-prepositions-distance.html %}
+
+| 距離感 | 常見介系詞/片語      | 中文意思        | 範例                                |
+| ------ | -------------------- | --------------- | ----------------------------------- |
+| 短     | next to / beside     | 在旁邊          | The bag is `next to` the desk.      |
+|        | between              | 在兩者之間      | The cat is `between` the boxes.     |
+|        | in front of / behind | 在前面 / 在後面 | The car is `in front of` the house. |
+| 中     | near                 | 在附近          | The school is `near` my home.       |
+|        | across from          | 在對面          | The bank is `across from` the park. |
+|        | around               | 在周圍          | There are trees `around` the house. |
+| 長     | far from             | 離很遠          | The station is `far from` here.     |
+|        | away from            | 遠離            | Stay `away from` the road.          |
+|        | from ... to ...      | 從 ... 到 ...   | I walk `from` home `to` school.     |
+
+{% assign beginner_place_preposition_options = "on|under|next to|beside|between|in front of|behind|near|across from|around|far from|away from|from|to" %}
+
+{% include grammar/card-group-start.html %}
+
+{% include grammar/pronoun-card.html title="Question 1" question="The book is ___ the table." prompt_translation="書在桌上。" translation="書在桌上。" options=beginner_place_preposition_options answer="on" analysis='[{"word":"on","label":"Prep","desc":"on 表示在表面上。"},{"word":"the table","label":"N","desc":"介系詞後面的名詞片語。"}]' %}
+{% include grammar/pronoun-card.html title="Question 2" question="The cat is ___ the bed." prompt_translation="貓在床下。" translation="貓在床下。" options=beginner_place_preposition_options answer="under" analysis='[{"word":"under","label":"Prep","desc":"under 表示在下面。"},{"word":"the bed","label":"N","desc":"介系詞後面的名詞片語。"}]' %}
+{% include grammar/pronoun-card.html title="Question 3" question="The chair is ___ the table." prompt_translation="椅子在桌子旁邊。" translation="椅子在桌子旁邊。" options=beginner_place_preposition_options answer="next to" correct_answers="next to|beside" answer_translations='{"next to":"椅子在桌子旁邊。","beside":"椅子在桌子旁邊。"}' analysis='[{"word":"next to / beside","label":"Prep","desc":"兩者都可以表示在旁邊。"},{"word":"the table","label":"N","desc":"介系詞後面的名詞片語。"},{"label":"Note","desc":"這題 next to 和 beside 都可以。"}]' %}
+{% include grammar/pronoun-card.html title="Question 4" question="She sits ___ me." prompt_translation="她坐在我旁邊。" translation="她坐在我旁邊。" options=beginner_place_preposition_options answer="beside" correct_answers="next to|beside" answer_translations='{"next to":"她坐在我旁邊。","beside":"她坐在我旁邊。"}' analysis='[{"word":"beside / next to","label":"Prep","desc":"兩者都可以表示在旁邊。"},{"word":"me","label":"Obj","desc":"介系詞後面接受格 me。"},{"label":"Note","desc":"這題 beside 和 next to 都可以。"}]' %}
+{% include grammar/pronoun-card.html title="Question 5" question="The park is ___ the school." prompt_translation="公園在學校附近。" translation="公園在學校附近。" options=beginner_place_preposition_options answer="near" analysis='[{"word":"near","label":"Prep","desc":"near 表示在附近。"},{"word":"the school","label":"N","desc":"地點名詞片語。"}]' %}
+{% include grammar/pronoun-card.html title="Question 6" question="The bank is ___ the park." prompt_translation="銀行在公園對面。" translation="銀行在公園對面。" options=beginner_place_preposition_options answer="across from" analysis='[{"word":"across from","label":"Prep","desc":"across from 表示在對面。"},{"word":"the park","label":"N","desc":"地點名詞片語。"}]' %}
+{% include grammar/pronoun-card.html title="Question 7" question="The dog is ___ the door." prompt_translation="狗在門後面。" translation="狗在門後面。" options=beginner_place_preposition_options answer="behind" analysis='[{"word":"behind","label":"Prep","desc":"behind 表示在後面。"},{"word":"the door","label":"N","desc":"介系詞後面的名詞片語。"}]' %}
+{% include grammar/pronoun-card.html title="Question 8" question="The car is ___ the house." prompt_translation="車在房子前面。" translation="車在房子前面。" options=beginner_place_preposition_options answer="in front of" analysis='[{"word":"in front of","label":"Prep","desc":"in front of 表示在前面。"},{"word":"the house","label":"N","desc":"介系詞後面的名詞片語。"}]' %}
+{% include grammar/pronoun-card.html title="Question 9" question="The cat is ___ the boxes." prompt_translation="貓在箱子之間。" translation="貓在箱子之間。" options=beginner_place_preposition_options answer="between" analysis='[{"word":"between","label":"Prep","desc":"between 表示在兩者或多者之間。"},{"word":"the boxes","label":"N","desc":"複數名詞。"}]' %}
+{% include grammar/pronoun-card.html title="Question 10" question="There are trees ___ the house." prompt_translation="房子周圍有樹。" translation="房子周圍有樹。" options=beginner_place_preposition_options answer="around" analysis='[{"word":"around","label":"Prep","desc":"around 表示在周圍。"},{"word":"the house","label":"N","desc":"地點名詞片語。"}]' %}
+{% include grammar/pronoun-card.html title="Question 11" question="The station is ___ here." prompt_translation="車站離這裡很遠。" translation="車站離這裡很遠。" options=beginner_place_preposition_options answer="far from" analysis='[{"word":"far from","label":"Prep","desc":"far from 表示離某處很遠。"},{"word":"here","label":"Place","desc":"地點副詞。"}]' %}
+{% include grammar/pronoun-card.html title="Question 12" question="Stay ___ the road." prompt_translation="遠離馬路。" translation="遠離馬路。" options=beginner_place_preposition_options answer="away from" analysis='[{"word":"away from","label":"Prep","desc":"away from 表示遠離。"},{"word":"the road","label":"N","desc":"地點名詞片語。"}]' %}
+{% include grammar/pronoun-card.html title="Question 13" question="I walk ___ home to school." prompt_translation="我從家走到學校。" translation="我從家走到學校。" options=beginner_place_preposition_options answer="from" analysis='[{"word":"from","label":"Prep","desc":"from 表示起點，常和 to 搭配。"},{"word":"home","label":"Place","desc":"起點。"},{"word":"to school","label":"Place","desc":"終點。"}]' %}
+{% include grammar/pronoun-card.html title="Question 14" question="I walk from home ___ school." prompt_translation="我從家走到學校。" translation="我從家走到學校。" options=beginner_place_preposition_options answer="to" analysis='[{"word":"to","label":"Prep","desc":"to 表示方向或終點。"},{"word":"from home","label":"Place","desc":"起點。"},{"word":"school","label":"Place","desc":"終點。"}]' %}
+{% include grammar/pronoun-card.html title="Question 15" question="The lamp is ___ the sofa." prompt_translation="燈在沙發旁邊。" translation="燈在沙發旁邊。" options=beginner_place_preposition_options answer="next to" correct_answers="next to|beside" answer_translations='{"next to":"燈在沙發旁邊。","beside":"燈在沙發旁邊。"}' analysis='[{"word":"next to / beside","label":"Prep","desc":"兩者都表示在旁邊。"},{"word":"the sofa","label":"N","desc":"介系詞後面的名詞片語。"},{"label":"Note","desc":"這題 next to 和 beside 都可以。"}]' %}
+{% include grammar/pronoun-card.html title="Question 16" question="The shoes are ___ the chair." prompt_translation="鞋子在椅子下面。" translation="鞋子在椅子下面。" options=beginner_place_preposition_options answer="under" analysis='[{"word":"under","label":"Prep","desc":"under 表示在下面。"},{"word":"the chair","label":"N","desc":"介系詞後面的名詞片語。"}]' %}
+{% include grammar/pronoun-card.html title="Question 17" question="The museum is ___ the hotel." prompt_translation="博物館在飯店對面。" translation="博物館在飯店對面。" options=beginner_place_preposition_options answer="across from" analysis='[{"word":"across from","label":"Prep","desc":"across from 表示在對面。"},{"word":"the hotel","label":"N","desc":"地點名詞片語。"}]' %}
+{% include grammar/pronoun-card.html title="Question 18" question="My school is ___ my home." prompt_translation="我的學校在我家附近。" translation="我的學校在我家附近。" options=beginner_place_preposition_options answer="near" analysis='[{"word":"near","label":"Prep","desc":"near 表示在附近。"},{"word":"my home","label":"N","desc":"地點名詞片語。"}]' %}
+{% include grammar/pronoun-card.html title="Question 19" question="The picture is ___ the wall." prompt_translation="圖片在牆上。" translation="圖片在牆上。" options=beginner_place_preposition_options answer="on" analysis='[{"word":"on","label":"Prep","desc":"on 可表示在表面上，像在牆上。"},{"word":"the wall","label":"N","desc":"介系詞後面的名詞片語。"}]' %}
+{% include grammar/pronoun-card.html title="Question 20" question="The children play ___ the tree." prompt_translation="孩子們在樹的周圍玩。" translation="孩子們在樹的周圍玩。" options=beginner_place_preposition_options answer="around" analysis='[{"word":"around","label":"Prep","desc":"around 表示在周圍。"},{"word":"the tree","label":"N","desc":"介系詞後面的名詞片語。"}]' %}
 
 {% include grammar/card-group-end.html %}
 
@@ -289,60 +439,127 @@ What are they studying?
 | 疑問句 | Be + 主詞 + V-ing? | Is she cooking? |
 | Wh-問句 | Wh + be + 主詞 + V-ing? | What is she cooking? |
 
-## 人稱代名詞的相關說明與練習[^1]
+## 過去式
 
-人稱代名詞會因為位置和用途不同而改變形式。下面會把主格、受格、所有格、所有格代名詞、反身代名詞分開練習；每個章節底下都有自己的快速判斷表和解題順序。
+過去式用來表達「已經發生的事」。初學時先分成兩種：Be 動詞過去式，以及一般動詞過去式。
 
-另外要注意：`you` 和 `it` 的主格、受格長得一樣，所以要靠位置判斷它的功能，不是靠外型。
-> 所有格形容詞後面要接名詞，例如 `my book`、`her teacher`；
-> 所有格代名詞可單獨使用，例如 `This book is mine.`。
+| 現在式 | 過去式 | 用法 |
+| ------ | ------ | ---- |
+| am / is | was | I / he / she / it / 單數名詞 |
+| are | were | you / we / they / 複數名詞 |
+| 一般動詞 | V-ed 或不規則過去式 | 表示過去做過的動作 |
 
-## 人稱代名詞 - 主格練習
+常見過去時間提示字：
 
-主格是句子的主詞，通常放在動詞前面。初學時先記住這一組：
+- `yesterday`：昨天
+- `last night`：昨晚
+- `last week`：上週
+- `two days ago`：兩天前
+- `this morning`：今天早上已發生的事
 
-```text
-I / You / He / She / It / We / They
-```
+快速解題技巧：
 
-看到「空格 + be 動詞 / 一般動詞」時，通常要選主格。
+1. 先找時間提示字，看到 `yesterday / last / ago`，通常要用過去式。
+2. 如果句子是在說身分、狀態、地點，用 Be 動詞過去式 `was / were`。
+3. 如果句子是在說動作，肯定句直接把一般動詞改成過去式，例如 `play -> played`、`clean -> cleaned`。
+4. 一般動詞的否定句和疑問句用 `did`，後面的主要動詞要改回原形。
 
-快速判斷：
+| 句型 | 公式 | 範例 |
+| ---- | ---- | ---- |
+| Be 過去式肯定句 | 主詞 + was / were + 補語 | She was tired. |
+| 一般動詞過去肯定句 | 主詞 + 過去式動詞 | He cleaned the room. |
+| 一般動詞過去否定句 | 主詞 + did not + 原形動詞 | He did not clean the room. |
+| 一般動詞過去疑問句 | Did + 主詞 + 原形動詞? | Did he clean the room? |
 
-| 位置/用途       | 選擇 | 範例              |
-| --------------- | ---- | ----------------- |
-| 空格 + be 動詞  | 主格 | `She` is here.    |
-| 空格 + 一般動詞 | 主格 | `They` work here. |
-| 空格是句子主詞  | 主格 | `I` am happy.     |
+### 過去式練習題
 
-最實用的解題順序：
+{% include grammar/simple-past-practice.html %}
 
-1. 先找動詞。
-2. 如果空格在動詞前面，先判斷它是不是主詞位置。
-3. 看動詞形式：`am` 搭配 `I`，`is` 常搭配 `he / she / it`，`are` 常搭配 `you / we / they`。
-4. 再依中文意思選出正確的人稱。
+### Be 動詞過去式或 did 過去式：句子選擇題
 
-```text
-___ am a student.
-我是學生。
+下面每題請先看中文意思，再判斷例句應該用 `was / were`，還是用一般動詞過去式或 `did`。
 
-___ is my brother.
-他是我的哥哥。
-```
+{% include grammar/simple-past-be-or-did-practice.html %}
 
-{% assign beginner_subject_options = "I|You|He|She|It|We|They" %}
+## 過去進行式
 
-{% include grammar/card-group-start.html %}
+過去進行式用來表達「過去某個時間正在做的動作」，句型是：`主詞 + was / were + V-ing`。
 
-{% include grammar/pronoun-card.html title="Question 1" question="___ am happy." prompt_translation="我很開心。" translation="我很開心。" options=beginner_subject_options answer="I" analysis='[{"word":"I","label":"Subj","desc":"主格，表示我。"},{"word":"am","label":"Be","desc":"I 要搭配 am。"},{"word":"happy","label":"Adj","desc":"形容詞，表示開心。"}]' %}
-{% include grammar/pronoun-card.html title="Question 2" question="___ are my friend." prompt_translation="你是我的朋友。" translation="你是我的朋友。" options=beginner_subject_options answer="You" analysis='[{"word":"You","label":"Subj","desc":"主格，表示你。"},{"word":"are","label":"Be","desc":"You 要搭配 are。"},{"word":"my friend","label":"N","desc":"名詞片語。"}]' %}
-{% include grammar/pronoun-card.html title="Question 3" question="___ is a teacher." prompt_translation="他是老師。" translation="他是老師。" options=beginner_subject_options answer="He" analysis='[{"word":"He","label":"Subj","desc":"主格，表示他。"},{"word":"is","label":"Be","desc":"He 是第三人稱單數主詞，要搭配 is。"},{"word":"a teacher","label":"N","desc":"名詞片語。"}]' %}
-{% include grammar/pronoun-card.html title="Question 4" question="___ is my sister." prompt_translation="她是我的姐姐/妹妹。" translation="她是我的姐姐/妹妹。" options=beginner_subject_options answer="She" analysis='[{"word":"She","label":"Subj","desc":"主格，表示她。"},{"word":"is","label":"Be","desc":"She 要搭配 is。"},{"word":"my sister","label":"N","desc":"名詞片語。"}]' %}
-{% include grammar/pronoun-card.html title="Question 5" question="___ is a dog." prompt_translation="它是一隻狗。" translation="它是一隻狗。" options=beginner_subject_options answer="It" analysis='[{"word":"It","label":"Subj","desc":"主格，表示它。"},{"word":"is","label":"Be","desc":"It 是第三人稱單數主詞，要搭配 is。"},{"word":"a dog","label":"N","desc":"名詞片語。"}]' %}
-{% include grammar/pronoun-card.html title="Question 6" question="___ are students." prompt_translation="我們是學生。" translation="我們是學生。" options=beginner_subject_options answer="We" analysis='[{"word":"We","label":"Subj","desc":"主格，表示我們。"},{"word":"are","label":"Be","desc":"We 要搭配 are。"},{"word":"students","label":"N","desc":"複數名詞。"}]' %}
-{% include grammar/pronoun-card.html title="Question 7" question="___ are my classmates." prompt_translation="他們是我的同學。" translation="他們是我的同學。" options=beginner_subject_options answer="They" analysis='[{"word":"They","label":"Subj","desc":"主格，表示他們。"},{"word":"are","label":"Be","desc":"They 要搭配 are。"},{"word":"my classmates","label":"N","desc":"複數名詞片語。"}]' %}
+| 主詞 | Be 動詞過去式 | 過去進行式範例 | 中文意思 |
+| ---- | ------------- | -------------- | -------- |
+| I / He / She / It / 單數名詞 | was | She was cooking. | 她那時正在煮飯。 |
+| You / We / They / 複數名詞 | were | They were studying. | 他們那時正在讀書。 |
 
-{% include grammar/card-group-end.html %}
+常見提示：
+
+- `at 8 p.m.`：在晚上八點
+- `at that time`：在那個時候
+- `then`：那時
+- `when + 過去式句子`：當某事發生時
+
+快速解題技巧：
+
+1. 看到過去某個時間點，例如 `at 8 p.m.` 或 `at that time`，先考慮過去進行式。
+2. 找主詞決定用 `was` 還是 `were`。
+3. 主要動詞保持 `V-ing`。
+4. 如果只是說過去完成的一個動作，用簡單過去式；如果強調那時正在做，用過去進行式。
+
+### 過去進行式轉否定句、疑問句、Wh-問句
+
+過去進行式的核心結構是：`主詞 + was / were + V-ing`。
+
+#### 轉成否定句
+
+否定句是在 `was / were` 後面加 `not`。
+
+| 肯定句 | 否定句 | 中文意思 |
+| ------ | ------ | -------- |
+| I was reading. | I was not reading. | 我那時沒有正在閱讀。 |
+| She was cooking. | She was not cooking. | 她那時沒有正在煮飯。 |
+| They were studying. | They were not studying. | 他們那時沒有正在讀書。 |
+
+常見縮寫：
+
+| 原形 | 縮寫 |
+| ---- | ---- |
+| was not | wasn't |
+| were not | weren't |
+
+#### 轉成疑問句
+
+Yes / No 疑問句把 `was / were` 移到句首。
+
+| 肯定句 | 疑問句 | 中文意思 |
+| ------ | ------ | -------- |
+| You were watching TV. | Were you watching TV? | 你那時正在看電視嗎？ |
+| She was writing an email. | Was she writing an email? | 她那時正在寫電子郵件嗎？ |
+| They were playing soccer. | Were they playing soccer? | 他們那時正在踢足球嗎？ |
+
+#### 轉成 Wh-問句
+
+Wh-問句是在疑問句前面加 Wh-字，基本結構是：`Wh-字 + was / were + 主詞 + V-ing?`
+
+| 想問的資訊 | Wh-字 | 範例 | 中文意思 |
+| ---------- | ----- | ---- | -------- |
+| 問動作內容 | What | What were you doing? | 你那時正在做什麼？ |
+| 問地點 | Where | Where was he running? | 他那時正在哪裡跑步？ |
+| 問人物 | Who | Who was cooking dinner? | 誰那時正在煮晚餐？ |
+| 問原因 | Why | Why were they studying then? | 他們那時為什麼正在讀書？ |
+| 問時間 | When | When were we leaving? | 我們那時什麼時候要離開？ |
+| 問方式 | How | How was she learning English? | 她那時正在如何學英文？ |
+
+快速對照：
+
+| 句型 | 公式 | 範例 |
+| ---- | ---- | ---- |
+| 肯定句 | 主詞 + was / were + V-ing | She was cooking. |
+| 否定句 | 主詞 + was / were + not + V-ing | She was not cooking. |
+| 疑問句 | Was / Were + 主詞 + V-ing? | Was she cooking? |
+| Wh-問句 | Wh + was / were + 主詞 + V-ing? | What was she cooking? |
+
+### 過去進行式練習題
+
+{% include grammar/past-continuous-practice.html %}
 
 ## 人稱代名詞 - 受格練習
 
@@ -534,56 +751,6 @@ She looked at ___.
 
 {% include grammar/card-group-end.html %}
 
-## 簡單式的疑問句
-
-簡單式疑問句常見有兩種：be 動詞疑問句、一般動詞疑問句。
-
-be 動詞疑問句把 be 動詞放到句首：
-
-| 肯定句             | 疑問句             | 中文意思         |
-| ------------------ | ------------------ | ---------------- |
-| You are a student. | Are you a student? | 你是學生嗎？     |
-| He is busy.        | Is he busy?        | 他很忙嗎？       |
-| They are ready.    | Are they ready?    | 他們準備好了嗎？ |
-
-一般動詞疑問句要用 `Do` 或 `Does` 放句首：
-
-| 主詞                | 助動詞 | 疑問句                | 中文意思       |
-| ------------------- | ------ | --------------------- | -------------- |
-| I / you / we / they | Do     | Do you like English?  | 你喜歡英文嗎？ |
-| he / she / it       | Does   | Does he like English? | 他喜歡英文嗎？ |
-
-要注意：用了 `Does` 之後，後面的動詞要回到原形。
-
-```text
-He likes English.
-Does he like English?
-
-She works here.
-Does she work here?
-```
-
-快速判斷：
-
-| 原句動詞      | 疑問句開頭    | 範例                 |
-| ------------- | ------------- | -------------------- |
-| am / is / are | Am / Is / Are | Is she your teacher? |
-| 一般動詞      | Do / Does     | Do they play tennis? |
-
-{% assign beginner_simple_question_options = "Am|Is|Are|Do|Does" %}
-
-{% include grammar/card-group-start.html %}
-
-{% include grammar/pronoun-card.html title="Question 1" question="___ you a student?" prompt_translation="你是學生嗎？" translation="你是學生嗎？" options=beginner_simple_question_options answer="Are" analysis='[{"word":"Are","label":"Be","desc":"主詞是 you，be 動詞疑問句用 Are 開頭。"},{"word":"you","label":"Subj","desc":"主詞。"},{"word":"a student","label":"N","desc":"名詞片語。"}]' %}
-{% include grammar/pronoun-card.html title="Question 2" question="___ she your teacher?" prompt_translation="她是你的老師嗎？" translation="她是你的老師嗎？" options=beginner_simple_question_options answer="Is" analysis='[{"word":"Is","label":"Be","desc":"主詞是 she，be 動詞疑問句用 Is 開頭。"},{"word":"she","label":"Subj","desc":"第三人稱單數主詞。"},{"word":"your teacher","label":"N","desc":"名詞片語。"}]' %}
-{% include grammar/pronoun-card.html title="Question 3" question="___ they ready?" prompt_translation="他們準備好了嗎？" translation="他們準備好了嗎？" options=beginner_simple_question_options answer="Are" analysis='[{"word":"Are","label":"Be","desc":"主詞是 they，be 動詞疑問句用 Are 開頭。"},{"word":"they","label":"Subj","desc":"複數主詞。"},{"word":"ready","label":"Adj","desc":"形容詞。"}]' %}
-{% include grammar/pronoun-card.html title="Question 4" question="___ you like English?" prompt_translation="你喜歡英文嗎？" translation="你喜歡英文嗎？" options=beginner_simple_question_options answer="Do" analysis='[{"word":"Do","label":"Aux","desc":"一般動詞 like 的疑問句，主詞 you 用 Do。"},{"word":"you","label":"Subj","desc":"主詞。"},{"word":"like","label":"V","desc":"一般動詞原形。"}]' %}
-{% include grammar/pronoun-card.html title="Question 5" question="___ he play tennis?" prompt_translation="他打網球嗎？" translation="他打網球嗎？" options=beginner_simple_question_options answer="Does" analysis='[{"word":"Does","label":"Aux","desc":"主詞 he 是第三人稱單數，一般動詞疑問句用 Does。"},{"word":"play","label":"V","desc":"用了 Does 後，動詞用原形 play。"},{"label":"Note","desc":"不要寫 Does he plays tennis?。"}]' %}
-{% include grammar/pronoun-card.html title="Question 6" question="___ we have homework?" prompt_translation="我們有作業嗎？" translation="我們有作業嗎？" options=beginner_simple_question_options answer="Do" analysis='[{"word":"Do","label":"Aux","desc":"主詞 we 搭配一般動詞疑問句，用 Do。"},{"word":"have","label":"V","desc":"一般動詞原形。"},{"word":"homework","label":"N","desc":"名詞。"}]' %}
-{% include grammar/pronoun-card.html title="Question 7" question="___ it cold today?" prompt_translation="今天冷嗎？" translation="今天冷嗎？" options=beginner_simple_question_options answer="Is" analysis='[{"word":"Is","label":"Be","desc":"主詞 it 搭配 be 動詞 is，疑問句把 Is 放句首。"},{"word":"it","label":"Subj","desc":"天氣常用 it 當主詞。"},{"word":"cold","label":"Adj","desc":"形容詞。"}]' %}
-
-{% include grammar/card-group-end.html %}
-
 ## Wh-問句與助動詞Do問句
 
 Wh-問句用來問「具體資訊」，常見開頭有 `what`、`who`、`where`、`when`、`why`、`how`。
@@ -680,51 +847,6 @@ He eats rice.
 {% include grammar/pronoun-card.html title="Question 5" question="They ___ watch TV." prompt_translation="他們很少看電視。" translation="他們很少看電視。" options=beginner_frequency_options answer="seldom" analysis='[{"word":"seldom","label":"Freq","desc":"seldom 表示很少。"},{"word":"watch","label":"V","desc":"一般動詞。"},{"word":"TV","label":"N","desc":"名詞。"}]' %}
 {% include grammar/pronoun-card.html title="Question 6" question="I ___ drink coffee." prompt_translation="我從不喝咖啡。" translation="我從不喝咖啡。" options=beginner_frequency_options answer="never" analysis='[{"word":"never","label":"Freq","desc":"never 表示從不。"},{"word":"drink","label":"V","desc":"一般動詞。"},{"word":"coffee","label":"N","desc":"名詞。"}]' %}
 {% include grammar/pronoun-card.html title="Question 7" question="My father is ___ busy." prompt_translation="我爸爸通常很忙。" translation="我爸爸通常很忙。" options=beginner_frequency_options answer="usually" analysis='[{"word":"usually","label":"Freq","desc":"usually 表示通常。"},{"word":"is","label":"Be","desc":"頻率副詞放在 be 動詞後面。"},{"word":"busy","label":"Adj","desc":"形容詞。"}]' %}
-
-{% include grammar/card-group-end.html %}
-
-## 空間介系詞
-
-空間介系詞用來說明人、事物或地點的位置。可以先用「短距離、中距離、長距離」來記：
-
-{% include grammar/spatial-prepositions-distance.html %}
-
-| 距離感 | 常見介系詞/片語      | 中文意思        | 範例                                |
-| ------ | -------------------- | --------------- | ----------------------------------- |
-| 短     | next to / beside     | 在旁邊          | The bag is `next to` the desk.      |
-|        | between              | 在兩者之間      | The cat is `between` the boxes.     |
-|        | in front of / behind | 在前面 / 在後面 | The car is `in front of` the house. |
-| 中     | near                 | 在附近          | The school is `near` my home.       |
-|        | across from          | 在對面          | The bank is `across from` the park. |
-|        | around               | 在周圍          | There are trees `around` the house. |
-| 長     | far from             | 離很遠          | The station is `far from` here.     |
-|        | away from            | 遠離            | Stay `away from` the road.          |
-|        | from ... to ...      | 從 ... 到 ...   | I walk `from` home `to` school.     |
-
-{% assign beginner_place_preposition_options = "on|under|next to|beside|between|in front of|behind|near|across from|around|far from|away from|from|to" %}
-
-{% include grammar/card-group-start.html %}
-
-{% include grammar/pronoun-card.html title="Question 1" question="The book is ___ the table." prompt_translation="書在桌上。" translation="書在桌上。" options=beginner_place_preposition_options answer="on" analysis='[{"word":"on","label":"Prep","desc":"on 表示在表面上。"},{"word":"the table","label":"N","desc":"介系詞後面的名詞片語。"}]' %}
-{% include grammar/pronoun-card.html title="Question 2" question="The cat is ___ the bed." prompt_translation="貓在床下。" translation="貓在床下。" options=beginner_place_preposition_options answer="under" analysis='[{"word":"under","label":"Prep","desc":"under 表示在下面。"},{"word":"the bed","label":"N","desc":"介系詞後面的名詞片語。"}]' %}
-{% include grammar/pronoun-card.html title="Question 3" question="The chair is ___ the table." prompt_translation="椅子在桌子旁邊。" translation="椅子在桌子旁邊。" options=beginner_place_preposition_options answer="next to" correct_answers="next to|beside" answer_translations='{"next to":"椅子在桌子旁邊。","beside":"椅子在桌子旁邊。"}' analysis='[{"word":"next to / beside","label":"Prep","desc":"兩者都可以表示在旁邊。"},{"word":"the table","label":"N","desc":"介系詞後面的名詞片語。"},{"label":"Note","desc":"這題 next to 和 beside 都可以。"}]' %}
-{% include grammar/pronoun-card.html title="Question 4" question="She sits ___ me." prompt_translation="她坐在我旁邊。" translation="她坐在我旁邊。" options=beginner_place_preposition_options answer="beside" correct_answers="next to|beside" answer_translations='{"next to":"她坐在我旁邊。","beside":"她坐在我旁邊。"}' analysis='[{"word":"beside / next to","label":"Prep","desc":"兩者都可以表示在旁邊。"},{"word":"me","label":"Obj","desc":"介系詞後面接受格 me。"},{"label":"Note","desc":"這題 beside 和 next to 都可以。"}]' %}
-{% include grammar/pronoun-card.html title="Question 5" question="The park is ___ the school." prompt_translation="公園在學校附近。" translation="公園在學校附近。" options=beginner_place_preposition_options answer="near" analysis='[{"word":"near","label":"Prep","desc":"near 表示在附近。"},{"word":"the school","label":"N","desc":"地點名詞片語。"}]' %}
-{% include grammar/pronoun-card.html title="Question 6" question="The bank is ___ the park." prompt_translation="銀行在公園對面。" translation="銀行在公園對面。" options=beginner_place_preposition_options answer="across from" analysis='[{"word":"across from","label":"Prep","desc":"across from 表示在對面。"},{"word":"the park","label":"N","desc":"地點名詞片語。"}]' %}
-{% include grammar/pronoun-card.html title="Question 7" question="The dog is ___ the door." prompt_translation="狗在門後面。" translation="狗在門後面。" options=beginner_place_preposition_options answer="behind" analysis='[{"word":"behind","label":"Prep","desc":"behind 表示在後面。"},{"word":"the door","label":"N","desc":"介系詞後面的名詞片語。"}]' %}
-{% include grammar/pronoun-card.html title="Question 8" question="The car is ___ the house." prompt_translation="車在房子前面。" translation="車在房子前面。" options=beginner_place_preposition_options answer="in front of" analysis='[{"word":"in front of","label":"Prep","desc":"in front of 表示在前面。"},{"word":"the house","label":"N","desc":"介系詞後面的名詞片語。"}]' %}
-{% include grammar/pronoun-card.html title="Question 9" question="The cat is ___ the boxes." prompt_translation="貓在箱子之間。" translation="貓在箱子之間。" options=beginner_place_preposition_options answer="between" analysis='[{"word":"between","label":"Prep","desc":"between 表示在兩者或多者之間。"},{"word":"the boxes","label":"N","desc":"複數名詞。"}]' %}
-{% include grammar/pronoun-card.html title="Question 10" question="There are trees ___ the house." prompt_translation="房子周圍有樹。" translation="房子周圍有樹。" options=beginner_place_preposition_options answer="around" analysis='[{"word":"around","label":"Prep","desc":"around 表示在周圍。"},{"word":"the house","label":"N","desc":"地點名詞片語。"}]' %}
-{% include grammar/pronoun-card.html title="Question 11" question="The station is ___ here." prompt_translation="車站離這裡很遠。" translation="車站離這裡很遠。" options=beginner_place_preposition_options answer="far from" analysis='[{"word":"far from","label":"Prep","desc":"far from 表示離某處很遠。"},{"word":"here","label":"Place","desc":"地點副詞。"}]' %}
-{% include grammar/pronoun-card.html title="Question 12" question="Stay ___ the road." prompt_translation="遠離馬路。" translation="遠離馬路。" options=beginner_place_preposition_options answer="away from" analysis='[{"word":"away from","label":"Prep","desc":"away from 表示遠離。"},{"word":"the road","label":"N","desc":"地點名詞片語。"}]' %}
-{% include grammar/pronoun-card.html title="Question 13" question="I walk ___ home to school." prompt_translation="我從家走到學校。" translation="我從家走到學校。" options=beginner_place_preposition_options answer="from" analysis='[{"word":"from","label":"Prep","desc":"from 表示起點，常和 to 搭配。"},{"word":"home","label":"Place","desc":"起點。"},{"word":"to school","label":"Place","desc":"終點。"}]' %}
-{% include grammar/pronoun-card.html title="Question 14" question="I walk from home ___ school." prompt_translation="我從家走到學校。" translation="我從家走到學校。" options=beginner_place_preposition_options answer="to" analysis='[{"word":"to","label":"Prep","desc":"to 表示方向或終點。"},{"word":"from home","label":"Place","desc":"起點。"},{"word":"school","label":"Place","desc":"終點。"}]' %}
-{% include grammar/pronoun-card.html title="Question 15" question="The lamp is ___ the sofa." prompt_translation="燈在沙發旁邊。" translation="燈在沙發旁邊。" options=beginner_place_preposition_options answer="next to" correct_answers="next to|beside" answer_translations='{"next to":"燈在沙發旁邊。","beside":"燈在沙發旁邊。"}' analysis='[{"word":"next to / beside","label":"Prep","desc":"兩者都表示在旁邊。"},{"word":"the sofa","label":"N","desc":"介系詞後面的名詞片語。"},{"label":"Note","desc":"這題 next to 和 beside 都可以。"}]' %}
-{% include grammar/pronoun-card.html title="Question 16" question="The shoes are ___ the chair." prompt_translation="鞋子在椅子下面。" translation="鞋子在椅子下面。" options=beginner_place_preposition_options answer="under" analysis='[{"word":"under","label":"Prep","desc":"under 表示在下面。"},{"word":"the chair","label":"N","desc":"介系詞後面的名詞片語。"}]' %}
-{% include grammar/pronoun-card.html title="Question 17" question="The museum is ___ the hotel." prompt_translation="博物館在飯店對面。" translation="博物館在飯店對面。" options=beginner_place_preposition_options answer="across from" analysis='[{"word":"across from","label":"Prep","desc":"across from 表示在對面。"},{"word":"the hotel","label":"N","desc":"地點名詞片語。"}]' %}
-{% include grammar/pronoun-card.html title="Question 18" question="My school is ___ my home." prompt_translation="我的學校在我家附近。" translation="我的學校在我家附近。" options=beginner_place_preposition_options answer="near" analysis='[{"word":"near","label":"Prep","desc":"near 表示在附近。"},{"word":"my home","label":"N","desc":"地點名詞片語。"}]' %}
-{% include grammar/pronoun-card.html title="Question 19" question="The picture is ___ the wall." prompt_translation="圖片在牆上。" translation="圖片在牆上。" options=beginner_place_preposition_options answer="on" analysis='[{"word":"on","label":"Prep","desc":"on 可表示在表面上，像在牆上。"},{"word":"the wall","label":"N","desc":"介系詞後面的名詞片語。"}]' %}
-{% include grammar/pronoun-card.html title="Question 20" question="The children play ___ the tree." prompt_translation="孩子們在樹的周圍玩。" translation="孩子們在樹的周圍玩。" options=beginner_place_preposition_options answer="around" analysis='[{"word":"around","label":"Prep","desc":"around 表示在周圍。"},{"word":"the tree","label":"N","desc":"介系詞後面的名詞片語。"}]' %}
 
 {% include grammar/card-group-end.html %}
 
