@@ -990,6 +990,69 @@ Wh-問句是在疑問句前面加 Wh-字，基本結構是：`Wh-字 + was / wer
 
 {% include grammar/simple-present-question-practice.html %}
 
+## 動名詞與不定詞
+
+動名詞和不定詞都可以表示「做某件事」，但形式不同。
+
+- 動名詞：`V-ing`，例如 `reading / swimming / studying`
+- 不定詞：`to + 原形動詞`，例如 `to read / to swim / to study`
+
+初學者需要先認得最常見的搭配，因為日常英文和 TOEIC 題目很常出現 `want to...`、`need to...`、`enjoy -ing`、`be interested in -ing`。
+
+### 動名詞：V-ing 當名詞用
+
+動名詞看起來像現在進行式的 `V-ing`，但它在句子裡是「一件事情」或「一個活動」。
+
+| 用法         | 公式                           | 範例                    | 中文意思     |
+| ------------ | ------------------------------ | ----------------------- | ------------ |
+| 當主詞       | V-ing + 動詞                   | Reading is useful.      | 閱讀很有用。 |
+| 放在動詞後   | enjoy / finish / avoid + V-ing | She enjoys cooking.     | 她喜歡煮飯。 |
+| 放在介系詞後 | in / at / for / about + V-ing  | He is good at speaking. | 他擅長說話。 |
+
+常見接動名詞的字：
+
+```text
+enjoy doing
+finish doing
+avoid doing
+practice doing
+be good at doing
+be interested in doing
+```
+
+### 不定詞：to + 原形動詞
+
+不定詞常用來表示「想要做、需要做、計畫做、為了做」。
+
+| 用法     | 公式               | 範例                            | 中文意思                 |
+| -------- | ------------------ | ------------------------------- | ------------------------ |
+| 表示想要 | want to + 原形動詞 | I want to learn English.        | 我想學英文。             |
+| 表示需要 | need to + 原形動詞 | We need to leave now.           | 我們現在需要離開。       |
+| 表示計畫 | plan to + 原形動詞 | They plan to visit Taipei.      | 他們計畫拜訪台北。       |
+| 表示目的 | to + 原形動詞      | She called to confirm the time. | 她打電話是為了確認時間。 |
+
+常見接不定詞的字：
+
+```text
+want to do
+need to do
+plan to do
+hope to do
+decide to do
+would like to do
+```
+
+快速解題技巧：
+
+1. 看到 `to` 後面通常接原形動詞：`to study`，不是 `to studying`。
+2. 看到介系詞後面常接 `V-ing`：`interested in learning`，不是 `interested in learn`。
+3. `enjoy / finish / avoid / practice` 後面常接 `V-ing`。
+4. `want / need / plan / hope / decide / would like` 後面常接 `to + 原形動詞`。
+
+### 動名詞與不定詞練習
+
+{% include grammar/gerund-infinitive-practice.html %}
+
 ## Wh-問句與助動詞Do問句
 
 Wh-問句用來問「具體資訊」，常見開頭有 `what`、`who`、`where`、`when`、`why`、`how`。
