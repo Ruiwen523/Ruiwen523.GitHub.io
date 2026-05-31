@@ -410,7 +410,7 @@ What are they studying?
 | 一般動詞過去否定句 | 主詞 + did not + 原形動詞 | He did not clean the room. |
 | 一般動詞過去疑問句 | Did + 主詞 + 原形動詞?    | Did he clean the room?     |
 
-### 過去式練習題
+### Be 動詞/一般動詞過去式練習
 
 {% include grammar/simple-past-practice.html %}
 
@@ -424,14 +424,44 @@ What are they studying?
 
 有些動詞的過去式不是加 `-ed`，而是整個字改變，這些叫不規則動詞。
 
-| 原形  | 過去式 | 範例                    |
-| ----- | ------ | ----------------------- |
-| go    | went   | I went to school.       |
-| eat   | ate    | She ate breakfast.      |
-| see   | saw    | They saw a movie.       |
-| buy   | bought | He bought a bag.        |
-| come  | came   | We came home.           |
-| drink | drank  | My father drank coffee. |
+| 原形  | 過去式  | 範例                    |
+| ----- | ------- | ----------------------- |
+| go    | went    | I went to school.       |
+| eat   | ate     | She ate breakfast.      |
+| see   | saw     | They saw a movie.       |
+| buy   | bought  | He bought a bag.        |
+| come  | came    | We came home.           |
+| drink | drank   | My father drank coffee. |
+| do    | did     | I did my homework.      |
+| have  | had     | She had a cold.         |
+| make  | made    | He made a cake.         |
+| take  | took    | We took a bus.          |
+| give  | gave    | They gave me a gift.    |
+| get   | got     | I got up early.         |
+| find  | found   | She found her keys.     |
+| think | thought | He thought about it.    |
+| say   | said    | They said hello.        |
+| tell  | told    | She told a story.       |
+| write | wrote   | I wrote a letter.       |
+| read  | read    | He read a book.         |
+| run   | ran     | We ran in the park.     |
+| swim  | swam    | They swam yesterday.    |
+| sing  | sang    | She sang a song.        |
+| sit   | sat     | I sat near the window.  |
+| stand | stood   | He stood by the door.   |
+| sleep | slept   | The baby slept well.    |
+| speak | spoke   | We spoke English.       |
+| break | broke   | He broke the cup.       |
+| bring | brought | She brought lunch.      |
+| catch | caught  | I caught the ball.      |
+| teach | taught  | He taught math.         |
+| meet  | met     | We met our teacher.     |
+| leave | left    | They left at seven.     |
+| lose  | lost    | She lost her phone.     |
+| pay   | paid    | I paid for the ticket.  |
+| put   | put     | He put it on the desk.  |
+| cut   | cut     | She cut the paper.      |
+| feel  | felt    | I felt tired.           |
 
 快速解題技巧：
 
