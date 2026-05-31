@@ -1,0 +1,13 @@
+{% assign beginner_frequency_options = "always|usually|often|sometimes|seldom|never" %}
+
+{% include grammar/card-group-start.html %}
+
+{% include grammar/pronoun-card.html title="Question 1" question="I ___ eat breakfast." prompt_translation="我總是吃早餐。" translation="我總是吃早餐。" options=beginner_frequency_options answer="always" analysis='[{"word":"always","label":"Freq","desc":"always 表示總是，頻率最高。"},{"word":"eat","label":"V","desc":"一般動詞，頻率副詞放在它前面。"},{"word":"breakfast","label":"N","desc":"名詞。"}]' %}
+{% include grammar/pronoun-card.html title="Question 2" question="She ___ walks to school." prompt_translation="她通常走路去學校。" translation="她通常走路去學校。" options=beginner_frequency_options answer="usually" analysis='[{"word":"usually","label":"Freq","desc":"usually 表示通常。"},{"word":"walks","label":"V","desc":"一般動詞，頻率副詞放在前面。"},{"word":"to school","label":"Place","desc":"地點片語。"}]' %}
+{% include grammar/pronoun-card.html title="Question 3" question="We ___ play basketball." prompt_translation="我們常常打籃球。" translation="我們常常打籃球。" options=beginner_frequency_options answer="often" analysis='[{"word":"often","label":"Freq","desc":"often 表示常常。"},{"word":"play","label":"V","desc":"一般動詞。"},{"word":"basketball","label":"N","desc":"名詞。"}]' %}
+{% include grammar/pronoun-card.html title="Question 4" question="He is ___ late." prompt_translation="他有時候遲到。" translation="他有時候遲到。" options=beginner_frequency_options answer="sometimes" analysis='[{"word":"sometimes","label":"Freq","desc":"sometimes 表示有時候。"},{"word":"is","label":"Be","desc":"有 be 動詞時，頻率副詞通常放在 be 動詞後面。"},{"word":"late","label":"Adj","desc":"形容詞。"}]' %}
+{% include grammar/pronoun-card.html title="Question 5" question="They ___ watch TV." prompt_translation="他們很少看電視。" translation="他們很少看電視。" options=beginner_frequency_options answer="seldom" analysis='[{"word":"seldom","label":"Freq","desc":"seldom 表示很少。"},{"word":"watch","label":"V","desc":"一般動詞。"},{"word":"TV","label":"N","desc":"名詞。"}]' %}
+{% include grammar/pronoun-card.html title="Question 6" question="I ___ drink coffee." prompt_translation="我從不喝咖啡。" translation="我從不喝咖啡。" options=beginner_frequency_options answer="never" analysis='[{"word":"never","label":"Freq","desc":"never 表示從不。"},{"word":"drink","label":"V","desc":"一般動詞。"},{"word":"coffee","label":"N","desc":"名詞。"}]' %}
+{% include grammar/pronoun-card.html title="Question 7" question="My father is ___ busy." prompt_translation="我爸爸通常很忙。" translation="我爸爸通常很忙。" options=beginner_frequency_options answer="usually" analysis='[{"word":"usually","label":"Freq","desc":"usually 表示通常。"},{"word":"is","label":"Be","desc":"頻率副詞放在 be 動詞後面。"},{"word":"busy","label":"Adj","desc":"形容詞。"}]' %}
+
+{% include grammar/card-group-end.html %}
