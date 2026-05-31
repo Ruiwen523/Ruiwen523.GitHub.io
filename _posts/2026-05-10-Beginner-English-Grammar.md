@@ -420,6 +420,53 @@ What are they studying?
 
 {% include grammar/simple-past-be-or-did-practice.html %}
 
+## 一般動詞過去式的轉換說明與規則
+
+一般動詞過去式用來表示過去已經完成的動作。肯定句中，主要動詞要改成過去式；否定句和疑問句使用 `did` 時，後面的主要動詞要改回原形。
+
+### 規則動詞：加 `-ed`
+
+| 規則              | 轉換方式             | 範例             |
+| ----------------- | -------------------- | ---------------- |
+| 大多數動詞        | 直接加 `-ed`         | play -> played   |
+| 字尾是 `e`        | 只加 `-d`            | like -> liked    |
+| 子音 + `y` 結尾   | 去 `y` 加 `-ied`     | study -> studied |
+| 短母音 + 子音字尾 | 重複字尾子音加 `-ed` | stop -> stopped  |
+| 母音 + `y` 結尾   | 直接加 `-ed`         | enjoy -> enjoyed |
+
+```text
+I play basketball every day.
+I played basketball yesterday.
+我昨天打籃球。
+
+She studies English after school.
+She studied English yesterday.
+她昨天讀英文。
+```
+
+### 不規則動詞：要另外記
+
+有些一般動詞的過去式不是加 `-ed`，例如 `go -> went`、`eat -> ate`、`see -> saw`。這類動詞要直接記它的過去式。
+
+### 否定句與疑問句：用了 `did` 就用原形
+
+| 句型   | 公式                      | 範例                       |
+| ------ | ------------------------- | -------------------------- |
+| 肯定句 | 主詞 + 過去式動詞         | He cleaned the room.       |
+| 否定句 | 主詞 + did not + 原形動詞 | He did not clean the room. |
+| 疑問句 | Did + 主詞 + 原形動詞?    | Did he clean the room?     |
+
+快速解題技巧：
+
+1. 先找時間提示字，例如 `yesterday / last night / ago`。
+2. 肯定句把一般動詞改成過去式。
+3. 否定句與疑問句看到 `did`，後面主要動詞用原形。
+4. 規則動詞照規則加 `-ed`；不規則動詞要查表或背起來。
+
+### 一般動詞過去式轉換練習
+
+{% include grammar/simple-past-verb-conversion-practice.html %}
+
 ## 不規則動詞過去式
 
 有些動詞的過去式不是加 `-ed`，而是整個字改變，這些叫不規則動詞。
