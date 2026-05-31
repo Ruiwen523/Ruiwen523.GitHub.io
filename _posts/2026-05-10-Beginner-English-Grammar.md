@@ -974,6 +974,115 @@ TOEIC 常出現辦公、會議、通知、資料與設備情境。這一組很�
 
 {% include grammar/countable-uncountable-practice.html %}
 
+## 可數名詞的複數形式
+
+可數名詞表示兩個以上時，通常要改成複數。這裡要注意名稱：是「名詞的複數形式」，不是「動名詞的複數形式」。動名詞像 `swimming / reading / shopping` 通常是在表示一個活動，不是這裡要加 `-s` 的名詞複數。
+
+基本概念：
+
+```text
+one book
+一本書
+
+two books
+兩本書
+```
+
+### 規則複數名詞
+
+| 規則                     | 變化方式          | 單數   | 複數     | 範例          |
+| ------------------------ | ----------------- | ------ | -------- | ------------- |
+| 大多數名詞               | 加 `-s`           | book   | books    | two books     |
+| 字尾是 `s / x / ch / sh` | 加 `-es`          | box    | boxes    | three boxes   |
+| 子音 + `y` 結尾          | 去 `y` 加 `-ies`  | city   | cities   | two cities    |
+| 母音 + `y` 結尾          | 加 `-s`           | key    | keys     | three keys    |
+| 字尾是 `f / fe`          | 常改成 `-ves`     | shelf  | shelves  | two shelves   |
+| 字尾是 `o`               | 常加 `-es`        | tomato | tomatoes | some tomatoes |
+| 字尾是 `o` 的常見例外    | 有些只加 `-s`     | photo  | photos   | ten photos    |
+| 字尾是 `f` 的常見例外    | 有些只加 `-s`     | roof   | roofs    | two roofs     |
+
+快速判斷：
+
+1. 看到 `two / three / many / several / a few`，後面通常要用複數名詞。
+2. 不要只加 `s`，先看字尾：`box -> boxes`、`city -> cities`。
+3. 有些字規則不同，遇到常用字要直接記。
+
+#### 規則複數名詞練習
+
+{% include grammar/plural-noun-rules-practice.html %}
+
+### 不規則複數名詞
+
+有些名詞的複數不是加 `-s` 或 `-es`，而是整個字改變，這些叫「不規則複數名詞」。這不是「不規則動詞的複數型」；動詞是依主詞變化，例如 `he works`，名詞才有單數和複數。
+
+考證照或 TOEIC 時，最值得先記的是職場人物、商務文件、資料分析、旅遊交通、身體健康這幾類。
+
+#### 人物與職場常見不規則複數
+
+| 單數   | 複數     | 中文意思 | 範例 | 中文翻譯 |
+| ------ | -------- | -------- | ---- | -------- |
+| person | people   | 人       | many people | 很多人 |
+| child  | children | 小孩     | two children | 兩個小孩 |
+| man    | men      | 男士     | three men | 三位男士 |
+| woman  | women    | 女士     | two women | 兩位女士 |
+
+這組是最常見的一組。`people` 在商務英文中常用來表示「人們、員工、顧客、參加者」。
+
+##### 人物與職場練習
+
+{% include grammar/irregular-plural-people-practice.html %}
+
+#### 商務、資料與分析常見不規則複數
+
+| 單數      | 複數      | 中文意思 | 範例 | 中文翻譯 |
+| --------- | --------- | -------- | ---- | -------- |
+| analysis  | analyses  | 分析     | market analyses | 市場分析 |
+| basis     | bases     | 基礎、依據 | several bases | 幾個依據 |
+| crisis    | crises    | 危機     | financial crises | 金融危機 |
+| criterion | criteria  | 標準     | selection criteria | 選擇標準 |
+| datum     | data      | 資料點   | customer data | 客戶資料 |
+| medium    | media     | 媒介、媒體 | social media | 社群媒體 |
+| index     | indices   | 指數、索引 | price indices | 物價指數 |
+| appendix  | appendices | 附錄    | two appendices | 兩個附錄 |
+
+這組常出現在報告、會議、研究、資料分析與商務新聞中。`data` 現代英文常被當集合名詞使用，但考題仍常要求知道它來自 `datum`。
+
+##### 商務、資料與分析練習
+
+{% include grammar/irregular-plural-business-data-practice.html %}
+
+#### 文件、設備與固定單複數常見字
+
+| 單數/原形 | 複數/常用形式 | 中文意思 | 範例 | 中文翻譯 |
+| --------- | ------------- | -------- | ---- | -------- |
+| aircraft  | aircraft      | 飛機     | two aircraft | 兩架飛機 |
+| series    | series        | 系列     | two training series | 兩套訓練系列 |
+| species   | species       | 物種、種類 | several species | 幾個種類 |
+| means     | means         | 方法、手段 | several means | 幾種方法 |
+| headquarters | headquarters | 總部   | company headquarters | 公司總部 |
+| staff     | staff         | 員工、全體職員 | all staff | 全體員工 |
+
+這組的重點是「單數和複數看起來一樣」或「常以固定形式出現」。TOEIC 很常在公司、交通、訓練與通知情境中看到。
+
+##### 文件、設備與固定形式練習
+
+{% include grammar/irregular-plural-same-form-practice.html %}
+
+#### 身體健康與日常常見不規則複數
+
+| 單數  | 複數  | 中文意思 | 範例 | 中文翻譯 |
+| ----- | ----- | -------- | ---- | -------- |
+| foot  | feet  | 腳、英尺 | six feet | 六英尺 |
+| tooth | teeth | 牙齒     | white teeth | 白牙 |
+| mouse | mice  | 老鼠、滑鼠 | two mice | 兩隻老鼠 / 兩個滑鼠 |
+| goose | geese | 鵝       | two geese | 兩隻鵝 |
+
+這組在健康、尺寸、辦公設備或日常閱讀中會遇到。`mouse -> mice` 也可以指電腦滑鼠。
+
+##### 身體健康與日常練習
+
+{% include grammar/irregular-plural-daily-practice.html %}
+
 ## 冠詞 a / an / the
 
 冠詞放在名詞前面。初學時先記住三個重點：
