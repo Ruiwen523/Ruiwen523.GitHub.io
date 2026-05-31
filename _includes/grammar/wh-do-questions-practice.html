@@ -1,0 +1,13 @@
+{% assign beginner_wh_do_options = "What|Who|Where|When|Why|How|Do|Does" %}
+
+{% include grammar/card-group-start.html %}
+
+{% include grammar/pronoun-card.html title="Question 1" question="___ do you live?" prompt_translation="你住在哪裡？" translation="你住在哪裡？" options=beginner_wh_do_options answer="Where" analysis='[{"word":"Where","label":"Wh","desc":"問地點用 Where。"},{"word":"do","label":"Aux","desc":"一般動詞 live 的問句用 do。"},{"word":"live","label":"V","desc":"動詞原形。"}]' %}
+{% include grammar/pronoun-card.html title="Question 2" question="___ does she want?" prompt_translation="她想要什麼？" translation="她想要什麼？" options=beginner_wh_do_options answer="What" analysis='[{"word":"What","label":"Wh","desc":"問東西或內容用 What。"},{"word":"does","label":"Aux","desc":"主詞 she 搭配 does。"},{"word":"want","label":"V","desc":"用了 does 後，動詞用原形 want。"}]' %}
+{% include grammar/pronoun-card.html title="Question 3" question="___ is your brother?" prompt_translation="你的哥哥/弟弟是誰？" translation="你的哥哥/弟弟是誰？" options=beginner_wh_do_options answer="Who" analysis='[{"word":"Who","label":"Wh","desc":"問人用 Who。"},{"word":"is","label":"Be","desc":"這句是 be 動詞問句。"},{"word":"your brother","label":"N","desc":"名詞片語。"}]' %}
+{% include grammar/pronoun-card.html title="Question 4" question="___ do they study?" prompt_translation="他們什麼時候讀書？" translation="他們什麼時候讀書？" options=beginner_wh_do_options answer="When" analysis='[{"word":"When","label":"Wh","desc":"問時間用 When。"},{"word":"do","label":"Aux","desc":"主詞 they 搭配 do。"},{"word":"study","label":"V","desc":"一般動詞原形。"}]' %}
+{% include grammar/pronoun-card.html title="Question 5" question="___ do you go to school?" prompt_translation="你怎麼去學校？" translation="你怎麼去學校？" options=beginner_wh_do_options answer="How" analysis='[{"word":"How","label":"Wh","desc":"問方法或方式用 How。"},{"word":"do","label":"Aux","desc":"一般動詞 go 的問句用 do。"},{"word":"go","label":"V","desc":"動詞原形。"}]' %}
+{% include grammar/pronoun-card.html title="Question 6" question="___ you like coffee?" prompt_translation="你喜歡咖啡嗎？" translation="你喜歡咖啡嗎？" options=beginner_wh_do_options answer="Do" analysis='[{"word":"Do","label":"Aux","desc":"這題是 Yes/No 問句，不是 Wh-問句。"},{"word":"you","label":"Subj","desc":"主詞 you。"},{"word":"like","label":"V","desc":"一般動詞原形。"}]' %}
+{% include grammar/pronoun-card.html title="Question 7" question="___ he work here?" prompt_translation="他在這裡工作嗎？" translation="他在這裡工作嗎？" options=beginner_wh_do_options answer="Does" analysis='[{"word":"Does","label":"Aux","desc":"主詞 he 是第三人稱單數，一般動詞問句用 Does。"},{"word":"work","label":"V","desc":"用了 Does 後，動詞用原形 work。"},{"word":"here","label":"Place","desc":"地點副詞。"}]' %}
+
+{% include grammar/card-group-end.html %}

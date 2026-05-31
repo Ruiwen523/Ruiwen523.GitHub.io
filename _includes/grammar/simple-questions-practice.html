@@ -1,0 +1,13 @@
+{% assign beginner_simple_question_options = "Am|Is|Are|Do|Does" %}
+
+{% include grammar/card-group-start.html %}
+
+{% include grammar/pronoun-card.html title="Question 1" question="___ you a student?" prompt_translation="你是學生嗎？" translation="你是學生嗎？" options=beginner_simple_question_options answer="Are" analysis='[{"word":"Are","label":"Be","desc":"主詞是 you，be 動詞疑問句用 Are 開頭。"},{"word":"you","label":"Subj","desc":"主詞。"},{"word":"a student","label":"N","desc":"名詞片語。"}]' %}
+{% include grammar/pronoun-card.html title="Question 2" question="___ she your teacher?" prompt_translation="她是你的老師嗎？" translation="她是你的老師嗎？" options=beginner_simple_question_options answer="Is" analysis='[{"word":"Is","label":"Be","desc":"主詞是 she，be 動詞疑問句用 Is 開頭。"},{"word":"she","label":"Subj","desc":"第三人稱單數主詞。"},{"word":"your teacher","label":"N","desc":"名詞片語。"}]' %}
+{% include grammar/pronoun-card.html title="Question 3" question="___ they ready?" prompt_translation="他們準備好了嗎？" translation="他們準備好了嗎？" options=beginner_simple_question_options answer="Are" analysis='[{"word":"Are","label":"Be","desc":"主詞是 they，be 動詞疑問句用 Are 開頭。"},{"word":"they","label":"Subj","desc":"複數主詞。"},{"word":"ready","label":"Adj","desc":"形容詞。"}]' %}
+{% include grammar/pronoun-card.html title="Question 4" question="___ you like English?" prompt_translation="你喜歡英文嗎？" translation="你喜歡英文嗎？" options=beginner_simple_question_options answer="Do" analysis='[{"word":"Do","label":"Aux","desc":"一般動詞 like 的疑問句，主詞 you 用 Do。"},{"word":"you","label":"Subj","desc":"主詞。"},{"word":"like","label":"V","desc":"一般動詞原形。"}]' %}
+{% include grammar/pronoun-card.html title="Question 5" question="___ he play tennis?" prompt_translation="他打網球嗎？" translation="他打網球嗎？" options=beginner_simple_question_options answer="Does" analysis='[{"word":"Does","label":"Aux","desc":"主詞 he 是第三人稱單數，一般動詞疑問句用 Does。"},{"word":"play","label":"V","desc":"用了 Does 後，動詞用原形 play。"},{"label":"Note","desc":"不要寫 Does he plays tennis?。"}]' %}
+{% include grammar/pronoun-card.html title="Question 6" question="___ we have homework?" prompt_translation="我們有作業嗎？" translation="我們有作業嗎？" options=beginner_simple_question_options answer="Do" analysis='[{"word":"Do","label":"Aux","desc":"主詞 we 搭配一般動詞疑問句，用 Do。"},{"word":"have","label":"V","desc":"一般動詞原形。"},{"word":"homework","label":"N","desc":"名詞。"}]' %}
+{% include grammar/pronoun-card.html title="Question 7" question="___ it cold today?" prompt_translation="今天冷嗎？" translation="今天冷嗎？" options=beginner_simple_question_options answer="Is" analysis='[{"word":"Is","label":"Be","desc":"主詞 it 搭配 be 動詞 is，疑問句把 Is 放句首。"},{"word":"it","label":"Subj","desc":"天氣常用 it 當主詞。"},{"word":"cold","label":"Adj","desc":"形容詞。"}]' %}
+
+{% include grammar/card-group-end.html %}

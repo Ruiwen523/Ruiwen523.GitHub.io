@@ -1,0 +1,13 @@
+{% assign beginner_subject_options = "I|You|He|She|It|We|They" %}
+
+{% include grammar/card-group-start.html %}
+
+{% include grammar/pronoun-card.html title="Question 1" question="___ am happy." prompt_translation="我很開心。" translation="我很開心。" options=beginner_subject_options answer="I" analysis='[{"word":"I","label":"Subj","desc":"主格，表示我。"},{"word":"am","label":"Be","desc":"I 要搭配 am。"},{"word":"happy","label":"Adj","desc":"形容詞，表示開心。"}]' %}
+{% include grammar/pronoun-card.html title="Question 2" question="___ are my friend." prompt_translation="你是我的朋友。" translation="你是我的朋友。" options=beginner_subject_options answer="You" analysis='[{"word":"You","label":"Subj","desc":"主格，表示你。"},{"word":"are","label":"Be","desc":"You 要搭配 are。"},{"word":"my friend","label":"N","desc":"名詞片語。"}]' %}
+{% include grammar/pronoun-card.html title="Question 3" question="___ is a teacher." prompt_translation="他是老師。" translation="他是老師。" options=beginner_subject_options answer="He" analysis='[{"word":"He","label":"Subj","desc":"主格，表示他。"},{"word":"is","label":"Be","desc":"He 是第三人稱單數主詞，要搭配 is。"},{"word":"a teacher","label":"N","desc":"名詞片語。"}]' %}
+{% include grammar/pronoun-card.html title="Question 4" question="___ is my sister." prompt_translation="她是我的姐姐/妹妹。" translation="她是我的姐姐/妹妹。" options=beginner_subject_options answer="She" analysis='[{"word":"She","label":"Subj","desc":"主格，表示她。"},{"word":"is","label":"Be","desc":"She 要搭配 is。"},{"word":"my sister","label":"N","desc":"名詞片語。"}]' %}
+{% include grammar/pronoun-card.html title="Question 5" question="___ is a dog." prompt_translation="它是一隻狗。" translation="它是一隻狗。" options=beginner_subject_options answer="It" analysis='[{"word":"It","label":"Subj","desc":"主格，表示它。"},{"word":"is","label":"Be","desc":"It 是第三人稱單數主詞，要搭配 is。"},{"word":"a dog","label":"N","desc":"名詞片語。"}]' %}
+{% include grammar/pronoun-card.html title="Question 6" question="___ are students." prompt_translation="我們是學生。" translation="我們是學生。" options=beginner_subject_options answer="We" analysis='[{"word":"We","label":"Subj","desc":"主格，表示我們。"},{"word":"are","label":"Be","desc":"We 要搭配 are。"},{"word":"students","label":"N","desc":"複數名詞。"}]' %}
+{% include grammar/pronoun-card.html title="Question 7" question="___ are my classmates." prompt_translation="他們是我的同學。" translation="他們是我的同學。" options=beginner_subject_options answer="They" analysis='[{"word":"They","label":"Subj","desc":"主格，表示他們。"},{"word":"are","label":"Be","desc":"They 要搭配 are。"},{"word":"my classmates","label":"N","desc":"複數名詞片語。"}]' %}
+
+{% include grammar/card-group-end.html %}
