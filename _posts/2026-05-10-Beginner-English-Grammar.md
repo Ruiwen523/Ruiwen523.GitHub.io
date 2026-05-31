@@ -471,52 +471,118 @@ She studied English yesterday.
 
 有些動詞的過去式不是加 `-ed`，而是整個字改變，這些叫不規則動詞。
 
-| 原形  | 過去式  | 範例                    |
-| ----- | ------- | ----------------------- |
-| go    | went    | I went to school.       |
-| eat   | ate     | She ate breakfast.      |
-| see   | saw     | They saw a movie.       |
-| buy   | bought  | He bought a bag.        |
-| come  | came    | We came home.           |
-| drink | drank   | My father drank coffee. |
-| do    | did     | I did my homework.      |
-| have  | had     | She had a cold.         |
-| make  | made    | He made a cake.         |
-| take  | took    | We took a bus.          |
-| give  | gave    | They gave me a gift.    |
-| get   | got     | I got up early.         |
-| find  | found   | She found her keys.     |
-| think | thought | He thought about it.    |
-| say   | said    | They said hello.        |
-| tell  | told    | She told a story.       |
-| write | wrote   | I wrote a letter.       |
-| read  | read    | He read a book.         |
-| run   | ran     | We ran in the park.     |
-| swim  | swam    | They swam yesterday.    |
-| sing  | sang    | She sang a song.        |
-| sit   | sat     | I sat near the window.  |
-| stand | stood   | He stood by the door.   |
-| sleep | slept   | The baby slept well.    |
-| speak | spoke   | We spoke English.       |
-| break | broke   | He broke the cup.       |
-| bring | brought | She brought lunch.      |
-| catch | caught  | I caught the ball.      |
-| teach | taught  | He taught math.         |
-| meet  | met     | We met our teacher.     |
-| leave | left    | They left at seven.     |
-| lose  | lost    | She lost her phone.     |
-| pay   | paid    | I paid for the ticket.  |
-| put   | put     | He put it on the desk.  |
-| cut   | cut     | She cut the paper.      |
-| feel  | felt    | I felt tired.           |
+先不要一次背完整張表。比較好的方式是「一組一組記」，每次先熟悉 6 到 8 個，再用例句確認意思。
+
+### 第 1 組：生活中最常用的動作
+
+| 原形  | 過去式 | 中文意思   | 範例                    | 中文翻譯             |
+| ----- | ------ | ---------- | ----------------------- | -------------------- |
+| go    | went   | 去         | I went to school.       | 我去學校。           |
+| come  | came   | 來、回來   | We came home.           | 我們回到家。         |
+| eat   | ate    | 吃         | She ate breakfast.      | 她吃了早餐。         |
+| drink | drank  | 喝         | My father drank coffee. | 我爸爸喝了咖啡。     |
+| have  | had    | 有、吃、喝 | She had a cold.         | 她感冒了。           |
+| get   | got    | 得到、起床 | I got up early.         | 我很早起床。         |
+| take  | took   | 拿、搭乘   | We took a bus.          | 我們搭了公車。       |
+| buy   | bought | 買         | He bought a bag.        | 他買了一個包包。     |
+
+觀察重點：這一組都是日常生活很常用的動詞，建議先用「昨天做了什麼」來造句，例如 `I went...`、`I ate...`、`I bought...`。
+
+#### 第 1 組練習
+
+{% include grammar/irregular-past-group-1-practice.html %}
+
+### 第 2 組：說話、學習與表達
+
+| 原形  | 過去式  | 中文意思 | 範例                  | 中文翻譯           |
+| ----- | ------- | -------- | --------------------- | ------------------ |
+| do    | did     | 做       | I did my homework.    | 我做了我的作業。   |
+| say   | said    | 說       | They said hello.      | 他們說哈囉。       |
+| tell  | told    | 告訴     | She told a story.     | 她說了一個故事。   |
+| speak | spoke   | 說、講   | We spoke English.     | 我們說英文。       |
+| write | wrote   | 寫       | I wrote a letter.     | 我寫了一封信。     |
+| read  | read    | 讀       | He read a book.       | 他讀了一本書。     |
+| teach | taught  | 教       | He taught math.       | 他教數學。         |
+| think | thought | 想、認為 | He thought about it.  | 他想了那件事。     |
+
+觀察重點：`read` 的過去式拼法不變，但發音會變；`say -> said`、`tell -> told`、`speak -> spoke` 都是很常出現在對話題的動詞。
+
+#### 第 2 組練習
+
+{% include grammar/irregular-past-group-2-practice.html %}
+
+### 第 3 組：移動、身體動作與狀態
+
+| 原形  | 過去式 | 中文意思 | 範例                    | 中文翻譯             |
+| ----- | ------ | -------- | ----------------------- | -------------------- |
+| run   | ran    | 跑       | We ran in the park.     | 我們在公園跑步。     |
+| swim  | swam   | 游泳     | They swam yesterday.    | 他們昨天游泳。       |
+| sing  | sang   | 唱       | She sang a song.        | 她唱了一首歌。       |
+| sit   | sat    | 坐       | I sat near the window.  | 我坐在窗戶旁邊。     |
+| stand | stood  | 站       | He stood by the door.   | 他站在門旁邊。       |
+| sleep | slept  | 睡覺     | The baby slept well.    | 嬰兒睡得很好。       |
+| feel  | felt   | 感覺     | I felt tired.           | 我覺得累。           |
+
+觀察重點：`run -> ran`、`swim -> swam`、`sing -> sang` 可以放在一起記，因為母音都有明顯變化。
+
+#### 第 3 組練習
+
+{% include grammar/irregular-past-group-3-practice.html %}
+
+### 第 4 組：常見事件與結果
+
+| 原形  | 過去式  | 中文意思   | 範例                    | 中文翻譯             |
+| ----- | ------- | ---------- | ----------------------- | -------------------- |
+| see   | saw     | 看見、觀看 | They saw a movie.       | 他們看了一部電影。   |
+| find  | found   | 找到       | She found her keys.     | 她找到了她的鑰匙。   |
+| make  | made    | 製作       | He made a cake.         | 他做了一個蛋糕。     |
+| give  | gave    | 給         | They gave me a gift.    | 他們給了我一份禮物。 |
+| bring | brought | 帶來       | She brought lunch.      | 她帶了午餐。         |
+| catch | caught  | 接住、抓到 | I caught the ball.      | 我接住了球。         |
+| break | broke   | 打破       | He broke the cup.       | 他打破了杯子。       |
+
+觀察重點：`bring -> brought` 和 `catch -> caught` 都有 `-ought / -aught` 的拼法，可以放在一起比較。
+
+#### 第 4 組練習
+
+{% include grammar/irregular-past-group-4-practice.html %}
+
+### 第 5 組：容易混淆或過去式不變
+
+| 原形  | 過去式 | 中文意思 | 範例                    | 中文翻譯             |
+| ----- | ------ | -------- | ----------------------- | -------------------- |
+| meet  | met    | 遇見     | We met our teacher.     | 我們遇見了老師。     |
+| leave | left   | 離開     | They left at seven.     | 他們七點離開。       |
+| lose  | lost   | 遺失     | She lost her phone.     | 她弄丟了手機。       |
+| pay   | paid   | 付款     | I paid for the ticket.  | 我付了票錢。         |
+| put   | put    | 放       | He put it on the desk.  | 他把它放在桌上。     |
+| cut   | cut    | 切、剪   | She cut the paper.      | 她剪了紙。           |
+
+觀察重點：`put -> put`、`cut -> cut` 過去式拼法完全不變。看到過去時間時，還是要知道它們已經是在說過去。
+
+#### 第 5 組練習
+
+{% include grammar/irregular-past-group-5-practice.html %}
+
+### 記憶練習方式
+
+```text
+go -> went
+I went to school yesterday.
+我昨天去學校。
+
+eat -> ate
+She ate breakfast this morning.
+她今天早上吃了早餐。
+```
+
+練習時不要只背 `go -> went`，要連同一個短句一起記。這樣看到句子時，比較容易判斷動詞是不是應該用過去式。
 
 快速解題技巧：
 
 1. 看到過去時間，例如 `yesterday / last night / this morning`，先判斷要不要用過去式。
 2. 如果動詞是不規則動詞，不要加 `-ed`。
 3. 肯定句用過去式；否定句與疑問句有 `did` 時，後面動詞要改回原形。
-
-{% include grammar/irregular-past-practice.html %}
 
 ## 一般動詞過去式否定句與疑問句
 
