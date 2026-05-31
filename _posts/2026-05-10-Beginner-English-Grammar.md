@@ -475,16 +475,16 @@ She studied English yesterday.
 
 ### 第 1 組：生活中最常用的動作
 
-| 原形  | 過去式 | 中文意思   | 範例                    | 中文翻譯             |
-| ----- | ------ | ---------- | ----------------------- | -------------------- |
-| go    | went   | 去         | I went to school.       | 我去學校。           |
-| come  | came   | 來、回來   | We came home.           | 我們回到家。         |
-| eat   | ate    | 吃         | She ate breakfast.      | 她吃了早餐。         |
-| drink | drank  | 喝         | My father drank coffee. | 我爸爸喝了咖啡。     |
-| have  | had    | 有、吃、喝 | She had a cold.         | 她感冒了。           |
-| get   | got    | 得到、起床 | I got up early.         | 我很早起床。         |
-| take  | took   | 拿、搭乘   | We took a bus.          | 我們搭了公車。       |
-| buy   | bought | 買         | He bought a bag.        | 他買了一個包包。     |
+| 原形  | 過去式 | 中文意思   | 範例                    | 中文翻譯         |
+| ----- | ------ | ---------- | ----------------------- | ---------------- |
+| go    | went   | 去         | I went to school.       | 我去學校。       |
+| come  | came   | 來、回來   | We came home.           | 我們回到家。     |
+| eat   | ate    | 吃         | She ate breakfast.      | 她吃了早餐。     |
+| drink | drank  | 喝         | My father drank coffee. | 我爸爸喝了咖啡。 |
+| have  | had    | 有、吃、喝 | She had a cold.         | 她感冒了。       |
+| get   | got    | 得到、起床 | I got up early.         | 我很早起床。     |
+| take  | took   | 拿、搭乘   | We took a bus.          | 我們搭了公車。   |
+| buy   | bought | 買         | He bought a bag.        | 他買了一個包包。 |
 
 觀察重點：這一組都是日常生活很常用的動詞，建議先用「昨天做了什麼」來造句，例如 `I went...`、`I ate...`、`I bought...`。
 
@@ -494,16 +494,16 @@ She studied English yesterday.
 
 ### 第 2 組：說話、學習與表達
 
-| 原形  | 過去式  | 中文意思 | 範例                  | 中文翻譯           |
-| ----- | ------- | -------- | --------------------- | ------------------ |
-| do    | did     | 做       | I did my homework.    | 我做了我的作業。   |
-| say   | said    | 說       | They said hello.      | 他們說哈囉。       |
-| tell  | told    | 告訴     | She told a story.     | 她說了一個故事。   |
-| speak | spoke   | 說、講   | We spoke English.     | 我們說英文。       |
-| write | wrote   | 寫       | I wrote a letter.     | 我寫了一封信。     |
-| read  | read    | 讀       | He read a book.       | 他讀了一本書。     |
-| teach | taught  | 教       | He taught math.       | 他教數學。         |
-| think | thought | 想、認為 | He thought about it.  | 他想了那件事。     |
+| 原形  | 過去式  | 中文意思 | 範例                 | 中文翻譯         |
+| ----- | ------- | -------- | -------------------- | ---------------- |
+| do    | did     | 做       | I did my homework.   | 我做了我的作業。 |
+| say   | said    | 說       | They said hello.     | 他們說哈囉。     |
+| tell  | told    | 告訴     | She told a story.    | 她說了一個故事。 |
+| speak | spoke   | 說、講   | We spoke English.    | 我們說英文。     |
+| write | wrote   | 寫       | I wrote a letter.    | 我寫了一封信。   |
+| read  | read    | 讀       | He read a book.      | 他讀了一本書。   |
+| teach | taught  | 教       | He taught math.      | 他教數學。       |
+| think | thought | 想、認為 | He thought about it. | 他想了那件事。   |
 
 觀察重點：`read` 的過去式拼法不變，但發音會變；`say -> said`、`tell -> told`、`speak -> spoke` 都是很常出現在對話題的動詞。
 
@@ -513,15 +513,15 @@ She studied English yesterday.
 
 ### 第 3 組：移動、身體動作與狀態
 
-| 原形  | 過去式 | 中文意思 | 範例                    | 中文翻譯             |
-| ----- | ------ | -------- | ----------------------- | -------------------- |
-| run   | ran    | 跑       | We ran in the park.     | 我們在公園跑步。     |
-| swim  | swam   | 游泳     | They swam yesterday.    | 他們昨天游泳。       |
-| sing  | sang   | 唱       | She sang a song.        | 她唱了一首歌。       |
-| sit   | sat    | 坐       | I sat near the window.  | 我坐在窗戶旁邊。     |
-| stand | stood  | 站       | He stood by the door.   | 他站在門旁邊。       |
-| sleep | slept  | 睡覺     | The baby slept well.    | 嬰兒睡得很好。       |
-| feel  | felt   | 感覺     | I felt tired.           | 我覺得累。           |
+| 原形  | 過去式 | 中文意思 | 範例                   | 中文翻譯         |
+| ----- | ------ | -------- | ---------------------- | ---------------- |
+| run   | ran    | 跑       | We ran in the park.    | 我們在公園跑步。 |
+| swim  | swam   | 游泳     | They swam yesterday.   | 他們昨天游泳。   |
+| sing  | sang   | 唱       | She sang a song.       | 她唱了一首歌。   |
+| sit   | sat    | 坐       | I sat near the window. | 我坐在窗戶旁邊。 |
+| stand | stood  | 站       | He stood by the door.  | 他站在門旁邊。   |
+| sleep | slept  | 睡覺     | The baby slept well.   | 嬰兒睡得很好。   |
+| feel  | felt   | 感覺     | I felt tired.          | 我覺得累。       |
 
 觀察重點：`run -> ran`、`swim -> swam`、`sing -> sang` 可以放在一起記，因為母音都有明顯變化。
 
@@ -531,15 +531,15 @@ She studied English yesterday.
 
 ### 第 4 組：常見事件與結果
 
-| 原形  | 過去式  | 中文意思   | 範例                    | 中文翻譯             |
-| ----- | ------- | ---------- | ----------------------- | -------------------- |
-| see   | saw     | 看見、觀看 | They saw a movie.       | 他們看了一部電影。   |
-| find  | found   | 找到       | She found her keys.     | 她找到了她的鑰匙。   |
-| make  | made    | 製作       | He made a cake.         | 他做了一個蛋糕。     |
-| give  | gave    | 給         | They gave me a gift.    | 他們給了我一份禮物。 |
-| bring | brought | 帶來       | She brought lunch.      | 她帶了午餐。         |
-| catch | caught  | 接住、抓到 | I caught the ball.      | 我接住了球。         |
-| break | broke   | 打破       | He broke the cup.       | 他打破了杯子。       |
+| 原形  | 過去式  | 中文意思   | 範例                 | 中文翻譯             |
+| ----- | ------- | ---------- | -------------------- | -------------------- |
+| see   | saw     | 看見、觀看 | They saw a movie.    | 他們看了一部電影。   |
+| find  | found   | 找到       | She found her keys.  | 她找到了她的鑰匙。   |
+| make  | made    | 製作       | He made a cake.      | 他做了一個蛋糕。     |
+| give  | gave    | 給         | They gave me a gift. | 他們給了我一份禮物。 |
+| bring | brought | 帶來       | She brought lunch.   | 她帶了午餐。         |
+| catch | caught  | 接住、抓到 | I caught the ball.   | 我接住了球。         |
+| break | broke   | 打破       | He broke the cup.    | 他打破了杯子。       |
 
 觀察重點：`bring -> brought` 和 `catch -> caught` 都有 `-ought / -aught` 的拼法，可以放在一起比較。
 
@@ -549,14 +549,14 @@ She studied English yesterday.
 
 ### 第 5 組：容易混淆或過去式不變
 
-| 原形  | 過去式 | 中文意思 | 範例                    | 中文翻譯             |
-| ----- | ------ | -------- | ----------------------- | -------------------- |
-| meet  | met    | 遇見     | We met our teacher.     | 我們遇見了老師。     |
-| leave | left   | 離開     | They left at seven.     | 他們七點離開。       |
-| lose  | lost   | 遺失     | She lost her phone.     | 她弄丟了手機。       |
-| pay   | paid   | 付款     | I paid for the ticket.  | 我付了票錢。         |
-| put   | put    | 放       | He put it on the desk.  | 他把它放在桌上。     |
-| cut   | cut    | 切、剪   | She cut the paper.      | 她剪了紙。           |
+| 原形  | 過去式 | 中文意思 | 範例                   | 中文翻譯         |
+| ----- | ------ | -------- | ---------------------- | ---------------- |
+| meet  | met    | 遇見     | We met our teacher.    | 我們遇見了老師。 |
+| leave | left   | 離開     | They left at seven.    | 他們七點離開。   |
+| lose  | lost   | 遺失     | She lost her phone.    | 她弄丟了手機。   |
+| pay   | paid   | 付款     | I paid for the ticket. | 我付了票錢。     |
+| put   | put    | 放       | He put it on the desk. | 他把它放在桌上。 |
+| cut   | cut    | 切、剪   | She cut the paper.     | 她剪了紙。       |
 
 觀察重點：`put -> put`、`cut -> cut` 過去式拼法完全不變。看到過去時間時，還是要知道它們已經是在說過去。
 
@@ -865,6 +865,97 @@ He eats rice.
 4. 問數量時，可數用 `How many`，不可數用 `How much`。
 
 {% include grammar/quantifiers-practice.html %}
+
+## 不可數名詞變可數的說法
+
+有些名詞本身不可數，不能直接說 `one water`、`two breads`、`three information`。如果要數它們，通常要加上「單位量詞」，把不可數名詞包成一個可數單位。
+
+基本結構是：`數字 + 單位量詞 + of + 不可數名詞`
+
+```text
+a bottle of water
+一瓶水
+
+two pieces of advice
+兩則建議
+
+three cups of coffee
+三杯咖啡
+```
+
+### 飲料與液體常用單位
+
+| 單位量詞    | 中文意思     | 常搭配不可數名詞     | 範例                | 中文翻譯 |
+| ----------- | ------------ | -------------------- | ------------------- | -------- |
+| a bottle of | 一瓶         | water / juice / wine | a bottle of water   | 一瓶水   |
+| a glass of  | 一杯         | water / juice / milk | a glass of milk     | 一杯牛奶 |
+| a cup of    | 一杯         | coffee / tea         | a cup of coffee     | 一杯咖啡 |
+| a can of    | 一罐         | soda / soup          | a can of soda       | 一罐汽水 |
+| a carton of | 一盒、一紙盒 | milk / juice         | a carton of milk    | 一盒牛奶 |
+| a liter of  | 一公升       | water / oil          | two liters of water | 兩公升水 |
+
+#### 飲料與液體單位練習
+
+{% include grammar/unit-quantifiers-drinks-practice.html %}
+
+### 食物與包裝常用單位
+
+| 單位量詞   | 中文意思           | 常搭配不可數名詞       | 範例                | 中文翻譯     |
+| ---------- | ------------------ | ---------------------- | ------------------- | ------------ |
+| a piece of | 一片、一塊、一份   | bread / cake / cheese  | a piece of cake     | 一塊蛋糕     |
+| a slice of | 一片               | bread / cheese / pizza | two slices of bread | 兩片麵包     |
+| a loaf of  | 一條、一條完整麵包 | bread                  | a loaf of bread     | 一條麵包     |
+| a bowl of  | 一碗               | rice / soup            | a bowl of rice      | 一碗飯       |
+| a plate of | 一盤               | rice / pasta / food    | a plate of pasta    | 一盤義大利麵 |
+| a jar of   | 一罐、廣口瓶       | jam / honey            | a jar of jam        | 一罐果醬     |
+| a bag of   | 一袋               | rice / flour / sugar   | a bag of rice       | 一袋米       |
+| a box of   | 一盒               | cereal / chocolate     | a box of cereal     | 一盒麥片     |
+| a pack of  | 一包               | gum / butter           | a pack of gum       | 一包口香糖   |
+
+#### 食物與包裝單位練習
+
+{% include grammar/unit-quantifiers-food-practice.html %}
+
+### 文件、資訊與辦公常用單位
+
+TOEIC 常出現辦公、會議、通知、資料與設備情境。這一組很重要，因為 `information / advice / equipment / furniture` 都是常見不可數名詞。
+
+| 單位量詞   | 中文意思         | 常搭配不可數名詞                                    | 範例                     | 中文翻譯       |
+| ---------- | ---------------- | --------------------------------------------------- | ------------------------ | -------------- |
+| a piece of | 一則、一項、一件 | information / advice / news / equipment / furniture | a piece of information   | 一項資訊       |
+| a sheet of | 一張             | paper                                               | a sheet of paper         | 一張紙         |
+| a copy of  | 一份             | a report / a document / a contract                  | two copies of the report | 兩份報告       |
+| a file of  | 一份檔案         | data / records                                      | a file of customer data  | 一份客戶資料檔 |
+| a set of   | 一組、一套       | instructions / documents / furniture                | a set of instructions    | 一套說明       |
+| an item of | 一項、一件       | equipment / furniture / clothing                    | an item of equipment     | 一件設備       |
+| a list of  | 一份清單         | names / tasks / items                               | a list of tasks          | 一份任務清單   |
+
+#### 文件、資訊與辦公單位練習
+
+{% include grammar/unit-quantifiers-office-practice.html %}
+
+### 商務與工作場合常見搭配
+
+| 不可數名詞  | 常用單位量詞            | 正確說法                  | 不自然或錯誤說法 |
+| ----------- | ----------------------- | ------------------------- | ---------------- |
+| information | a piece of              | a piece of information    | an information   |
+| advice      | a piece of              | two pieces of advice      | two advices      |
+| equipment   | a piece of / an item of | three pieces of equipment | three equipments |
+| furniture   | a piece of / an item of | a piece of furniture      | a furniture      |
+| luggage     | a piece of              | two pieces of luggage     | two luggages     |
+| paper       | a sheet of / a piece of | a sheet of paper          | a paper          |
+| work        | a piece of              | a piece of work           | a work           |
+
+#### 商務與工作場合搭配練習
+
+{% include grammar/unit-quantifiers-business-practice.html %}
+
+快速解題技巧：
+
+1. 如果名詞是不可數，前面不要直接加 `a / an` 或數字。
+2. 要數不可數名詞時，用 `a piece of / a bottle of / a cup of / a sheet of` 這類單位量詞。
+3. 數量變多時，變複數的是單位量詞，不是不可數名詞：`two bottles of water`、`three pieces of advice`。
+4. TOEIC 常考 `information / advice / equipment / furniture / luggage`，這些字通常不可直接加 `s`。
 
 ## 可數與不可數名詞
 
