@@ -34,7 +34,7 @@ BE 動詞包含：
 > 所有格形容詞後面要接名詞，例如 `my book`、`her teacher`；
 > 所有格代名詞可單獨使用，例如 `This book is mine.`。
 
-## 人稱代名詞 - 主格練習
+### 主格練習
 
 主格是句子的主詞，通常放在動詞前面。初學時先記住這一組：
 
@@ -69,7 +69,150 @@ ___ is my brother.
 
 {% include grammar/subject-pronoun-practice.html %}
 
-## Be 動詞肯定句
+### 受格練習
+
+受格常放在動詞後面，或介系詞後面，表示動作的對象。初學時先記住這一組：
+
+```text
+me / you / him / her / it / us / them
+```
+
+看到「動詞 + 空格」或「to / for / with + 空格」時，通常要選受格。
+
+快速判斷：
+
+| 位置/用途     | 選擇 | 範例              |
+| ------------- | ---- | ----------------- |
+| 動詞 + 空格   | 受格 | I called `her`.   |
+| 介系詞 + 空格 | 受格 | with `them`       |
+| 動作的接受者  | 受格 | Please help `me`. |
+
+最實用的解題順序：
+
+1. 先找動詞或介系詞。
+2. 如果空格在動詞後面，通常是動作的對象，選受格。
+3. 如果空格在 `to / for / with / at` 等介系詞後面，選受格。
+4. 再依中文意思選出正確的人稱。
+
+```text
+I like ___.
+我喜歡他。
+
+Please help ___.
+請幫助我們。
+```
+
+{% include grammar/object-pronoun-practice.html %}
+
+### 所有格練習
+
+所有格用來表示「誰的」，後面通常會直接接名詞。初學時先記住這一組：
+
+```text
+my / your / his / her / its / our / their
+```
+
+看到「空格 + 名詞」時，通常要選所有格。
+
+快速判斷：
+
+| 位置/用途        | 選擇         | 範例                  |
+| ---------------- | ------------ | --------------------- |
+| 空格 + 名詞      | 所有格形容詞 | `Her` manager called. |
+| 表示「誰的東西」 | 所有格形容詞 | `My` book is new.     |
+| 空格後面有名詞   | 所有格形容詞 | `Their` house is big. |
+
+最實用的解題順序：
+
+1. 先看空格後面是不是直接接名詞。
+2. 如果空格後面有名詞，而且意思是「誰的」，選所有格形容詞。
+3. 不要選 `mine / yours / hers / ours / theirs`，因為它們後面不能再接名詞。
+4. 再依中文意思選出正確的人稱。
+
+```text
+___ book is new.
+我的書是新的。
+
+___ house is big.
+他們的房子很大。
+```
+
+{% include grammar/possessive-adjective-practice.html %}
+
+### 所有格代名詞練習
+
+所有格代名詞也表示「誰的」，但它可以自己當一個名詞用，後面不要再接名詞。初學時先記住這一組：
+
+```text
+mine / yours / his / hers / its / ours / theirs
+```
+
+看到「be 動詞 + 空格」或句尾空格時，如果前面已經提過物品，通常可以選所有格代名詞。
+
+快速判斷：
+
+| 位置/用途                  | 選擇         | 範例                 |
+| -------------------------- | ------------ | -------------------- |
+| be 動詞 + 空格，後面無名詞 | 所有格代名詞 | This book is `mine`. |
+| 空格在句尾，表示「誰的」   | 所有格代名詞 | Is this pen `yours`? |
+| 前面已出現被擁有的東西     | 所有格代名詞 | The house is `ours`. |
+
+最實用的解題順序：
+
+1. 先看空格後面有沒有名詞。
+2. 如果空格後面沒有名詞，但句子要表達「是誰的」，選所有格代名詞。
+3. 對照所有格形容詞：`my -> mine`、`your -> yours`、`her -> hers`、`our -> ours`、`their -> theirs`。
+4. 再依中文意思選出正確的人稱。
+
+```text
+This book is ___.
+這本書是我的。
+
+The house is ___.
+那間房子是他們的。
+```
+
+{% include grammar/possessive-pronoun-practice.html %}
+
+### 反身代名詞練習
+
+反身代名詞常用來表示「自己」。主詞和受詞是同一個人或同一個東西時，就會用反身代名詞。初學時先記住這一組：
+
+```text
+myself / yourself / himself / herself / itself / ourselves / yourselves / themselves
+```
+
+看到 `by ___` 時，常表示「獨自地」；看到主詞和受詞指同一個人時，也要用反身代名詞。
+
+快速判斷：
+
+| 位置/用途             | 選擇       | 範例                         |
+| --------------------- | ---------- | ---------------------------- |
+| by + 空格             | 反身代名詞 | I did it by `myself`.        |
+| 主詞和受詞是同一人/物 | 反身代名詞 | She looked at `herself`.     |
+| 表示「自己、獨自」    | 反身代名詞 | The door closed by `itself`. |
+
+最實用的解題順序：
+
+1. 先找主詞。
+2. 如果看到 `by ___`，先判斷是否表示「自己、獨自」。
+3. 如果受詞和主詞是同一人或同一物，選反身代名詞。
+4. 依主詞配對：`I -> myself`、`he -> himself`、`she -> herself`、`we -> ourselves`、`they -> themselves`。
+5. 再確認單數或複數，例如 `yourself` 和 `yourselves`。
+
+```text
+I did it by ___.
+我自己做的。
+
+She looked at ___.
+她看著她自己。
+```
+
+{% include grammar/reflexive-pronoun-practice.html %}
+
+## Be 動詞
+
+### 肯定句
 
 句型結構是：`Pronoun + be verb + 狀態/形容詞/地點`。
 
@@ -90,9 +233,9 @@ Be 動詞後面可以接名詞或形容詞。接名詞時，要注意單數和�
 - 複數名詞通常會加 `-s` 或 `-es`，例如 `They are students.`、`We are friends.`
 - Be 動詞主要看主詞決定：`He is a student.`、`They are students.`；前面是單數主詞用 `is`，複數主詞多用 `are`。
 
-### Examples
+#### Examples
 
-### I am
+#### I am
 
 ```text
 I am a student.
@@ -102,7 +245,7 @@ I am happy.
 我很開心。
 ```
 
-### He is
+#### He is
 
 ```text
 He is a doctor.
@@ -112,7 +255,7 @@ He is tired.
 他很累。
 ```
 
-### They are
+#### They are
 
 ```text
 They are friends.
@@ -122,269 +265,11 @@ They are ready.
 他們準備好了。
 ```
 
-### 練習題
+#### 練習題
 
 {% include grammar/be-verb-affirmative-practice.html %}
 
-## 冠詞 a / an / the
-
-冠詞放在名詞前面。初學時先記住三個重點：
-
-| 冠詞 | 用法                         | 範例      |
-| ---- | ---------------------------- | --------- |
-| a    | 單數可數名詞，子音音開頭     | a teacher |
-| an   | 單數可數名詞，母音音開頭     | an apple  |
-| the  | 特定的人事物，或前面已經提過 | the book  |
-
-快速解題技巧：
-
-1. 第一次提到、不是特定的單數可數名詞，用 `a / an`。
-2. 看發音，不只看字母；母音音開頭用 `an`。
-3. 已經知道是哪一個，或第二次提到同一個東西，用 `the`。
-
-{% include grammar/articles-practice.html %}
-
-## 可數與不可數名詞
-
-名詞可以先分成「可數名詞」和「不可數名詞」。
-
-| 類型       | 用法                                                | 範例              |
-| ---------- | --------------------------------------------------- | ----------------- |
-| 可數名詞   | 可以數一個、兩個，單數前常用 `a / an`，複數常加 `s` | a book, two books |
-| 不可數名詞 | 通常不能直接加 `a / an`，也不直接加複數 `s`         | water, rice, milk |
-
-快速解題技巧：
-
-1. 看到數字 `two / three / five`，後面可數名詞要用複數。
-2. 單數可數名詞前通常要有 `a / an / the / my` 這類限定詞。
-3. `water / rice / milk / bread` 這類不可數名詞常用 `some`。
-
-{% include grammar/countable-uncountable-practice.html %}
-
-## 可數名詞的複數形式
-
-可數名詞表示兩個以上時，通常要改成複數。這裡要注意名稱：是「名詞的複數形式」，不是「動名詞的複數形式」。動名詞像 `swimming / reading / shopping` 通常是在表示一個活動，不是這裡要加 `-s` 的名詞複數。
-
-基本概念：
-
-```text
-one book
-一本書
-
-two books
-兩本書
-```
-
-### 規則複數名詞
-
-| 規則                     | 變化方式         | 單數   | 複數     | 範例          |
-| ------------------------ | ---------------- | ------ | -------- | ------------- |
-| 大多數名詞               | 加 `-s`          | book   | books    | two books     |
-| 字尾是 `s / x / ch / sh` | 加 `-es`         | box    | boxes    | three boxes   |
-| 子音 + `y` 結尾          | 去 `y` 加 `-ies` | city   | cities   | two cities    |
-| 母音 + `y` 結尾          | 加 `-s`          | key    | keys     | three keys    |
-| 字尾是 `f / fe`          | 常改成 `-ves`    | shelf  | shelves  | two shelves   |
-| 字尾是 `o`               | 常加 `-es`       | tomato | tomatoes | some tomatoes |
-| 字尾是 `o` 的常見例外    | 有些只加 `-s`    | photo  | photos   | ten photos    |
-| 字尾是 `f` 的常見例外    | 有些只加 `-s`    | roof   | roofs    | two roofs     |
-
-快速判斷：
-
-1. 看到 `two / three / many / several / a few`，後面通常要用複數名詞。
-2. 不要只加 `s`，先看字尾：`box -> boxes`、`city -> cities`。
-3. 有些字規則不同，遇到常用字要直接記。
-
-#### 規則複數名詞練習
-
-{% include grammar/plural-noun-rules-practice.html %}
-
-### 不規則複數名詞
-
-有些名詞的複數不是加 `-s` 或 `-es`，而是整個字改變，這些叫「不規則複數名詞」。這不是「不規則動詞的複數型」；動詞是依主詞變化，例如 `he works`，名詞才有單數和複數。
-
-考證照或 TOEIC 時，最值得先記的是職場人物、商務文件、資料分析、旅遊交通、身體健康這幾類。
-
-#### 人物與職場常見不規則複數
-
-| 單數   | 複數     | 中文意思 | 範例         | 中文翻譯 |
-| ------ | -------- | -------- | ------------ | -------- |
-| person | people   | 人       | many people  | 很多人   |
-| child  | children | 小孩     | two children | 兩個小孩 |
-| man    | men      | 男士     | three men    | 三位男士 |
-| woman  | women    | 女士     | two women    | 兩位女士 |
-
-這組是最常見的一組。`people` 在商務英文中常用來表示「人們、員工、顧客、參加者」。
-
-##### 人物與職場練習
-
-{% include grammar/irregular-plural-people-practice.html %}
-
-#### 商務、資料與分析常見不規則複數
-
-| 單數      | 複數       | 中文意思   | 範例               | 中文翻譯 |
-| --------- | ---------- | ---------- | ------------------ | -------- |
-| analysis  | analyses   | 分析       | market analyses    | 市場分析 |
-| basis     | bases      | 基礎、依據 | several bases      | 幾個依據 |
-| crisis    | crises     | 危機       | financial crises   | 金融危機 |
-| criterion | criteria   | 標準       | selection criteria | 選擇標準 |
-| datum     | data       | 資料點     | customer data      | 客戶資料 |
-| medium    | media      | 媒介、媒體 | social media       | 社群媒體 |
-| index     | indices    | 指數、索引 | price indices      | 物價指數 |
-| appendix  | appendices | 附錄       | two appendices     | 兩個附錄 |
-
-這組常出現在報告、會議、研究、資料分析與商務新聞中。`data` 現代英文常被當集合名詞使用，但考題仍常要求知道它來自 `datum`。
-
-##### 商務、資料與分析練習
-
-{% include grammar/irregular-plural-business-data-practice.html %}
-
-#### 文件、設備與固定單複數常見字
-
-| 單數/原形    | 複數/常用形式 | 中文意思       | 範例                 | 中文翻譯     |
-| ------------ | ------------- | -------------- | -------------------- | ------------ |
-| aircraft     | aircraft      | 飛機           | two aircraft         | 兩架飛機     |
-| series       | series        | 系列           | two training series  | 兩套訓練系列 |
-| species      | species       | 物種、種類     | several species      | 幾個種類     |
-| means        | means         | 方法、手段     | several means        | 幾種方法     |
-| headquarters | headquarters  | 總部           | company headquarters | 公司總部     |
-| staff        | staff         | 員工、全體職員 | all staff            | 全體員工     |
-
-這組的重點是「單數和複數看起來一樣」或「常以固定形式出現」。TOEIC 很常在公司、交通、訓練與通知情境中看到。
-
-##### 文件、設備與固定形式練習
-
-{% include grammar/irregular-plural-same-form-practice.html %}
-
-#### 身體健康與日常常見不規則複數
-
-| 單數  | 複數  | 中文意思   | 範例        | 中文翻譯            |
-| ----- | ----- | ---------- | ----------- | ------------------- |
-| foot  | feet  | 腳、英尺   | six feet    | 六英尺              |
-| tooth | teeth | 牙齒       | white teeth | 白牙                |
-| mouse | mice  | 老鼠、滑鼠 | two mice    | 兩隻老鼠 / 兩個滑鼠 |
-| goose | geese | 鵝         | two geese   | 兩隻鵝              |
-
-這組在健康、尺寸、辦公設備或日常閱讀中會遇到。`mouse -> mice` 也可以指電腦滑鼠。
-
-##### 身體健康與日常練習
-
-{% include grammar/irregular-plural-daily-practice.html %}
-
-## 量詞 some / any / much / many
-
-量詞用來表示數量。它會和可數、不可數名詞連動。
-
-| 量詞 | 用法                                 | 範例                    |
-| ---- | ------------------------------------ | ----------------------- |
-| some | 肯定句中的一些，可接複數或不可數名詞 | some apples, some water |
-| any  | 否定句或疑問句中的一些、任何         | any homework            |
-| many | 很多，接複數可數名詞                 | many books              |
-| much | 很多，接不可數名詞                   | much water              |
-
-快速解題技巧：
-
-1. 複數可數名詞用 `many`。
-2. 不可數名詞用 `much`。
-3. 肯定句常用 `some`；否定句與疑問句常用 `any`。
-4. 問數量時，可數用 `How many`，不可數用 `How much`。
-
-{% include grammar/quantifiers-practice.html %}
-
-## 不可數名詞變可數的說法
-
-有些名詞本身不可數，不能直接說 `one water`、`two breads`、`three information`。如果要數它們，通常要加上「單位量詞」，把不可數名詞包成一個可數單位。
-
-基本結構是：`數字 + 單位量詞 + of + 不可數名詞`
-
-```text
-a bottle of water
-一瓶水
-
-two pieces of advice
-兩則建議
-
-three cups of coffee
-三杯咖啡
-```
-
-### 飲料與液體常用單位
-
-| 單位量詞    | 中文意思     | 常搭配不可數名詞     | 範例                | 中文翻譯 |
-| ----------- | ------------ | -------------------- | ------------------- | -------- |
-| a bottle of | 一瓶         | water / juice / wine | a bottle of water   | 一瓶水   |
-| a glass of  | 一杯         | water / juice / milk | a glass of milk     | 一杯牛奶 |
-| a cup of    | 一杯         | coffee / tea         | a cup of coffee     | 一杯咖啡 |
-| a can of    | 一罐         | soda / soup          | a can of soda       | 一罐汽水 |
-| a carton of | 一盒、一紙盒 | milk / juice         | a carton of milk    | 一盒牛奶 |
-| a liter of  | 一公升       | water / oil          | two liters of water | 兩公升水 |
-
-#### 飲料與液體單位練習
-
-{% include grammar/unit-quantifiers-drinks-practice.html %}
-
-### 食物與包裝常用單位
-
-| 單位量詞   | 中文意思           | 常搭配不可數名詞       | 範例                | 中文翻譯     |
-| ---------- | ------------------ | ---------------------- | ------------------- | ------------ |
-| a piece of | 一片、一塊、一份   | bread / cake / cheese  | a piece of cake     | 一塊蛋糕     |
-| a slice of | 一片               | bread / cheese / pizza | two slices of bread | 兩片麵包     |
-| a loaf of  | 一條、一條完整麵包 | bread                  | a loaf of bread     | 一條麵包     |
-| a bowl of  | 一碗               | rice / soup            | a bowl of rice      | 一碗飯       |
-| a plate of | 一盤               | rice / pasta / food    | a plate of pasta    | 一盤義大利麵 |
-| a jar of   | 一罐、廣口瓶       | jam / honey            | a jar of jam        | 一罐果醬     |
-| a bag of   | 一袋               | rice / flour / sugar   | a bag of rice       | 一袋米       |
-| a box of   | 一盒               | cereal / chocolate     | a box of cereal     | 一盒麥片     |
-| a pack of  | 一包               | gum / butter           | a pack of gum       | 一包口香糖   |
-
-#### 食物與包裝單位練習
-
-{% include grammar/unit-quantifiers-food-practice.html %}
-
-### 文件、資訊與辦公常用單位
-
-TOEIC 常出現辦公、會議、通知、資料與設備情境。這一組很重要，因為 `information / advice / equipment / furniture` 都是常見不可數名詞。
-
-| 單位量詞   | 中文意思         | 常搭配不可數名詞                                    | 範例                     | 中文翻譯       |
-| ---------- | ---------------- | --------------------------------------------------- | ------------------------ | -------------- |
-| a piece of | 一則、一項、一件 | information / advice / news / equipment / furniture | a piece of information   | 一項資訊       |
-| a sheet of | 一張             | paper                                               | a sheet of paper         | 一張紙         |
-| a copy of  | 一份             | a report / a document / a contract                  | two copies of the report | 兩份報告       |
-| a file of  | 一份檔案         | data / records                                      | a file of customer data  | 一份客戶資料檔 |
-| a set of   | 一組、一套       | instructions / documents / furniture                | a set of instructions    | 一套說明       |
-| an item of | 一項、一件       | equipment / furniture / clothing                    | an item of equipment     | 一件設備       |
-| a list of  | 一份清單         | names / tasks / items                               | a list of tasks          | 一份任務清單   |
-
-#### 文件、資訊與辦公單位練習
-
-{% include grammar/unit-quantifiers-office-practice.html %}
-
-### 商務與工作場合常見搭配
-
-| 不可數名詞  | 常用單位量詞            | 正確說法                  | 不自然或錯誤說法 |
-| ----------- | ----------------------- | ------------------------- | ---------------- |
-| information | a piece of              | a piece of information    | an information   |
-| advice      | a piece of              | two pieces of advice      | two advices      |
-| equipment   | a piece of / an item of | three pieces of equipment | three equipments |
-| furniture   | a piece of / an item of | a piece of furniture      | a furniture      |
-| luggage     | a piece of              | two pieces of luggage     | two luggages     |
-| paper       | a sheet of / a piece of | a sheet of paper          | a paper          |
-| work        | a piece of              | a piece of work           | a work           |
-
-#### 商務與工作場合搭配練習
-
-{% include grammar/unit-quantifiers-business-practice.html %}
-
-快速解題技巧：
-
-1. 如果名詞是不可數，前面不要直接加 `a / an` 或數字。
-2. 要數不可數名詞時，用 `a piece of / a bottle of / a cup of / a sheet of` 這類單位量詞。
-3. 數量變多時，變複數的是單位量詞，不是不可數名詞：`two bottles of water`、`three pieces of advice`。
-4. TOEIC 常考 `information / advice / equipment / furniture / luggage`，這些字通常不可直接加 `s`。
-
-
----
-
-## Be 動詞的否定句是在 be 動詞後面加 `not`
+### 否定句：在 be 動詞後面加 `not`
 
 句型結構是： Pronoun + be verb + `not` + 狀態/形容詞/地點
 
@@ -399,7 +284,7 @@ TOEIC 常出現辦公、會議、通知、資料與設備情境。這一組很�
 | You (你們)  | You are not    | you're not `[jʊr nɑt]` / you aren't `[ju ɑrənt]`   |
 | They (他們) | They are not   | they're not `[ðɛr nɑt]` / they aren't `[ðe ɑrənt]` |
 
-### Examples
+#### Examples
 
 ```text
 I am not a teacher.
@@ -412,13 +297,13 @@ They are not at home.
 他們不在家。
 ```
 
-### 練習題
+#### 練習題
 
 {% include grammar/be-verb-negative-practice.html %}
 
 ---
 
-## Be 動詞與一般動詞疑問句
+### Be 動詞與一般動詞疑問句
 
 簡單式疑問句常見有兩種：be 動詞疑問句、一般動詞疑問句。
 
@@ -456,7 +341,307 @@ Does she work here?
 
 {% include grammar/simple-questions-practice.html %}
 
-## Be動詞與常見地點介系詞
+## 名詞、冠詞與數量
+
+### 冠詞 a / an / the
+
+冠詞放在名詞前面。初學時先記住三個重點：
+
+| 冠詞 | 用法                         | 範例      |
+| ---- | ---------------------------- | --------- |
+| a    | 單數可數名詞，子音音開頭     | a teacher |
+| an   | 單數可數名詞，母音音開頭     | an apple  |
+| the  | 特定的人事物，或前面已經提過 | the book  |
+
+快速解題技巧：
+
+1. 第一次提到、不是特定的單數可數名詞，用 `a / an`。
+2. 看發音，不只看字母；母音音開頭用 `an`。
+3. 已經知道是哪一個，或第二次提到同一個東西，用 `the`。
+
+{% include grammar/articles-practice.html %}
+
+### 可數與不可數名詞
+
+名詞可以先分成「可數名詞」和「不可數名詞」。
+
+| 類型       | 用法                                                | 範例              |
+| ---------- | --------------------------------------------------- | ----------------- |
+| 可數名詞   | 可以數一個、兩個，單數前常用 `a / an`，複數常加 `s` | a book, two books |
+| 不可數名詞 | 通常不能直接加 `a / an`，也不直接加複數 `s`         | water, rice, milk |
+
+快速解題技巧：
+
+1. 看到數字 `two / three / five`，後面可數名詞要用複數。
+2. 單數可數名詞前通常要有 `a / an / the / my` 這類限定詞。
+3. `water / rice / milk / bread` 這類不可數名詞常用 `some`。
+
+{% include grammar/countable-uncountable-practice.html %}
+
+### 可數名詞的複數形式
+
+可數名詞表示兩個以上時，通常要改成複數。這裡要注意名稱：是「名詞的複數形式」，不是「動名詞的複數形式」。動名詞像 `swimming / reading / shopping` 通常是在表示一個活動，不是這裡要加 `-s` 的名詞複數。
+
+基本概念：
+
+```text
+one book
+一本書
+
+two books
+兩本書
+```
+
+#### 規則複數名詞
+
+| 規則                     | 變化方式         | 單數   | 複數     | 範例          |
+| ------------------------ | ---------------- | ------ | -------- | ------------- |
+| 大多數名詞               | 加 `-s`          | book   | books    | two books     |
+| 字尾是 `s / x / ch / sh` | 加 `-es`         | box    | boxes    | three boxes   |
+| 子音 + `y` 結尾          | 去 `y` 加 `-ies` | city   | cities   | two cities    |
+| 母音 + `y` 結尾          | 加 `-s`          | key    | keys     | three keys    |
+| 字尾是 `f / fe`          | 常改成 `-ves`    | shelf  | shelves  | two shelves   |
+| 字尾是 `o`               | 常加 `-es`       | tomato | tomatoes | some tomatoes |
+| 字尾是 `o` 的常見例外    | 有些只加 `-s`    | photo  | photos   | ten photos    |
+| 字尾是 `f` 的常見例外    | 有些只加 `-s`    | roof   | roofs    | two roofs     |
+
+快速判斷：
+
+1. 看到 `two / three / many / several / a few`，後面通常要用複數名詞。
+2. 不要只加 `s`，先看字尾：`box -> boxes`、`city -> cities`。
+3. 有些字規則不同，遇到常用字要直接記。
+
+#### 規則複數名詞練習
+
+{% include grammar/plural-noun-rules-practice.html %}
+
+#### 不規則複數名詞
+
+有些名詞的複數不是加 `-s` 或 `-es`，而是整個字改變，這些叫「不規則複數名詞」。這不是「不規則動詞的複數型」；動詞是依主詞變化，例如 `he works`，名詞才有單數和複數。
+
+考證照或 TOEIC 時，最值得先記的是職場人物、商務文件、資料分析、旅遊交通、身體健康這幾類。
+
+#### 人物與職場常見不規則複數
+
+| 單數   | 複數     | 中文意思 | 範例         | 中文翻譯 |
+| ------ | -------- | -------- | ------------ | -------- |
+| person | people   | 人       | many people  | 很多人   |
+| child  | children | 小孩     | two children | 兩個小孩 |
+| man    | men      | 男士     | three men    | 三位男士 |
+| woman  | women    | 女士     | two women    | 兩位女士 |
+
+這組是最常見的一組。`people` 在商務英文中常用來表示「人們、員工、顧客、參加者」。
+
+#### 人物與職場練習
+
+{% include grammar/irregular-plural-people-practice.html %}
+
+#### 商務、資料與分析常見不規則複數
+
+| 單數      | 複數       | 中文意思   | 範例               | 中文翻譯 |
+| --------- | ---------- | ---------- | ------------------ | -------- |
+| analysis  | analyses   | 分析       | market analyses    | 市場分析 |
+| basis     | bases      | 基礎、依據 | several bases      | 幾個依據 |
+| crisis    | crises     | 危機       | financial crises   | 金融危機 |
+| criterion | criteria   | 標準       | selection criteria | 選擇標準 |
+| datum     | data       | 資料點     | customer data      | 客戶資料 |
+| medium    | media      | 媒介、媒體 | social media       | 社群媒體 |
+| index     | indices    | 指數、索引 | price indices      | 物價指數 |
+| appendix  | appendices | 附錄       | two appendices     | 兩個附錄 |
+
+這組常出現在報告、會議、研究、資料分析與商務新聞中。`data` 現代英文常被當集合名詞使用，但考題仍常要求知道它來自 `datum`。
+
+#### 商務、資料與分析練習
+
+{% include grammar/irregular-plural-business-data-practice.html %}
+
+#### 文件、設備與固定單複數常見字
+
+| 單數/原形    | 複數/常用形式 | 中文意思       | 範例                 | 中文翻譯     |
+| ------------ | ------------- | -------------- | -------------------- | ------------ |
+| aircraft     | aircraft      | 飛機           | two aircraft         | 兩架飛機     |
+| series       | series        | 系列           | two training series  | 兩套訓練系列 |
+| species      | species       | 物種、種類     | several species      | 幾個種類     |
+| means        | means         | 方法、手段     | several means        | 幾種方法     |
+| headquarters | headquarters  | 總部           | company headquarters | 公司總部     |
+| staff        | staff         | 員工、全體職員 | all staff            | 全體員工     |
+
+這組的重點是「單數和複數看起來一樣」或「常以固定形式出現」。TOEIC 很常在公司、交通、訓練與通知情境中看到。
+
+#### 文件、設備與固定形式練習
+
+{% include grammar/irregular-plural-same-form-practice.html %}
+
+#### 身體健康與日常常見不規則複數
+
+| 單數  | 複數  | 中文意思   | 範例        | 中文翻譯            |
+| ----- | ----- | ---------- | ----------- | ------------------- |
+| foot  | feet  | 腳、英尺   | six feet    | 六英尺              |
+| tooth | teeth | 牙齒       | white teeth | 白牙                |
+| mouse | mice  | 老鼠、滑鼠 | two mice    | 兩隻老鼠 / 兩個滑鼠 |
+| goose | geese | 鵝         | two geese   | 兩隻鵝              |
+
+這組在健康、尺寸、辦公設備或日常閱讀中會遇到。`mouse -> mice` 也可以指電腦滑鼠。
+
+#### 身體健康與日常練習
+
+{% include grammar/irregular-plural-daily-practice.html %}
+
+### 量詞 some / any / much / many
+
+量詞用來表示數量。它會和可數、不可數名詞連動。
+
+| 量詞 | 用法                                 | 範例                    |
+| ---- | ------------------------------------ | ----------------------- |
+| some | 肯定句中的一些，可接複數或不可數名詞 | some apples, some water |
+| any  | 否定句或疑問句中的一些、任何         | any homework            |
+| many | 很多，接複數可數名詞                 | many books              |
+| much | 很多，接不可數名詞                   | much water              |
+
+快速解題技巧：
+
+1. 複數可數名詞用 `many`。
+2. 不可數名詞用 `much`。
+3. 肯定句常用 `some`；否定句與疑問句常用 `any`。
+4. 問數量時，可數用 `How many`，不可數用 `How much`。
+
+{% include grammar/quantifiers-practice.html %}
+
+### 不可數名詞變可數的說法
+
+有些名詞本身不可數，不能直接說 `one water`、`two breads`、`three information`。如果要數它們，通常要加上「單位量詞」，把不可數名詞包成一個可數單位。
+
+基本結構是：`數字 + 單位量詞 + of + 不可數名詞`
+
+```text
+a bottle of water
+一瓶水
+
+two pieces of advice
+兩則建議
+
+three cups of coffee
+三杯咖啡
+```
+
+#### 飲料與液體常用單位
+
+| 單位量詞    | 中文意思     | 常搭配不可數名詞     | 範例                | 中文翻譯 |
+| ----------- | ------------ | -------------------- | ------------------- | -------- |
+| a bottle of | 一瓶         | water / juice / wine | a bottle of water   | 一瓶水   |
+| a glass of  | 一杯         | water / juice / milk | a glass of milk     | 一杯牛奶 |
+| a cup of    | 一杯         | coffee / tea         | a cup of coffee     | 一杯咖啡 |
+| a can of    | 一罐         | soda / soup          | a can of soda       | 一罐汽水 |
+| a carton of | 一盒、一紙盒 | milk / juice         | a carton of milk    | 一盒牛奶 |
+| a liter of  | 一公升       | water / oil          | two liters of water | 兩公升水 |
+
+#### 飲料與液體單位練習
+
+{% include grammar/unit-quantifiers-drinks-practice.html %}
+
+#### 食物與包裝常用單位
+
+| 單位量詞   | 中文意思           | 常搭配不可數名詞       | 範例                | 中文翻譯     |
+| ---------- | ------------------ | ---------------------- | ------------------- | ------------ |
+| a piece of | 一片、一塊、一份   | bread / cake / cheese  | a piece of cake     | 一塊蛋糕     |
+| a slice of | 一片               | bread / cheese / pizza | two slices of bread | 兩片麵包     |
+| a loaf of  | 一條、一條完整麵包 | bread                  | a loaf of bread     | 一條麵包     |
+| a bowl of  | 一碗               | rice / soup            | a bowl of rice      | 一碗飯       |
+| a plate of | 一盤               | rice / pasta / food    | a plate of pasta    | 一盤義大利麵 |
+| a jar of   | 一罐、廣口瓶       | jam / honey            | a jar of jam        | 一罐果醬     |
+| a bag of   | 一袋               | rice / flour / sugar   | a bag of rice       | 一袋米       |
+| a box of   | 一盒               | cereal / chocolate     | a box of cereal     | 一盒麥片     |
+| a pack of  | 一包               | gum / butter           | a pack of gum       | 一包口香糖   |
+
+#### 食物與包裝單位練習
+
+{% include grammar/unit-quantifiers-food-practice.html %}
+
+#### 文件、資訊與辦公常用單位
+
+TOEIC 常出現辦公、會議、通知、資料與設備情境。這一組很重要，因為 `information / advice / equipment / furniture` 都是常見不可數名詞。
+
+| 單位量詞   | 中文意思         | 常搭配不可數名詞                                    | 範例                     | 中文翻譯       |
+| ---------- | ---------------- | --------------------------------------------------- | ------------------------ | -------------- |
+| a piece of | 一則、一項、一件 | information / advice / news / equipment / furniture | a piece of information   | 一項資訊       |
+| a sheet of | 一張             | paper                                               | a sheet of paper         | 一張紙         |
+| a copy of  | 一份             | a report / a document / a contract                  | two copies of the report | 兩份報告       |
+| a file of  | 一份檔案         | data / records                                      | a file of customer data  | 一份客戶資料檔 |
+| a set of   | 一組、一套       | instructions / documents / furniture                | a set of instructions    | 一套說明       |
+| an item of | 一項、一件       | equipment / furniture / clothing                    | an item of equipment     | 一件設備       |
+| a list of  | 一份清單         | names / tasks / items                               | a list of tasks          | 一份任務清單   |
+
+#### 文件、資訊與辦公單位練習
+
+{% include grammar/unit-quantifiers-office-practice.html %}
+
+#### 商務與工作場合常見搭配
+
+| 不可數名詞  | 常用單位量詞            | 正確說法                  | 不自然或錯誤說法 |
+| ----------- | ----------------------- | ------------------------- | ---------------- |
+| information | a piece of              | a piece of information    | an information   |
+| advice      | a piece of              | two pieces of advice      | two advices      |
+| equipment   | a piece of / an item of | three pieces of equipment | three equipments |
+| furniture   | a piece of / an item of | a piece of furniture      | a furniture      |
+| luggage     | a piece of              | two pieces of luggage     | two luggages     |
+| paper       | a sheet of / a piece of | a sheet of paper          | a paper          |
+| work        | a piece of              | a piece of work           | a work           |
+
+#### 商務與工作場合搭配練習
+
+{% include grammar/unit-quantifiers-business-practice.html %}
+
+快速解題技巧：
+
+1. 如果名詞是不可數，前面不要直接加 `a / an` 或數字。
+2. 要數不可數名詞時，用 `a piece of / a bottle of / a cup of / a sheet of` 這類單位量詞。
+3. 數量變多時，變複數的是單位量詞，不是不可數名詞：`two bottles of water`、`three pieces of advice`。
+4. TOEIC 常考 `information / advice / equipment / furniture / luggage`，這些字通常不可直接加 `s`。
+
+
+---
+
+## 指示代名詞 this / that / these / those
+
+指示代名詞用來指出「這個、那個、這些、那些」，要注意距離和單複數。
+
+| 指示代名詞 | 距離 | 單複數 | 範例                  |
+| ---------- | ---- | ------ | --------------------- |
+| this       | 近   | 單數   | This is my book.      |
+| that       | 遠   | 單數   | That is your bag.     |
+| these      | 近   | 複數   | These are my books.   |
+| those      | 遠   | 複數   | Those are your shoes. |
+
+快速解題技巧：
+
+1. 先看距離：近用 `this / these`，遠用 `that / those`。
+2. 再看名詞數量：單數用 `this / that`，複數用 `these / those`。
+3. `this / that` 搭配 `is`；`these / those` 搭配 `are`。
+
+{% include grammar/demonstratives-practice.html %}
+
+## There is / There are
+
+`There is / There are` 用來表達「某處有某人或某物」。
+
+| 後面的名詞 | 用法      | 範例                   |
+| ---------- | --------- | ---------------------- |
+| 單數名詞   | There is  | There is a book.       |
+| 不可數名詞 | There is  | There is some water.   |
+| 複數名詞   | There are | There are three books. |
+
+快速解題技巧：
+
+1. 看 `there is / there are` 後面的名詞。
+2. 單數或不可數用 `is`。
+3. 複數用 `are`。
+4. 問句把 `Is / Are` 放句首：`Is there...?`、`Are there...?`
+
+{% include grammar/there-is-are-practice.html %}
+
+## 介系詞
+
+### Be 動詞與常見地點介系詞
 
 Be 動詞也常和地點介系詞片語一起使用，用來說明「某人或某物在哪裡」。句型是：`主詞 + be verb + 地點介系詞片語`。
 
@@ -482,7 +667,7 @@ Be 動詞也常和地點介系詞片語一起使用，用來說明「某人或�
 
 {% include grammar/be-place-prepositions-practice.html %}
 
-## 空間介系詞
+### 空間介系詞
 
 空間介系詞用來說明人、事物或地點的位置。可以先用「短距離、中距離、長距離」來記：
 
@@ -501,6 +686,151 @@ Be 動詞也常和地點介系詞片語一起使用，用來說明「某人或�
 |        | from ... to ...      | 從 ... 到 ...   | I walk `from` home `to` school.     |
 
 {% include grammar/spatial-prepositions-practice.html %}
+
+### 時間介系詞 at / on / in
+
+時間介系詞用來說明事情發生的時間。初學時先記住三個最常見規則：
+
+| 介系詞 | 用法                             | 範例                              |
+| ------ | -------------------------------- | --------------------------------- |
+| at     | 明確時間點                       | at 7:00                           |
+| on     | 星期幾、特定日期                 | on Monday, on July 10             |
+| in     | 月份、季節、年份、早上/下午/晚上 | in May, in winter, in the morning |
+
+快速解題技巧：
+
+1. 看到幾點，用 `at`。
+2. 看到星期幾或完整日期，用 `on`。
+3. 看到月份、季節或一段較大的時間，用 `in`。
+
+{% include grammar/time-prepositions-practice.html %}
+
+## 一般動詞現在式
+
+一般動詞現在式用來表達習慣、事實、每天或常常發生的動作。
+
+| 主詞                     | 動詞形式           | 範例                | 中文意思   |
+| ------------------------ | ------------------ | ------------------- | ---------- |
+| I / You / We / They      | 原形動詞           | I eat breakfast.    | 我吃早餐。 |
+| He / She / It / 單數名詞 | 動詞加 `s` 或 `es` | She eats breakfast. | 她吃早餐。 |
+
+快速解題技巧：
+
+1. 先看句子是不是在說習慣或事實。
+2. 找主詞。
+3. 主詞是 `he / she / it / 單數名詞`，動詞通常加 `s` 或 `es`。
+4. 主詞是 `I / you / we / they / 複數名詞`，動詞用原形。
+
+{% include grammar/simple-present-practice.html %}
+
+### 否定句
+
+一般動詞否定句不用直接在動詞後面加 `not`，而是用 `do not` 或 `does not`。
+
+| 主詞                     | 否定句公式                 | 範例                      |
+| ------------------------ | -------------------------- | ------------------------- |
+| I / You / We / They      | 主詞 + do not + 原形動詞   | I do not drink coffee.    |
+| He / She / It / 單數名詞 | 主詞 + does not + 原形動詞 | She does not play tennis. |
+
+快速解題技巧：
+
+1. 先確認句子是一般動詞，不是 Be 動詞。
+2. 主詞是第三人稱單數，用 `does not`。
+3. 用了 `does not` 以後，主要動詞要改回原形：`does not plays` 是錯的，應該是 `does not play`。
+
+{% include grammar/simple-present-negative-practice.html %}
+
+### Yes/No 問句
+
+一般動詞疑問句要把 `Do` 或 `Does` 放到句首。
+
+| 主詞                     | 問句公式                | 範例                   |
+| ------------------------ | ----------------------- | ---------------------- |
+| I / You / We / They      | Do + 主詞 + 原形動詞?   | Do you like English?   |
+| He / She / It / 單數名詞 | Does + 主詞 + 原形動詞? | Does she like English? |
+
+快速解題技巧：
+
+1. 先確認句子是一般動詞問句。
+2. 主詞是第三人稱單數，用 `Does`。
+3. 用了 `Does` 以後，主要動詞用原形。
+
+{% include grammar/simple-present-question-practice.html %}
+
+### WH 問句與助動詞 Do / Does 問句
+
+Wh-問句用來問「具體資訊」，常見開頭有 `what`、`who`、`where`、`when`、`why`、`how`。
+
+| Wh-字 | 問什麼       | 範例                     | 中文意思         |
+| ----- | ------------ | ------------------------ | ---------------- |
+| what  | 什麼         | What is this?            | 這是什麼？       |
+| who   | 誰           | Who is she?              | 她是誰？         |
+| where | 哪裡         | Where do you live?       | 你住在哪裡？     |
+| when  | 何時         | When do you study?       | 你何時讀書？     |
+| why   | 為什麼       | Why do you like it?      | 你為什麼喜歡它？ |
+| how   | 如何、怎麼樣 | How do you go to school? | 你怎麼去學校？   |
+
+如果 Wh-問句後面接一般動詞，通常要加助動詞 `do` 或 `does`：
+
+```text
+Where do you live?
+你住在哪裡？
+
+What does she want?
+她想要什麼？
+
+When do they play soccer?
+他們什麼時候踢足球？
+```
+
+`Do` 問句通常回答 yes / no：
+
+```text
+Do you like coffee?
+Yes, I do.
+No, I do not.
+```
+
+`Wh` 引導式問句通常回答具體資訊：
+
+```text
+Where do you live?
+I live in Taipei.
+
+What does he eat?
+He eats rice.
+```
+
+快速比較：
+
+| 問句種類 | 開頭                                  | 回答方式 | 範例               |
+| -------- | ------------------------------------- | -------- | ------------------ |
+| Do 問句  | Do / Does                             | Yes / No | Do you work here?  |
+| Wh-問句  | What / Who / Where / When / Why / How | 具體資訊 | Where do you work? |
+
+{% include grammar/wh-do-questions-practice.html %}
+
+## 頻率副詞
+
+頻率副詞用來表示「多久做一次」。初學時先記住這幾個常見程度：
+
+| 頻率副詞  | 中文意思 | 大約頻率 | 範例                         |
+| --------- | -------- | -------- | ---------------------------- |
+| always    | 總是     | 100%     | I always eat breakfast.      |
+| usually   | 通常     | 約 80%   | She usually walks to school. |
+| often     | 常常     | 約 60%   | We often play basketball.    |
+| sometimes | 有時候   | 約 40%   | He sometimes drinks tea.     |
+| seldom    | 很少     | 約 20%   | They seldom watch TV.        |
+| never     | 從不     | 0%       | I never smoke.               |
+
+頻率副詞最常放在一般動詞前面；如果句子有 be 動詞，頻率副詞通常放在 be 動詞後面。
+
+| 句型            | 位置           | 範例                      |
+| --------------- | -------------- | ------------------------- |
+| 主詞 + 一般動詞 | 放在一般動詞前 | I `usually` get up early. |
+| 主詞 + be 動詞  | 放在 be 動詞後 | She is `often` tired.     |
+
+{% include grammar/frequency-adverbs-practice.html %}
 
 ## 現在進行式
 
@@ -676,11 +1006,11 @@ What are they studying?
 
 {% include grammar/simple-past-be-or-did-practice.html %}
 
-## 一般動詞過去式的轉換說明與規則
+### 一般動詞過去式的轉換說明與規則
 
 一般動詞過去式用來表示過去已經完成的動作。肯定句中，主要動詞要改成過去式；否定句和疑問句使用 `did` 時，後面的主要動詞要改回原形。
 
-### 規則動詞：加 `-ed`
+#### 規則動詞：加 `-ed`
 
 | 規則              | 轉換方式             | 範例             |
 | ----------------- | -------------------- | ---------------- |
@@ -700,11 +1030,11 @@ She studied English yesterday.
 她昨天讀英文。
 ```
 
-### 不規則動詞：要另外記
+#### 不規則動詞：要另外記
 
 有些一般動詞的過去式不是加 `-ed`，例如 `go -> went`、`eat -> ate`、`see -> saw`。這類動詞要直接記它的過去式。
 
-### 否定句與疑問句：用了 `did` 就用原形
+#### 否定句與疑問句：用了 `did` 就用原形
 
 | 句型   | 公式                      | 範例                       |
 | ------ | ------------------------- | -------------------------- |
@@ -719,17 +1049,17 @@ She studied English yesterday.
 3. 否定句與疑問句看到 `did`，後面主要動詞用原形。
 4. 規則動詞照規則加 `-ed`；不規則動詞要查表或背起來。
 
-### 一般動詞過去式轉換練習
+#### 一般動詞過去式轉換練習
 
 {% include grammar/simple-past-verb-conversion-practice.html %}
 
-## 不規則動詞過去式
+### 不規則動詞過去式
 
 有些動詞的過去式不是加 `-ed`，而是整個字改變，這些叫不規則動詞。
 
 先不要一次背完整張表。比較好的方式是「一組一組記」，每次先熟悉 6 到 8 個，再用例句確認意思。
 
-### 第 1 組：生活中最常用的動作
+#### 第 1 組：生活中最常用的動作
 
 | 原形  | 過去式 | 中文意思   | 範例                    | 中文翻譯         |
 | ----- | ------ | ---------- | ----------------------- | ---------------- |
@@ -748,7 +1078,7 @@ She studied English yesterday.
 
 {% include grammar/irregular-past-group-1-practice.html %}
 
-### 第 2 組：說話、學習與表達
+#### 第 2 組：說話、學習與表達
 
 | 原形  | 過去式  | 中文意思 | 範例                 | 中文翻譯         |
 | ----- | ------- | -------- | -------------------- | ---------------- |
@@ -767,7 +1097,7 @@ She studied English yesterday.
 
 {% include grammar/irregular-past-group-2-practice.html %}
 
-### 第 3 組：移動、身體動作與狀態
+#### 第 3 組：移動、身體動作與狀態
 
 | 原形  | 過去式 | 中文意思 | 範例                   | 中文翻譯         |
 | ----- | ------ | -------- | ---------------------- | ---------------- |
@@ -785,7 +1115,7 @@ She studied English yesterday.
 
 {% include grammar/irregular-past-group-3-practice.html %}
 
-### 第 4 組：常見事件與結果
+#### 第 4 組：常見事件與結果
 
 | 原形  | 過去式  | 中文意思   | 範例                 | 中文翻譯             |
 | ----- | ------- | ---------- | -------------------- | -------------------- |
@@ -803,7 +1133,7 @@ She studied English yesterday.
 
 {% include grammar/irregular-past-group-4-practice.html %}
 
-### 第 5 組：容易混淆或過去式不變
+#### 第 5 組：容易混淆或過去式不變
 
 | 原形  | 過去式 | 中文意思 | 範例                   | 中文翻譯         |
 | ----- | ------ | -------- | ---------------------- | ---------------- |
@@ -820,7 +1150,7 @@ She studied English yesterday.
 
 {% include grammar/irregular-past-group-5-practice.html %}
 
-### 記憶練習方式
+#### 記憶練習方式
 
 ```text
 go -> went
@@ -840,7 +1170,7 @@ She ate breakfast this morning.
 2. 如果動詞是不規則動詞，不要加 `-ed`。
 3. 肯定句用過去式；否定句與疑問句有 `did` 時，後面動詞要改回原形。
 
-## 一般動詞過去式否定句與疑問句
+### 一般動詞過去式否定句與疑問句
 
 一般動詞過去式的否定句與疑問句都會用到 `did`。重點是：用了 `did` 以後，主要動詞要改回原形。
 
@@ -850,15 +1180,15 @@ She ate breakfast this morning.
 | 疑問句  | Did + 主詞 + 原形動詞?      | Did you eat breakfast?   |
 | Wh-問句 | Wh + did + 主詞 + 原形動詞? | What did you eat?        |
 
-### 一般動詞過去式否定句練習
+#### 一般動詞過去式否定句練習
 
 {% include grammar/simple-past-negative-sentences-practice.html %}
 
-### 一般動詞過去式疑問句練習
+#### 一般動詞過去式疑問句練習
 
 {% include grammar/simple-past-question-sentences-practice.html %}
 
-## 過去進行式
+### 過去進行式
 
 過去進行式用來表達「過去某個時間正在做的動作」，句型是：`主詞 + was / were + V-ing`。
 
@@ -881,7 +1211,7 @@ She ate breakfast this morning.
 3. 主要動詞保持 `V-ing`。
 4. 如果只是說過去完成的一個動作，用簡單過去式；如果強調那時正在做，用過去進行式。
 
-### 過去進行式轉否定句、疑問句、Wh-問句
+#### 過去進行式轉否定句、疑問句、Wh-問句
 
 過去進行式的核心結構是：`主詞 + was / were + V-ing`。
 
@@ -934,61 +1264,160 @@ Wh-問句是在疑問句前面加 Wh-字，基本結構是：`Wh-字 + was / wer
 | 疑問句  | Was / Were + 主詞 + V-ing?      | Was she cooking?      |
 | Wh-問句 | Wh + was / were + 主詞 + V-ing? | What was she cooking? |
 
-### 過去進行式練習題
+#### 過去進行式練習題
 
 {% include grammar/past-continuous-practice.html %}
 
-## 一般動詞現在式
+## 未來式 will / be going to
 
-一般動詞現在式用來表達習慣、事實、每天或常常發生的動作。
+未來式用來表達之後會發生的事。初學時先學兩種：
 
-| 主詞                     | 動詞形式           | 範例                | 中文意思   |
-| ------------------------ | ------------------ | ------------------- | ---------- |
-| I / You / We / They      | 原形動詞           | I eat breakfast.    | 我吃早餐。 |
-| He / She / It / 單數名詞 | 動詞加 `s` 或 `es` | She eats breakfast. | 她吃早餐。 |
+| 句型                   | 用法                             | 範例                         |
+| ---------------------- | -------------------------------- | ---------------------------- |
+| will + 原形動詞        | 表示未來、臨時決定、一般預測     | I will study tonight.        |
+| be going to + 原形動詞 | 表示計畫、打算、看得到跡象的預測 | She is going to cook dinner. |
+
+`will` 和 `be going to` 都可以表示未來，但語氣不太一樣：
+
+| 情況           | 常用句型    | 範例                                     |
+| -------------- | ----------- | ---------------------------------------- |
+| 現在才決定     | will        | I forgot my bag. I will go back now.     |
+| 已經有計畫     | be going to | We are going to watch a movie.           |
+| 根據跡象做預測 | be going to | Look at the clouds. It is going to rain. |
+| 一般未來預測   | will        | I think he will win.                     |
+
+### 否定句 will not 、be not going to
+
+未來式的否定句是在 `will` 後面加 `not`，或是在 `be going to` 的 `be` 後面加 `not`。
+
+| 句型                                | 用法               | 範例                                  |
+| ----------------------------------- | ------------------ | ------------------------------------- |
+| 主詞 + will not + 原形動詞          | 表示未來不會做某事 | He will not be late tomorrow.         |
+| 主詞 + be + not going to + 原形動詞 | 表示不打算做某事   | She is not going to join the meeting. |
+
+`will not` 常縮寫成 `won't`，意思一樣。例如：`He won't be late tomorrow.`
+
+### Yes/No 問句 Will...? / Be going to...?
+
+Yes/No 問句是可以用 Yes 或 No 回答的問句。未來式問句要把 `Will` 或 `am / is / are` 進行倒裝放到句首。
+
+| 句型                                    | 範例                                 | 簡短回答                           |
+| --------------------------------------- | ------------------------------------ | ---------------------------------- |
+| Will + 主詞 + 原形動詞?                 | Will you call me later?              | Yes, I will. / No, I will not.     |
+| Am/Is/Are + 主詞 + going to + 原形動詞? | Are they going to travel next month? | Yes, they are. / No, they are not. |
+
+注意：`will` 後面的動詞一樣用原形；`be going to` 問句中的 `be` 要配合主詞使用 `am / is / are`。
+
+### WH 問句 What / Where / When / Why / How
+
+未來式也可以做 WH 問句，用來詢問未來的動作、地點、時間、原因或方式。WH 問句不能只用 Yes 或 No 回答，要回答具體資訊。
+
+| 問句類型 | 句型                                             | 範例                          |
+| -------- | ------------------------------------------------ | ----------------------------- |
+| will     | WH + will + 主詞 + 原形動詞?                     | What will you do tomorrow?    |
+| going to | WH + am / is / are + 主詞 + going to + 原形動詞? | Where are they going to stay? |
+
+常見 WH 問詞：
+
+| 問詞  | 用法   | 範例                            |
+| ----- | ------ | ------------------------------- |
+| What  | 問事情 | What will you do tomorrow?      |
+| Where | 問地點 | Where are they going to stay?   |
+| When  | 問時間 | When are we going to start?     |
+| Why   | 問原因 | Why will she leave early?       |
+| How   | 問方式 | How are you going to get there? |
+
+注意：如果 WH 問詞本身就是主詞，常見句型是 `Who + will + 原形動詞?`，例如：`Who will help us after class?`
 
 快速解題技巧：
 
-1. 先看句子是不是在說習慣或事實。
-2. 找主詞。
-3. 主詞是 `he / she / it / 單數名詞`，動詞通常加 `s` 或 `es`。
-4. 主詞是 `I / you / we / they / 複數名詞`，動詞用原形。
+1. 看到 `tomorrow / tonight / next week / later`，常是未來式。
+2. `will` 後面接原形動詞。
+3. `be going to` 的 `be` 要看主詞變成 `am / is / are`。
+4. 問句可用 `Will + 主詞 + 原形動詞?` 或 `Be + 主詞 + going to + 原形動詞?`
+5. 否定句用 `will not + 原形動詞` 或 `am / is / are not going to + 原形動詞`。
+6. 看到「現在才決定」常用 `will`；看到「已經計畫好」或「看得到跡象」常用 `be going to`。
+7. WH 問句要先看問詞，再判斷後面是 `will` 還是 `be going to`。
 
-{% include grammar/simple-present-practice.html %}
+{% include grammar/future-practice.html %}
 
-## 一般動詞否定句
+## 情態助動詞 can / should / must
 
-一般動詞否定句不用直接在動詞後面加 `not`，而是用 `do not` 或 `does not`。
+情態助動詞放在主要動詞前面，後面一律接原形動詞。
 
-| 主詞                     | 否定句公式                 | 範例                      |
-| ------------------------ | -------------------------- | ------------------------- |
-| I / You / We / They      | 主詞 + do not + 原形動詞   | I do not drink coffee.    |
-| He / She / It / 單數名詞 | 主詞 + does not + 原形動詞 | She does not play tennis. |
-
-快速解題技巧：
-
-1. 先確認句子是一般動詞，不是 Be 動詞。
-2. 主詞是第三人稱單數，用 `does not`。
-3. 用了 `does not` 以後，主要動詞要改回原形：`does not plays` 是錯的，應該是 `does not play`。
-
-{% include grammar/simple-present-negative-practice.html %}
-
-## 一般動詞疑問句
-
-一般動詞疑問句要把 `Do` 或 `Does` 放到句首。
-
-| 主詞                     | 問句公式                | 範例                   |
-| ------------------------ | ----------------------- | ---------------------- |
-| I / You / We / They      | Do + 主詞 + 原形動詞?   | Do you like English?   |
-| He / She / It / 單數名詞 | Does + 主詞 + 原形動詞? | Does she like English? |
+| 情態助動詞 | 中文意思 | 範例                         |
+| ---------- | -------- | ---------------------------- |
+| can        | 可以、會 | I can swim.                  |
+| should     | 應該     | You should rest.             |
+| must       | 必須     | Students must wear uniforms. |
 
 快速解題技巧：
 
-1. 先確認句子是一般動詞問句。
-2. 主詞是第三人稱單數，用 `Does`。
-3. 用了 `Does` 以後，主要動詞用原形。
+1. `can / should / must` 後面直接接原形動詞。
+2. 不要因為主詞是 `he / she / it` 就加 `s`：`She can swims` 是錯的。
+3. 否定句在情態助動詞後面加 `not`。
+4. 問句把情態助動詞放句首。
 
-{% include grammar/simple-present-question-practice.html %}
+{% include grammar/modals-practice.html %}
+
+## 命令句與 Don't 命令句
+
+命令句用來請別人做事，通常直接用原形動詞開頭。否定命令句用 `Don't + 原形動詞`。
+
+| 句型       | 公式                    | 範例                 |
+| ---------- | ----------------------- | -------------------- |
+| 肯定命令句 | 原形動詞 + ...          | Open the door.       |
+| 禮貌命令句 | Please + 原形動詞 + ... | Please sit down.     |
+| 否定命令句 | Don't + 原形動詞 + ...  | Don't run.           |
+| Let's 句型 | Let's + 原形動詞 + ...  | Let's study English. |
+
+快速解題技巧：
+
+1. 命令句不需要主詞 `you`。
+2. 動詞用原形。
+3. 否定命令句用 `Don't` 放句首。
+4. `Let's` 後面也接原形動詞。
+
+{% include grammar/imperatives-practice.html %}
+
+## 比較級與最高級
+
+比較級用來比較兩個人事物，最高級用來表示一群裡面最突出的。
+
+| 類型         | 公式                | 範例                     |
+| ------------ | ------------------- | ------------------------ |
+| 比較級       | 形容詞比較級 + than | Tom is taller than Ben.  |
+| 最高級       | the + 形容詞最高級  | She is the best student. |
+| 多音節比較級 | more + 形容詞       | more difficult           |
+| 多音節最高級 | the most + 形容詞   | the most interesting     |
+
+快速解題技巧：
+
+1. 看到 `than`，通常用比較級。
+2. 看到 `the` 加上一群範圍，例如 `in the class`，常用最高級。
+3. 短形容詞常加 `-er / -est`；長形容詞常用 `more / most`。
+
+{% include grammar/comparatives-superlatives-practice.html %}
+
+## 連接詞 and / but / because / so
+
+連接詞可以把兩個想法連在一起，讓句子更完整。
+
+| 連接詞  | 中文意思 | 用法               |
+| ------- | -------- | ------------------ |
+| and     | 和、而且 | 連接相同方向的資訊 |
+| but     | 但是     | 表示轉折           |
+| because | 因為     | 說明原因           |
+| so      | 所以     | 說明結果           |
+
+快速解題技巧：
+
+1. 兩個資訊都成立、方向一致，用 `and`。
+2. 前後意思相反或轉折，用 `but`。
+3. 後面說原因，用 `because`。
+4. 後面說結果，用 `so`。
+
+{% include grammar/conjunctions-practice.html %}
 
 ## 動名詞與不定詞
 
@@ -1052,374 +1481,6 @@ would like to do
 ### 動名詞與不定詞練習
 
 {% include grammar/gerund-infinitive-practice.html %}
-
-## Wh-問句與助動詞Do問句
-
-Wh-問句用來問「具體資訊」，常見開頭有 `what`、`who`、`where`、`when`、`why`、`how`。
-
-| Wh-字 | 問什麼       | 範例                     | 中文意思         |
-| ----- | ------------ | ------------------------ | ---------------- |
-| what  | 什麼         | What is this?            | 這是什麼？       |
-| who   | 誰           | Who is she?              | 她是誰？         |
-| where | 哪裡         | Where do you live?       | 你住在哪裡？     |
-| when  | 何時         | When do you study?       | 你何時讀書？     |
-| why   | 為什麼       | Why do you like it?      | 你為什麼喜歡它？ |
-| how   | 如何、怎麼樣 | How do you go to school? | 你怎麼去學校？   |
-
-如果 Wh-問句後面接一般動詞，通常要加助動詞 `do` 或 `does`：
-
-```text
-Where do you live?
-你住在哪裡？
-
-What does she want?
-她想要什麼？
-
-When do they play soccer?
-他們什麼時候踢足球？
-```
-
-`Do` 問句通常回答 yes / no：
-
-```text
-Do you like coffee?
-Yes, I do.
-No, I do not.
-```
-
-`Wh` 引導式問句通常回答具體資訊：
-
-```text
-Where do you live?
-I live in Taipei.
-
-What does he eat?
-He eats rice.
-```
-
-快速比較：
-
-| 問句種類 | 開頭                                  | 回答方式 | 範例               |
-| -------- | ------------------------------------- | -------- | ------------------ |
-| Do 問句  | Do / Does                             | Yes / No | Do you work here?  |
-| Wh-問句  | What / Who / Where / When / Why / How | 具體資訊 | Where do you work? |
-
-{% include grammar/wh-do-questions-practice.html %}
-
-## 頻率副詞
-
-頻率副詞用來表示「多久做一次」。初學時先記住這幾個常見程度：
-
-| 頻率副詞  | 中文意思 | 大約頻率 | 範例                         |
-| --------- | -------- | -------- | ---------------------------- |
-| always    | 總是     | 100%     | I always eat breakfast.      |
-| usually   | 通常     | 約 80%   | She usually walks to school. |
-| often     | 常常     | 約 60%   | We often play basketball.    |
-| sometimes | 有時候   | 約 40%   | He sometimes drinks tea.     |
-| seldom    | 很少     | 約 20%   | They seldom watch TV.        |
-| never     | 從不     | 0%       | I never smoke.               |
-
-頻率副詞最常放在一般動詞前面；如果句子有 be 動詞，頻率副詞通常放在 be 動詞後面。
-
-| 句型            | 位置           | 範例                      |
-| --------------- | -------------- | ------------------------- |
-| 主詞 + 一般動詞 | 放在一般動詞前 | I `usually` get up early. |
-| 主詞 + be 動詞  | 放在 be 動詞後 | She is `often` tired.     |
-
-{% include grammar/frequency-adverbs-practice.html %}
-
-## 時間介系詞 at / on / in
-
-時間介系詞用來說明事情發生的時間。初學時先記住三個最常見規則：
-
-| 介系詞 | 用法                             | 範例                              |
-| ------ | -------------------------------- | --------------------------------- |
-| at     | 明確時間點                       | at 7:00                           |
-| on     | 星期幾、特定日期                 | on Monday, on July 10             |
-| in     | 月份、季節、年份、早上/下午/晚上 | in May, in winter, in the morning |
-
-快速解題技巧：
-
-1. 看到幾點，用 `at`。
-2. 看到星期幾或完整日期，用 `on`。
-3. 看到月份、季節或一段較大的時間，用 `in`。
-
-{% include grammar/time-prepositions-practice.html %}
-
-## 指示代名詞 this / that / these / those
-
-指示代名詞用來指出「這個、那個、這些、那些」，要注意距離和單複數。
-
-| 指示代名詞 | 距離 | 單複數 | 範例                  |
-| ---------- | ---- | ------ | --------------------- |
-| this       | 近   | 單數   | This is my book.      |
-| that       | 遠   | 單數   | That is your bag.     |
-| these      | 近   | 複數   | These are my books.   |
-| those      | 遠   | 複數   | Those are your shoes. |
-
-快速解題技巧：
-
-1. 先看距離：近用 `this / these`，遠用 `that / those`。
-2. 再看名詞數量：單數用 `this / that`，複數用 `these / those`。
-3. `this / that` 搭配 `is`；`these / those` 搭配 `are`。
-
-{% include grammar/demonstratives-practice.html %}
-
-## There is / There are
-
-`There is / There are` 用來表達「某處有某人或某物」。
-
-| 後面的名詞 | 用法      | 範例                   |
-| ---------- | --------- | ---------------------- |
-| 單數名詞   | There is  | There is a book.       |
-| 不可數名詞 | There is  | There is some water.   |
-| 複數名詞   | There are | There are three books. |
-
-快速解題技巧：
-
-1. 看 `there is / there are` 後面的名詞。
-2. 單數或不可數用 `is`。
-3. 複數用 `are`。
-4. 問句把 `Is / Are` 放句首：`Is there...?`、`Are there...?`
-
-{% include grammar/there-is-are-practice.html %}
-
-## 未來式 will / be going to
-
-未來式用來表達之後會發生的事。初學時先學兩種：
-
-| 句型                   | 用法                     | 範例                         |
-| ---------------------- | ------------------------ | ---------------------------- |
-| will + 原形動詞        | 表示未來、臨時決定、預測 | I will study tonight.        |
-| be going to + 原形動詞 | 表示計畫、打算           | She is going to cook dinner. |
-
-快速解題技巧：
-
-1. 看到 `tomorrow / tonight / next week / later`，常是未來式。
-2. `will` 後面接原形動詞。
-3. `be going to` 的 `be` 要看主詞變成 `am / is / are`。
-4. 問句可用 `Will + 主詞 + 原形動詞?` 或 `Be + 主詞 + going to + 原形動詞?`
-
-{% include grammar/future-practice.html %}
-
-## 情態助動詞 can / should / must
-
-情態助動詞放在主要動詞前面，後面一律接原形動詞。
-
-| 情態助動詞 | 中文意思 | 範例                         |
-| ---------- | -------- | ---------------------------- |
-| can        | 可以、會 | I can swim.                  |
-| should     | 應該     | You should rest.             |
-| must       | 必須     | Students must wear uniforms. |
-
-快速解題技巧：
-
-1. `can / should / must` 後面直接接原形動詞。
-2. 不要因為主詞是 `he / she / it` 就加 `s`：`She can swims` 是錯的。
-3. 否定句在情態助動詞後面加 `not`。
-4. 問句把情態助動詞放句首。
-
-{% include grammar/modals-practice.html %}
-
-## 比較級與最高級
-
-比較級用來比較兩個人事物，最高級用來表示一群裡面最突出的。
-
-| 類型         | 公式                | 範例                     |
-| ------------ | ------------------- | ------------------------ |
-| 比較級       | 形容詞比較級 + than | Tom is taller than Ben.  |
-| 最高級       | the + 形容詞最高級  | She is the best student. |
-| 多音節比較級 | more + 形容詞       | more difficult           |
-| 多音節最高級 | the most + 形容詞   | the most interesting     |
-
-快速解題技巧：
-
-1. 看到 `than`，通常用比較級。
-2. 看到 `the` 加上一群範圍，例如 `in the class`，常用最高級。
-3. 短形容詞常加 `-er / -est`；長形容詞常用 `more / most`。
-
-{% include grammar/comparatives-superlatives-practice.html %}
-
-## 連接詞 and / but / because / so
-
-連接詞可以把兩個想法連在一起，讓句子更完整。
-
-| 連接詞  | 中文意思 | 用法               |
-| ------- | -------- | ------------------ |
-| and     | 和、而且 | 連接相同方向的資訊 |
-| but     | 但是     | 表示轉折           |
-| because | 因為     | 說明原因           |
-| so      | 所以     | 說明結果           |
-
-快速解題技巧：
-
-1. 兩個資訊都成立、方向一致，用 `and`。
-2. 前後意思相反或轉折，用 `but`。
-3. 後面說原因，用 `because`。
-4. 後面說結果，用 `so`。
-
-{% include grammar/conjunctions-practice.html %}
-
-## 命令句與 Don't 命令句
-
-命令句用來請別人做事，通常直接用原形動詞開頭。否定命令句用 `Don't + 原形動詞`。
-
-| 句型       | 公式                    | 範例                 |
-| ---------- | ----------------------- | -------------------- |
-| 肯定命令句 | 原形動詞 + ...          | Open the door.       |
-| 禮貌命令句 | Please + 原形動詞 + ... | Please sit down.     |
-| 否定命令句 | Don't + 原形動詞 + ...  | Don't run.           |
-| Let's 句型 | Let's + 原形動詞 + ...  | Let's study English. |
-
-快速解題技巧：
-
-1. 命令句不需要主詞 `you`。
-2. 動詞用原形。
-3. 否定命令句用 `Don't` 放句首。
-4. `Let's` 後面也接原形動詞。
-
-{% include grammar/imperatives-practice.html %}
-
-## 人稱代名詞 - 受格練習
-
-受格常放在動詞後面，或介系詞後面，表示動作的對象。初學時先記住這一組：
-
-```text
-me / you / him / her / it / us / them
-```
-
-看到「動詞 + 空格」或「to / for / with + 空格」時，通常要選受格。
-
-快速判斷：
-
-| 位置/用途     | 選擇 | 範例              |
-| ------------- | ---- | ----------------- |
-| 動詞 + 空格   | 受格 | I called `her`.   |
-| 介系詞 + 空格 | 受格 | with `them`       |
-| 動作的接受者  | 受格 | Please help `me`. |
-
-最實用的解題順序：
-
-1. 先找動詞或介系詞。
-2. 如果空格在動詞後面，通常是動作的對象，選受格。
-3. 如果空格在 `to / for / with / at` 等介系詞後面，選受格。
-4. 再依中文意思選出正確的人稱。
-
-```text
-I like ___.
-我喜歡他。
-
-Please help ___.
-請幫助我們。
-```
-
-{% include grammar/object-pronoun-practice.html %}
-
-## 人稱代名詞 - 所有格練習
-
-所有格用來表示「誰的」，後面通常會直接接名詞。初學時先記住這一組：
-
-```text
-my / your / his / her / its / our / their
-```
-
-看到「空格 + 名詞」時，通常要選所有格。
-
-快速判斷：
-
-| 位置/用途        | 選擇         | 範例                  |
-| ---------------- | ------------ | --------------------- |
-| 空格 + 名詞      | 所有格形容詞 | `Her` manager called. |
-| 表示「誰的東西」 | 所有格形容詞 | `My` book is new.     |
-| 空格後面有名詞   | 所有格形容詞 | `Their` house is big. |
-
-最實用的解題順序：
-
-1. 先看空格後面是不是直接接名詞。
-2. 如果空格後面有名詞，而且意思是「誰的」，選所有格形容詞。
-3. 不要選 `mine / yours / hers / ours / theirs`，因為它們後面不能再接名詞。
-4. 再依中文意思選出正確的人稱。
-
-```text
-___ book is new.
-我的書是新的。
-
-___ house is big.
-他們的房子很大。
-```
-
-{% include grammar/possessive-adjective-practice.html %}
-
-## 人稱代名詞 - 所有格代名詞練習
-
-所有格代名詞也表示「誰的」，但它可以自己當一個名詞用，後面不要再接名詞。初學時先記住這一組：
-
-```text
-mine / yours / his / hers / its / ours / theirs
-```
-
-看到「be 動詞 + 空格」或句尾空格時，如果前面已經提過物品，通常可以選所有格代名詞。
-
-快速判斷：
-
-| 位置/用途                  | 選擇         | 範例                 |
-| -------------------------- | ------------ | -------------------- |
-| be 動詞 + 空格，後面無名詞 | 所有格代名詞 | This book is `mine`. |
-| 空格在句尾，表示「誰的」   | 所有格代名詞 | Is this pen `yours`? |
-| 前面已出現被擁有的東西     | 所有格代名詞 | The house is `ours`. |
-
-最實用的解題順序：
-
-1. 先看空格後面有沒有名詞。
-2. 如果空格後面沒有名詞，但句子要表達「是誰的」，選所有格代名詞。
-3. 對照所有格形容詞：`my -> mine`、`your -> yours`、`her -> hers`、`our -> ours`、`their -> theirs`。
-4. 再依中文意思選出正確的人稱。
-
-```text
-This book is ___.
-這本書是我的。
-
-The house is ___.
-那間房子是他們的。
-```
-
-{% include grammar/possessive-pronoun-practice.html %}
-
-## 人稱代名詞 - 反身代名詞練習
-
-反身代名詞常用來表示「自己」。主詞和受詞是同一個人或同一個東西時，就會用反身代名詞。初學時先記住這一組：
-
-```text
-myself / yourself / himself / herself / itself / ourselves / yourselves / themselves
-```
-
-看到 `by ___` 時，常表示「獨自地」；看到主詞和受詞指同一個人時，也要用反身代名詞。
-
-快速判斷：
-
-| 位置/用途             | 選擇       | 範例                         |
-| --------------------- | ---------- | ---------------------------- |
-| by + 空格             | 反身代名詞 | I did it by `myself`.        |
-| 主詞和受詞是同一人/物 | 反身代名詞 | She looked at `herself`.     |
-| 表示「自己、獨自」    | 反身代名詞 | The door closed by `itself`. |
-
-最實用的解題順序：
-
-1. 先找主詞。
-2. 如果看到 `by ___`，先判斷是否表示「自己、獨自」。
-3. 如果受詞和主詞是同一人或同一物，選反身代名詞。
-4. 依主詞配對：`I -> myself`、`he -> himself`、`she -> herself`、`we -> ourselves`、`they -> themselves`。
-5. 再確認單數或複數，例如 `yourself` 和 `yourselves`。
-
-```text
-I did it by ___.
-我自己做的。
-
-She looked at ___.
-她看著她自己。
-```
-
-{% include grammar/reflexive-pronoun-practice.html %}
 
 ## 腳註
 
