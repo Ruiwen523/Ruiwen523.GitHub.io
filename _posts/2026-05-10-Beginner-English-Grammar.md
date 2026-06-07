@@ -1,4 +1,4 @@
----
+﻿---
 title: Beginner-English-Grammar
 author: ruiwen
 date: 2026-05-10 23:35:00 +0800
@@ -1312,20 +1312,20 @@ Yes/No 問句是可以用 Yes 或 No 回答的問句。未來式問句要把 `Wi
 
 未來式也可以做 WH 問句，用來詢問未來的動作、地點、時間、原因或方式。WH 問句不能只用 Yes 或 No 回答，要回答具體資訊。
 
-| 問句類型 | 句型                                         | 範例                              |
-| -------- | -------------------------------------------- | --------------------------------- |
-| will     | WH + will + 主詞 + 原形動詞?                 | What will you do tomorrow?        |
-| going to | WH + am / is / are + 主詞 + going to + 原形動詞? | Where are they going to stay?     |
+| 問句類型 | 句型                                             | 範例                          |
+| -------- | ------------------------------------------------ | ----------------------------- |
+| will     | WH + will + 主詞 + 原形動詞?                     | What will you do tomorrow?    |
+| going to | WH + am / is / are + 主詞 + going to + 原形動詞? | Where are they going to stay? |
 
 常見 WH 問詞：
 
-| 問詞  | 用法       | 範例                                  |
-| ----- | ---------- | ------------------------------------- |
-| What  | 問事情     | What will you do tomorrow?            |
-| Where | 問地點     | Where are they going to stay?         |
-| When  | 問時間     | When are we going to start?           |
-| Why   | 問原因     | Why will she leave early?             |
-| How   | 問方式     | How are you going to get there?       |
+| 問詞  | 用法   | 範例                            |
+| ----- | ------ | ------------------------------- |
+| What  | 問事情 | What will you do tomorrow?      |
+| Where | 問地點 | Where are they going to stay?   |
+| When  | 問時間 | When are we going to start?     |
+| Why   | 問原因 | Why will she leave early?       |
+| How   | 問方式 | How are you going to get there? |
 
 注意：如果 WH 問詞本身就是主詞，常見句型是 `Who + will + 原形動詞?`，例如：`Who will help us after class?`
 
