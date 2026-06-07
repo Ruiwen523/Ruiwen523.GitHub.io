@@ -1188,10 +1188,62 @@ He eats rice.
 
 未來式用來表達之後會發生的事。初學時先學兩種：
 
-| 句型                   | 用法                     | 範例                         |
-| ---------------------- | ------------------------ | ---------------------------- |
-| will + 原形動詞        | 表示未來、臨時決定、預測 | I will study tonight.        |
-| be going to + 原形動詞 | 表示計畫、打算           | She is going to cook dinner. |
+| 句型                   | 用法                             | 範例                         |
+| ---------------------- | -------------------------------- | ---------------------------- |
+| will + 原形動詞        | 表示未來、臨時決定、一般預測     | I will study tonight.        |
+| be going to + 原形動詞 | 表示計畫、打算、看得到跡象的預測 | She is going to cook dinner. |
+
+`will` 和 `be going to` 都可以表示未來，但語氣不太一樣：
+
+| 情況           | 常用句型    | 範例                                     |
+| -------------- | ----------- | ---------------------------------------- |
+| 現在才決定     | will        | I forgot my bag. I will go back now.     |
+| 已經有計畫     | be going to | We are going to watch a movie.           |
+| 根據跡象做預測 | be going to | Look at the clouds. It is going to rain. |
+| 一般未來預測   | will        | I think he will win.                     |
+
+### 否定句 will not 、be not going to
+
+未來式的否定句是在 `will` 後面加 `not`，或是在 `be going to` 的 `be` 後面加 `not`。
+
+| 句型                                | 用法               | 範例                                  |
+| ----------------------------------- | ------------------ | ------------------------------------- |
+| 主詞 + will not + 原形動詞          | 表示未來不會做某事 | He will not be late tomorrow.         |
+| 主詞 + be + not going to + 原形動詞 | 表示不打算做某事   | She is not going to join the meeting. |
+
+`will not` 常縮寫成 `won't`，意思一樣。例如：`He won't be late tomorrow.`
+
+### Yes/No 問句 Will...? / Be going to...?
+
+Yes/No 問句是可以用 Yes 或 No 回答的問句。未來式問句要把 `Will` 或 `am / is / are` 進行倒裝放到句首。
+
+| 句型                                    | 範例                                 | 簡短回答                           |
+| --------------------------------------- | ------------------------------------ | ---------------------------------- |
+| Will + 主詞 + 原形動詞?                 | Will you call me later?              | Yes, I will. / No, I will not.     |
+| Am/Is/Are + 主詞 + going to + 原形動詞? | Are they going to travel next month? | Yes, they are. / No, they are not. |
+
+注意：`will` 後面的動詞一樣用原形；`be going to` 問句中的 `be` 要配合主詞使用 `am / is / are`。
+
+### WH 問句 What / Where / When / Why / How
+
+未來式也可以做 WH 問句，用來詢問未來的動作、地點、時間、原因或方式。WH 問句不能只用 Yes 或 No 回答，要回答具體資訊。
+
+| 問句類型 | 句型                                         | 範例                              |
+| -------- | -------------------------------------------- | --------------------------------- |
+| will     | WH + will + 主詞 + 原形動詞?                 | What will you do tomorrow?        |
+| going to | WH + am / is / are + 主詞 + going to + 原形動詞? | Where are they going to stay?     |
+
+常見 WH 問詞：
+
+| 問詞  | 用法       | 範例                                  |
+| ----- | ---------- | ------------------------------------- |
+| What  | 問事情     | What will you do tomorrow?            |
+| Where | 問地點     | Where are they going to stay?         |
+| When  | 問時間     | When are we going to start?           |
+| Why   | 問原因     | Why will she leave early?             |
+| How   | 問方式     | How are you going to get there?       |
+
+注意：如果 WH 問詞本身就是主詞，常見句型是 `Who + will + 原形動詞?`，例如：`Who will help us after class?`
 
 快速解題技巧：
 
@@ -1199,6 +1251,9 @@ He eats rice.
 2. `will` 後面接原形動詞。
 3. `be going to` 的 `be` 要看主詞變成 `am / is / are`。
 4. 問句可用 `Will + 主詞 + 原形動詞?` 或 `Be + 主詞 + going to + 原形動詞?`
+5. 否定句用 `will not + 原形動詞` 或 `am / is / are not going to + 原形動詞`。
+6. 看到「現在才決定」常用 `will`；看到「已經計畫好」或「看得到跡象」常用 `be going to`。
+7. WH 問句要先看問詞，再判斷後面是 `will` 還是 `be going to`。
 
 {% include grammar/future-practice.html %}
 
